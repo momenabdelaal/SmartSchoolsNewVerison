@@ -120,15 +120,6 @@ fun Context.getColorCompat(@ColorRes resId: Int): Int {
     return ContextCompat.getColor(this, resId)
 }
 
-@OptIn(DelicateCoroutinesApi::class)
-fun showProgress(activity : Activity) {
-    (activity as BaseActivity).showProgress(true)
-}
-
-@OptIn(DelicateCoroutinesApi::class)
-fun hideProgress(activity : Activity) {
-    (activity as BaseActivity).showProgress(false)
-}
 
 
 

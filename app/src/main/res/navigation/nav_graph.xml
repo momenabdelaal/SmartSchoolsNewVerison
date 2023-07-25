@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.smartschools.android.ui.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.smartschools.android.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <!--        <argument-->
+    <!--            android:name="checkFav"-->
+    <!--            app:argType="string"-->
+    <!--            app:nullable="true"-->
+    <!--            android:defaultValue="@null"/>-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_homeFragment_to_mapsFragment"-->
+    <!--            app:destination="@id/mapsFragment" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_homeFragment_to_fragmentProjectDetails"-->
+    <!--            app:destination="@id/fragmentProjectDetails" />-->
+    <!--    </fragment>-->
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/mailFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.mail.MailFragment"-->
+    <!--        android:label="fragment_mail"-->
+    <!--        tools:layout="@layout/fragment_mail">-->
+
+    <!--        <action-->
+    <!--            android:id="@+id/action_mailFragment_to_mailDetailsFragment"-->
+    <!--            app:destination="@id/mailDetailsFragment" />-->
+
+
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/mailDetailsFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.mail.details.MailDetailsFragment"-->
+    <!--        android:label="mailDetailsFragment"-->
+    <!--        tools:layout="@layout/fragment_mail_details" >-->
+    <!--        <argument-->
+    <!--            android:name="mail_id"-->
+    <!--            app:argType="integer" />-->
+    <!--        <argument-->
+    <!--            android:name="project_id"-->
+    <!--            app:argType="integer" />-->
+    <!--        <argument-->
+    <!--            android:name="project_name"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="message"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="title"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="date"-->
+    <!--            app:argType="string" />-->
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/settingsFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.settings.SettingsFragment"-->
+    <!--        android:label="settingsFragment"-->
+    <!--        tools:layout="@layout/fragment_settings" />-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/forgetPasswordFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.login.forgetpassword.stepOne.ForgetPasswordFragment"-->
+    <!--        android:label="ForgetPasswordFragment"-->
+    <!--        tools:layout="@layout/fragment_forget_password" >-->
+
+
+    <!--        <argument-->
+    <!--            android:name="mobileNumber"-->
+    <!--            app:argType="string" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_forgetPasswordFragment_to_confirmForgetPasswordFragment"-->
+    <!--            app:destination="@id/confirmForgetPasswordFragment" />-->
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/mapsFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.home.map.MapsFragment"-->
+    <!--        android:label="MapsFragment"-->
+    <!--        tools:layout="@layout/fragment_maps">-->
+
+    <!--        <argument-->
+    <!--            android:name="checkFav"-->
+    <!--            app:argType="string"-->
+    <!--            app:nullable="true"-->
+    <!--            android:defaultValue="@null"/>-->
+
+    <!--        <action-->
+    <!--            android:id="@+id/action_mapsFragment_to_homeFragment"-->
+    <!--            app:destination="@id/homeFragment" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_mapsFragment_to_fragmentProjectDetails"-->
+    <!--            app:destination="@id/fragmentProjectDetails" />-->
+    <!--    </fragment>-->
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/fragmentProjectDetails"-->
+    <!--        android:name="com.exas.qpmoemp.ui.home.project_details.ProjectDetailsFragment"-->
+    <!--        android:label="fragmentProjectDetails"-->
+    <!--        tools:layout="@layout/fragment_project_details">-->
+    <!--        <argument-->
+    <!--            android:name="project_id"-->
+    <!--            app:argType="integer" />-->
+    <!--        <argument-->
+    <!--            android:name="nav_from"-->
+    <!--            app:argType="string" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_fragmentProjectDetails_to_fragmentContractorMail"-->
+    <!--            app:destination="@id/fragmentContractorMail" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_fragmentProjectDetails_to_fragmentTrackingProject"-->
+    <!--            app:destination="@id/fragmentTrackingProject" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_fragmentProjectDetails_to_fragmentProjectFiles"-->
+    <!--            app:destination="@id/fragmentProjectFiles" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_fragmentProjectDetails_to_showLocationFragment"-->
+    <!--            app:destination="@id/showLocationFragment" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_fragmentProjectDetails_to_operationProjectFragment"-->
+    <!--            app:destination="@id/operationProjectFragment" />-->
+
+    <!--    </fragment>-->
+
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/fragmentContractorMail"-->
+    <!--        android:name="com.exas.qpmoemp.ui.home.project_details.contractor_mail.ContractorMailFragment"-->
+    <!--        android:label="fragmentContractorMail"-->
+    <!--        tools:layout="@layout/fragment_contractor_mail">-->
+
+    <!--        <argument-->
+    <!--            android:name="project_id"-->
+    <!--            app:argType="integer" />-->
+
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/fragmentTrackingProject"-->
+    <!--        android:name="com.exas.qpmoemp.ui.home.project_details.tracking_project.TrackingProjectFragment"-->
+    <!--        android:label="fragmentTrackingProject"-->
+    <!--        tools:layout="@layout/fragment_tracking_project">-->
+    <!--        <argument-->
+    <!--            android:name="project_id"-->
+    <!--            app:argType="integer" />-->
+
+
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/fragmentProjectFiles"-->
+    <!--        android:name="com.exas.qpmoemp.ui.home.project_details.project_files.ProjectFilesFragment"-->
+    <!--        android:label="fragmentProjectFiles"-->
+    <!--        tools:layout="@layout/fragment_project_files">-->
+
+    <!--        <argument-->
+    <!--            android:name="project_id"-->
+    <!--            app:argType="integer" />-->
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/loginFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.login.LoginFragment"-->
+    <!--        android:label="LoginFragment"-->
+    <!--        tools:layout="@layout/fragment_login" >-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_loginFragment_to_forgetPasswordFragment"-->
+    <!--            app:destination="@id/forgetPasswordFragment" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_loginFragment_to_confirmLoginFragment"-->
+
+    <!--            app:destination="@id/confirmLoginFragment" />-->
+
+
+    <!--        <argument-->
+    <!--            android:name="codeToLogin"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="userId"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="rememberMe"-->
+    <!--            app:argType="boolean"/>-->
+
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/confirmLoginFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.login.confirm_login.ConfirmLoginFragment"-->
+    <!--        android:label="ConfirmLoginFragment"-->
+    <!--        tools:layout="@layout/fragment_confirm_login">-->
+
+    <!--        <action-->
+    <!--            android:id="@+id/action_confirmLoginFragment_to_homeNewFragment"-->
+    <!--            app:destination="@id/homeNewFragment" />-->
+
+    <!--        <action-->
+    <!--            android:id="@+id/action_confirmLoginFragment_to_changePasswordAfterLoginFragment"-->
+    <!--            app:destination="@id/changePasswordAfterLoginFragment" />-->
+    <!--        <argument-->
+    <!--            android:name="codeToLogin"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="userId"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="phone"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="user"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="password"-->
+    <!--            app:argType="string" />-->
+
+    <!--        <argument-->
+    <!--            android:name="rememberMe"-->
+    <!--            app:argType="boolean"/>-->
+
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/splashFragment"-->
+    <!--        android:name="com.smartschools.android.ui.splash.SplashFragment"-->
+    <!--        android:label="SplashFragment"-->
+    <!--        tools:layout="@layout/fragment_splash" >-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_splashFragment_to_noConnectionFragment"-->
+    <!--            app:destination="@id/noConnectionFragment" />-->
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/changePasswordFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.login.forgetpassword.stepThree.ChangePasswordFragment"-->
+    <!--        android:label="ChangePassword"-->
+    <!--        tools:layout="@layout/fragment_change_password" >-->
+    <!--        <argument-->
+    <!--            android:name="token"-->
+
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="mobileNumber"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="smsCode"-->
+    <!--            app:argType="integer"/>-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_changePasswordFragment_to_loginFragment2"-->
+    <!--            app:destination="@id/loginFragment" />-->
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/confirmForgetPasswordFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.login.forgetpassword.stepTwo.ConfirmForgetPasswordFragment"-->
+    <!--        android:label="ConfirmForgetPasswordFragment"-->
+    <!--        tools:layout="@layout/fragment_confirm_forget_password">-->
+
+    <!--        <argument-->
+    <!--            android:name="token"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="mobileNumber"-->
+    <!--            app:argType="string" />-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_confirmForgetPasswordFragment_to_changePasswordFragment"-->
+    <!--            app:destination="@id/changePasswordFragment" />-->
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/showLocationFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.home.project_details.show_location.ShowLocationFragment"-->
+    <!--        android:label="ShowLocationFragment" >-->
+    <!--        <argument-->
+    <!--            android:name="name"-->
+    <!--            app:argType="string" />-->
+    <!--        <argument-->
+    <!--            android:name="latlng"-->
+    <!--            app:argType="string" />-->
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        tools:layout="@layout/fragment_home_new"-->
+    <!--        android:id="@+id/homeNewFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.newHome.HomeNewFragment"-->
+    <!--        android:label="HomeNewFragment" >-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_homeNewFragment_to_fragmentProjectDetails"-->
+    <!--            app:destination="@id/fragmentProjectDetails" />-->
+    <!--    </fragment>-->
+
+
+    <!--    <fragment-->
+    <!--        tools:layout="@layout/fragment_no_connection"-->
+    <!--        android:id="@+id/noConnectionFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.noconnection.NoConnectionFragment"-->
+    <!--        android:label="NoConnectionFragment" />-->
+
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/changePasswordAfterLoginFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.login.change_password.ChangePasswordAfterLoginFragment"-->
+    <!--        android:label="changePasswordAfterLogin"-->
+    <!--        tools:layout="@layout/fragment_change_password" >-->
+
+
+    <!--    </fragment>-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/serverErrorFragment"-->
+    <!--        android:name="com.exas.qpmoemp.ui.servererror.ServerErrorFragment"-->
+    <!--        android:label="ServerErrorFragment"-->
+    <!--        tools:layout="@layout/fragment_server_error" />-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/operationProjectFragment"-->
+    <!--        tools:layout="@layout/fragment_operation_project"-->
+    <!--        android:name="com.exas.qpmoemp.ui.home.project_details.operation_project.OperationProjectFragment"-->
+    <!--        android:label="OperationProjectFragment" >-->
+
+    <!--        <argument-->
+    <!--            android:name="id"-->
+    <!--            app:argType="integer" />-->
+
+    <!--        <argument-->
+    <!--            android:name="percentage"-->
+    <!--            app:argType="integer" />-->
+    <!--    </fragment>-->
+
+
+</navigation>

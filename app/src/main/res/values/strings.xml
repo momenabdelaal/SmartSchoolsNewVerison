@@ -1,3 +1,1378 @@
 <resources>
-    <string name="app_name">SmartSchools</string>
+
+
+    <string name="app_name">Smart Schools</string>
+
+    <string name="submit">Submit</string>
+    <string name="save_new_password">Save Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="network_error">Network Error</string>
+    <string name="time">Time :</string>
+    <string name="date">Date</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="technical_suppor">technical suppor</string>
+    <string name="ok">OK</string>
+
+
+    <string name="next">Next</string>
+    <string name="change_password">Change Password</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+
+    <!--todo four screen slider-->
+    <string name="slide_1_title">Admin</string>
+    <string name="slide_1_desc">Effective communication between administrator,teachers, students and parents. with a complete automation of all operations .</string>
+
+    <string name="slide_2_title">Parents</string>
+    <string name="slide_2_desc">The parent can communicate directly with the school coordinator and follow up on the behavioral violations of others to build their occurrence and registration, as well as follow the children\'s grades and their achievement files and follow the teachers ’evaluation of the children and he can participate in the school survey.</string>
+
+    <string name="slide_3_title">Students </string>
+    <string name="slide_3_desc">SmartSchools facilitate communication between the Students and school\'s stakeholders and applying the best methods of distance learning .</string>
+
+
+    <string name="slide_4_title">Teacher </string>
+    <string name="slide_4_desc">SmartSchools facilitate communication and collaboration between Teachers and Students or administrators and employees, with a permanently open channel of communication. They facilitate the overall management of communication: global or individual emails, messages, Social Learning and agenda. An environment where the user can find all the important or vital information in just one screen.</string>
+    <!--todo four screen slider-->
+
+
+    <string name="bus_tracking">Bus Tracking</string>
+
+    <string name="about_us">About Us</string>
+
+    <string name="contact_us">Contact Us</string>
+
+    <string name="search">Search</string>
+
+
+    <string name="details">Details</string>
+    <string name="image">your picture</string>
+    <string name="wifi_off">Unable to connect to the Internet Please make sure to connect to the network and try again</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="summary_language">Specify your preferred language</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="title_new_notification_sound">New message notification</string>
+    <string name="key_language">key_language</string>
+    <string name="notifications_new_message">notifications</string>
+    <string name="correct_errors">please correct the errors</string>
+
+
+    <string name="language">Language</string>
+    <string name="settings">Settings</string>
+    <string name="status">Status  : </string>
+
+    <string name="are_you_sure">Voulez-vous démarrer un appel téléphonique avec ce pilote ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="attention">Attention</string>
+    <string name="person_name">Kate Jennifer</string>
+    <string-array name="lang_entries">
+        <item>العربية</item>
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="pref_lang">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string name="no_internet_connection">No internet connection .</string>
+    <string name="terms_condition">Terms Condition</string>
+
+
+    <string name="new_pass">New password</string>
+    <string name="confirm_password">Confirm new password</string>
+    <string name="terms_conditions">Terms and Conditions</string>
+    <string name="send"> Send </string>
+    <string name="navigation_drawer_open"> Open navigation drawer</string>
+    <string name="navigation_drawer_close"> Close navigation drawer</string>
+    <string name="name"> Fullname</string>
+    <string name="email"> Email</string>
+
+    <string name="login">Login</string>
+    <string name="invalid_name"> Please enter your name</string>
+
+
+    <string name="invalid_email">Please enter your valid email</string>
+    <string name="invalid_email_phone">Please enter your email or phone</string>
+    <string name="invalid_description">Please enter description</string>
+
+    <string name="invalid_phone"> Please enter your phone number</string>
+
+
+    <string name="invalid_login">Username or password incorrect</string>
+    <string name="invalid_password">Please enter a valid password</string>
+    <string name="invalid_password_confirm">Please confirm your password</string>
+    <string name="compaines"> Compaines </string>
+
+
+    <string name="permission_needed">Permission to use GPS</string>
+    <string name="permission_message">This permission is required even to connect to the images so that you can upload your personal photo.</string>
+    <string name="must_permission">This permission is required even to connect to the images so that you can upload your personal photo.</string>
+
+
+    <string name="message_title">Message Title</string>
+    <string name="message_body">Message Body</string>
+
+
+    <string name="invalid_section">Please select the ad section</string>
+
+    <string name="invalid_type">Please select the ad type</string>
+
+
+    <string name="error_530">Sorry there was a problem with our server, please continue with admin</string>
+    <string name="error_404">The data on this page is currently unavailable, try again later</string>
+    <string name="error_500">Sorry there was a problem with our server, please continue with admin</string>
+    <string name="error_400">An unknown error occurred please continue with admin"</string>
+
+    <string name="unknown_error">An unknown error occurred please continue with admin"</string>
+    <string name="illega_state_exception">An error occurred while trying to view the data. Please contact the administration</string>
+    <string name="mycard">My Card</string>
+    <string name="username">Username</string>
+    <string name="enter_your_e_mail_below_to_rest_your_password">Enter your e-mail below to rest your password.</string>
+    <string name="help">Help</string>
+    <string name="mobile">Mobile</string>
+
+    <string name="old_password">Old Password</string>
+    <string name="old_password_title">Enter your Old-Password below to rest your password.</string>
+
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="my_messages">My Message</string>
+
+
+    <string name="membership_card">MemberShip Card</string>
+
+    <string name="attendance">Attendance</string>
+    <string name="weekly_plan">Weekly Plan</string>
+    <string name="quiz">Quiz</string>
+    <string name="assignment">Assignments daily</string>
+    <string name="grading">Grading</string>
+    <string name="my_children">My Children</string>
+    <string name="bus">Bus</string>
+
+
+    <string name="notification_text">Tracking, tap to cancel</string>
+    <string name="transport_id" translatable="false">7891</string>
+    <string name="firebase_path" translatable="false">map/markers</string>
+    <string name="firebase_email" translatable="false">mahmoud.elhofy92@gmail.com</string>
+    <string name="firebase_password" translatable="false">Pa$$w0rd</string>
+
+
+    <string name="inbox">In-Coming message</string>
+    <string name="sent">Sent</string>
+
+
+    <string name="schoolcourses">School Courses</string>
+    <string name="studentsevaluations">Students Evaluations</string>
+
+    <string name="create_assigment">Create Assigment</string>
+    <string name="absence_report">Absence Report</string>
+    <string name="archive">Archive</string>
+    <string name="first">first</string>
+    <string name="second">second</string>
+    <string name="thried">thried</string>
+    <string name="fourth">fourth</string>
+    <string name="weeklyplan">Weekly Plan</string>
+    <string name="save">Save</string>
+    <string name="select_classes">Select Classes</string>
+    <string name="smartschoolsnetwork">Smart Schools Network</string>
+    <string name="namecard">Mahmoud ibrahim mohamed</string>
+    <string name="_30_08_2019">End : 30 –08 – 2019</string>
+    <string name="stuednt">Student</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="attendance_student">Attendance Student</string>
+    <string name="teachers">Teachers</string>
+    <string name="student">Student</string>
+    <string name="employees">Employees</string>
+    <string name="supervisors">Supervisors</string>
+    <string name="buss">Buss</string>
+    <string name="classes">Classes</string>
+
+
+    <string name="grade">Grade *</string>
+    <string name="attachments">Attachments</string>
+    <string name="attachment">Attachment : </string>
+
+
+    <string name="assignment_details">Assignment Details</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="done_successfully">Done Successfully</string>
+    <string name="select_picture">Select Picture</string>
+
+    <string name="invalid_class">invalid Class</string>
+    <string name="select_section">Select Section</string>
+    <string name="income">InCome</string>
+    <string name="outcome">OutCome</string>
+    <string name="testname">Name test :</string>
+    <string name="testmetterm">test term</string>
+    <string name="gradetest">Grade :</string>
+    <string name="closed">closed</string>
+    <string name="type">Type :</string>
+    <string name="timetext">Time :</string>
+    <string name="review">Review :    </string>
+    <string name="students">Students :</string>
+    <string name="comment_supervisor">Comment Supervisor</string>
+    <string name="message_details">Message Details</string>
+    <string name="student_answer">Student Answer</string>
+    <string name="write_the_answer_here">write the answer here …</string>
+    <string name="choose_file">Choose File</string>
+    <string name="school_courses">School Courses</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="done">done!</string>
+    <string name="min_sec">%d min, %d sec</string>
+    <string name="answer_has_been_sent">Your answer has been successfully sent</string>
+    <string name="week">Week:</string>
+    <string name="term">Term :</string>
+
+
+    <!--upgrade momen-->
+    <string name="newmessage">New Message</string>
+    <string name="send_to">Send to</string>
+    <string name="message">Message</string>
+    <string name="write_the_assignment_here">Assignment details … *</string>
+    <string name="from_date_17_12_2018">From Date 17–12–2018 *</string>
+    <string name="to_date_17_12_2018">To Date 17–12–2018 *</string>
+    <string name="giza_haram_6_october">Giza - Haram - 6 October</string>
+    <string name="bus_number_5_at_sd">Bus Number: </string>
+    <string name="driver_logy_mohamed_ahmed">Driver : </string>
+    <string name="start_the_travel">Start the travel</string>
+    <string name="address">address</string>
+
+
+    <!--momen-->
+
+
+    <string name="saturday">Saturday</string>
+
+    <string name="sunday">Sunday</string>
+
+    <string name="monday">Monday</string>
+
+    <string name="tuesday">Tuesday</string>
+
+    <string name="wednesday">Wednesday</string>
+
+    <string name="thursday">Thursday</string>
+
+    <string name="select_lesson">Select Lesson</string>
+
+    <string name="attendance_staff">Staff Daily \nAbsence</string>
+    <string name="absence_staff">Staff Daily Absence</string>
+
+    <string name="select_units">Select Units</string>
+    <string name="driver">Driver</string>
+    <string name="supervisor">Supervisor</string>
+    <string name="buses">Buses</string>
+    <string name="points_10">Points</string>
+    <string name="you_have_no_children">You have no children enrolled in the school bus</string>
+    <string name="forward">Forward</string>
+    <string name="reply">Reply</string>
+    <string name="the_sender">The sender</string>
+    <string name="absence">Absence</string>
+    <string name="students_absence">Attendance Students</string>
+    <string name="session_activities">Students Behaviors</string>
+    <string name="teacher_absence">Teacher Absence</string>
+    <string name="without_excuse">Without excuse</string>
+    <string name="employee_absence">Employee Absence</string>
+
+
+    <string name="select_quetsions">Select Questions</string>
+    <string name="one_answer">One Answer</string>
+
+    <string name="mutli_answers">Multiple Answers</string>
+    <string name="name_quiz">Quiz Title</string>
+    <string name="choice_term">Choice Term</string>
+    <string name="term_1">Term 1</string>
+    <string name="term_2">Term 2</string>
+    <string name="term_3">Term 3</string>
+    <string name="term_4">Term 4</string>
+
+    <string name="periodic_quiz">Periodic Quiz</string>
+    <string name="un_periodic_quiz">Un periodic Quiz</string>
+    <string name="class_name">Class Name :</string>
+    <string name="choose_questions">Choose questions</string>
+    <string name="open">Open</string>
+    <string name="close">Closed</string>
+    <string name="questions_bank">Questions bank</string>
+    <string name="select_class">Select Class</string>
+    <string name="show_students">Load Data</string>
+    <string name="select_all">select all</string>
+    <string name="select_type_attendance">Select the type of attendance</string>
+    <string name="attendance_employee">Attendance Employee</string>
+
+    <!-- sdsd -->
+    <string name="study_schedules">Study Schedules</string>
+    <string name="no_results_found">No results found .</string>
+    <string name="update">Update</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="enter_your_password">Password</string>
+    <string name="add">Add</string>
+    <string name="describe_your_product">Describe your product… *</string>
+    <string name="title">Title *</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile_message">Your data has been successfully modified</string>
+    <string name="login_success">Welcome to smart schools system</string>
+    <string name="logout">Logout</string>
+
+
+    <string name="unit">Unit</string>
+    <string name="lesson">Lesson</string>
+    <string name="mygrade">Your grade</string>
+    <string name="question_name">question name</string>
+    <string name="teachers_library">Teachers Library</string>
+    <string name="subject">Subject : </string>
+    <string name="class_teacher">Class : </string>
+    <string name="lecture">Lecture : </string>
+    <string name="teacher_name">Teacher : </string>
+    <string name="bus_tracker">Bus Tracker</string>
+
+
+    <string name="update_this_assignments">Do you want update this assignments..!</string>
+
+
+    <string name="invalid_term">Please select the add term</string>
+    <string name="do_you_want_delete">Do you want to delete this assignment ..!</string>
+    <string name="update_assignment">Update assignment </string>
+    <string name="delete_assignment">Delete assignment</string>
+
+    <string name="invalid_grade"> Please enter your grade</string>
+    <string name="invalid_time"> Please enter your time</string>
+    <string name="invalid_date"> Please enter your date</string>
+    <string name="invalid_body"> Please enter your body</string>
+    <string name="agreement_on_discounts">Agreement on discounts</string>
+    <string name="invalid_question">Please select questions</string>
+    <string name="student_report"><![CDATA[Attendance & departure]]></string>
+
+
+    <string name="session_1"> first </string>
+        
+    <string name="session_2"> second </string>
+        
+    <string name="session_3"> third </string>
+        
+    <string name="session_4"> fourth </string>
+        
+    <string name="session_5"> fifth </string>
+        
+    <string name="session_6"> sixth </string>
+        
+    <string name="session_7"> seventh </string>
+        
+    <string name="session_8"> eighth </string>
+        
+    <string name="session_9"> ninth </string>
+        
+    <string name="session_10"> tenth </string>
+    <string name="do_open">Do you want to open this file ?</string>
+    <string name="download">Download</string>
+
+    <string name="absence_daily_attend">absence.daily attend</string>
+    <string name="attend">Attend  </string>
+    <string name="coming_late">Coming late </string>
+    <string name="didnt_solve_assignment">Didn\'t solve assignment </string>
+    <string name="penalty">Penalty </string>
+    <string name="penalty_reason">Penalty reason </string>
+    <string name="bonus">Bonus </string>
+    <string name="excused_absence">Excused absence </string>
+    <string name="reason_of_absence">Reason of absence </string>
+
+    <string name="invalid_type_attendance">Please specify the type of absence</string>
+    <string name="no_sessions_found">No sessions found</string>
+    <string name="date_dd_mm_yyyy">Date DD/MM/YYYY</string>
+    <string name="select_time">Select Time</string>
+    <string name="choice_subject_have_question">Please choice subject have an questions ..!</string>
+    <string name="time_table_exams">Exams Tables</string>
+    <string name="exams_result">Exams Results</string>
+
+    <string name="expense_name">- Name :</string>
+    <string name="receipt_no"> Bill number </string>
+    <string name="payment_date_21_11_2017">Payment Date:21 11 2017</string>
+    <string name="paid_date">Paid Date :</string>
+    <string name="amount">Amount </string>
+    <string name="total_expenses">Total :</string>
+    <string name="total_remains">Remains : </string>
+    <string name="degree">Degree : </string>
+    <string name="scale">Grading Scale : </string>
+
+    <string name="school_fees">School Fees</string>
+
+
+    <string name="seat_number">Seat Number</string>
+    <string name="seat_no">Seat Number : </string>
+    <string name="academic_no">Academic Year : </string>
+
+    <string name="seat_number_student">Seat Number Student</string>
+    <string name="class_exam">Class Exam :</string>
+    <string name="exit">Exit</string>
+    <string name="grade_not_changed">Grade not changed .. !!</string>
+    <string name="full_name">Please enter full name</string>
+    <string name="enter_subject">Please enter the subject</string>
+    <string name="enter_message">Please enter the  message</string>
+
+    <string name="do_update">Do you want to update this row ?</string>
+    <string name="title_version">Version 1.42</string>
+    <string name="url_verison">https://play.google.com/store/apps/details?id=smartschool.networl.com</string>
+
+    <string name="my_app_store">Application on the App Store</string>
+    <string name="exams_affairs">Exams Affairs</string>
+
+
+    <string name="course">Course : </string>
+
+    <string name="homeroom_teacher">Homeroom Teacher : </string>
+    <string name="academic_year">Year</string>
+
+
+    <string name="grade_level">Grade Level :</string>
+    <string name="comment">Comment :</string>
+    <string name="absence_no">Absence  </string>
+    <string name="schedules_for_school_year_exams">Schedules for school year exams</string>
+    <string name="control_examinations">Administration of Control and Examinations</string>
+
+
+    <string name="exam_result">Exams results</string>
+    <string name="mark">Mark</string>
+    <string name="Comments">Comments</string>
+    <string name="grading_scele">Grading Scale</string>
+    <string name="student_evalutions">Student Evaluation</string>
+
+    <string name="items">Items</string>
+    <string name="my_points">My Points</string>
+    <string name="last_update">Last update </string>
+    <string name="expenses">Expenses</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+
+    <string name="student_points">Student Points</string>
+
+    <string-array name="monthsArray">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+
+    </string-array>
+
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>June</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>December</item>
+    </string-array>
+
+
+    <string name="notifications">Notifications</string>
+    <string name="grade_from">Grade from</string>
+    <string name="swtich_acoounts">Switch Accounts</string>
+
+
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+
+    <string name="discount_partners">Discount Partners</string>
+    <string name="teacher">Teacher</string>
+
+
+    <string name="update_available">
+        An update to the application on Google Play Store requires speed and efficiency.\n
+Do you want to install the update?
+    </string>
+    <string name="dear_customer">Smart Schools Network’s Members :</string>
+    <string name="remind_me_later">Remind Me Later</string>
+    <string name="update_available_title">Update Available</string>
+    <string name="update_app">Install</string>
+
+
+    <string name="student_evaluate">Student Evaluation</string>
+
+    <string name="student_evaluate_activities">You can evaluate all activities for this student.</string>
+    <string name="set_all">Set All</string>
+
+    <string name="invalid_evaluate_value">Please enter a value from 0 to 10</string>
+    <string name="invalid_evaluate_required">evaluation value required</string>
+
+
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="move_to">Move to</string>
+    <string name="upload_file">Upload file</string>
+    <string name="create_folder">Create folder</string>
+    <string name="folder_name">Folder Name</string>
+
+
+    <string name="create_flie">Create flie</string>
+    <string name="description">Description</string>
+    <string name="file_name">File Name</string>
+    <string name="copy_to">Copy to</string>
+    <string name="update_folder"> Update folder</string>
+    <string name="update_file">Update File</string>
+    <string name="questionsbank">Questions Bank</string>
+    <string name="delete_success">Your Folder or File delete SuccesFully</string>
+
+    <string name="do_you_want_delete_file_or_folder">Do you want delete this file or folder?</string>
+
+
+    <string name="student_evaluation">Student Evaluation</string>
+    <string name="evaluation_details">Evaluation Details</string>
+    <string name="evaluation">Evaluation</string>
+    <string name="children_evaluations">Children Evaluations</string>
+
+
+    <string name="add_question">Add Question</string>
+    <string name="add_answer">Add answer</string>
+    <string name="single_answer">Single answer</string>
+    <string name="multi_answers">Multi answers</string>>
+    <string name="answer_name">Answer Name</string>
+    <string name="correct_answer">Correct answer</string>
+
+    <string name="minuem_answers">Please add two answers to this question..!</string>
+    <string name="please_choice_correct_answer">Please choose the correct answer to this question or check type of the question..!</string>
+    <string name="do_you_want_delete_question">Do you want to delete this question ..!</string>
+    <string name="edit_question">Edit question</string>
+
+    <string name="do_you_want_delete_quiz">Do you want to delete this quiz ..!</string>
+    <string name="single_answer_error">Your question type is single answer ,you cannot add multi answers for this question..!</string>
+    <string name="multi_answers_error">Your question type is  multi answers ,you cannot add single answer for this question..!</string>
+    <string name="chose_answers_error">You have chosen more than one correct answer. You have to add more answers..!</string>
+    <string name="delete_all">Delete all</string>
+    <string name="delete_selected">Delete selected</string>
+    <string name="content">Content</string>
+
+
+    <string-array name="categoryArray">
+        <item>Hospitals</item>
+        <item>Analytical Laboratories</item>
+        <item>Radiology Centers</item>
+        <item>Pharmacies</item>
+        <item>Doctors</item>
+        <item>Libraries</item>
+        <item>Shops</item>
+        <item>Entertainment</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="categoryValue">
+        <item>hospitals</item>
+        <item>analytical_laboratories</item>
+        <item>radiology_centers</item>
+        <item>pharmacies</item>
+        <item>doctors</item>
+        <item>libraries</item>
+        <item>shops</item>
+        <item>entertainment</item>
+        <item>others</item>
+    </string-array>
+
+    <string name="company_name">Company Name :</string>
+    <string name="company_discount">Discount</string>
+    <string name="company_governorate">Governorate :</string>
+    <string name="company_area">Area :</string>
+    <string name="company_address">Address :</string>
+
+    <string name="discount">- Discount</string>
+    <string name="distance">Distance</string>
+    <string name="sort_by">Sort By :</string>
+
+    <string name="edit_data">Update</string>
+
+
+    <string name="total_result">Total Degree :</string>
+    <string name="total_percentage">Total Percentage : </string>
+    <string name="total_evaluation">Total Scale : </string>
+    <string name="please_add_the_grade">please add the grade</string>
+    <string name="the_website_url_wrong">the website url is wrong ..!</string>
+    <string name="poll_survey"><![CDATA[Poll & Survey]]></string>
+    <string name="please_select_attendance_or_absence">Please select attendance or absence..!!</string>
+
+
+    <string name="subjects">Subjects</string>
+    <string name="basic_subjects">Basic Subjects</string>
+    <string name="subjects_not_total">Subjects not added to the total</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="occasions">Events</string>
+    <string name="birthday">Birthday:</string>
+    <string name="say_happy_birthday">Say Happy Birthday To</string>
+    <string name="smart_schools">Smart Schools</string>
+
+    <string name="facebook_app_id">1022392681294632</string>
+    <string name="fb_login_protocol_scheme">fb1022392681294632</string>
+    <string name="register">Register</string>
+    <string name="middle_exams_result">Middle Exams Result</string>
+    <string name="secondary_exams_result">Secondary Exams Result</string>
+    <string name="primary_exams_result">Primary Exams Result</string>
+
+
+    <string name="id_number">National ID</string>
+    <string name="phone">Phone</string>
+    <string name="regtiser">Registration</string>
+    <string name="invaild_id"> Please enter your  national id</string>
+    <string name="results">Results</string>
+    <string name="invalid_set_no">* رقم الجلوس مطلوب</string>
+
+    <string name="details_survey">Details</string>
+    <string name="suggetion_complaint"><![CDATA[Suggestions & \n complaint]]></string>
+    <string name="complaints">Complaints</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="please_enter_body">Please enter content</string>
+    <string name="please_enter_header">Please enter header</string>
+    <string name="header">Tile</string>
+    <string name="public_rational">Public relations</string>
+
+    <string name="if_u_have_suggestions">If you have suggestions help us..!</string>
+    <string name="if_u_have_compliant">If you have a complaint help us..!</string>
+    <string name="public_relations_managment">Public relations management..!</string>
+
+
+    <string name="congratulations_from">Congratulations From :</string>
+    <string name="happy_birthday">عيد ميلاد سعيد</string>
+    <string name="Success">تم الأرسال</string>
+    <string name="events">Events</string>
+    <string name="birth_days">Birth Days</string>
+    <string name="url_is_wrong">the website url is wrong ..!</string>
+
+
+    <string name="message_suggested">Suggested message</string>
+    <string name="message_compliant">Complaint message </string>
+    <string name="content_message">Content of messages..!</string>
+    <string name="if_u_have_inbox">If you have inbox message..!</string>
+    <string name="if_u_have_sent">If you have send message..!</string>
+
+
+    <string name="suggestions_complaints">Complaints  &amp;  Suggestion</string>
+    <string name="manage_suggestions_complaint">Manage Suggestions and complaint ..!</string>
+
+    <string name="school_attendance">School Absence</string>
+
+
+    <string name="add_event_activity">Add Event</string>
+
+    <string name="add_event">Add Event</string>
+    <string name="event_updated">Event has been updated</string>
+    <string name="event_added">Event added successfully</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="date_of_event">Date of event</string>
+    <string name="description_event">Description event …</string>
+    <string name="event_deleted">Event has been deleted</string>
+    <string name="add_grade">Add grade</string>
+    <string name="answer_assignment">Answer assignment</string>
+
+    <string name="user_not_activeted">Your account is disabled by administration Please contact the administration..!</string>
+    <string name="no_evaluation_found">There are no evaluation for this month</string>
+    <string name="no_absence_found">No absence found.</string>
+    <string name="no_assignments_found">No assignments found.</string>
+    <string name="no_answers_found">No answers found.</string>
+    <string name="no_birthdays_found">No birthdays found.</string>
+    <string name="no_events_found">No events found.</string>
+    <string name="no_courses_found">No courses found.</string>
+    <string name="no_files_found">No files found.</string>
+    <string name="no_exams_tables_found">No exams tables found.</string>
+    <string name="no_expenses_found">No expenses found.</string>
+    <string name="no_evaluat_found">No evaluation found.</string>
+    <string name="no_points_found">No points found.</string>
+    <string name="no_questions_found">No questions found.</string>
+    <string name="no_quizzes_found">No Quizzes found.</string>
+    <string name="no_students_found">No students found.</string>
+
+
+    <string name="official">Official</string>
+    <string name="experimental">Experimental</string>
+    <string name="no_result">No result found.</string>
+    <string name="no_messages_found">No messages found.</string>
+    <string name="students_quiz">Students</string>
+
+    <string name="total_deggree">Total results do not match the total scores, please try again..!</string>
+    <string name="check_id">This name without id please check the id and try again</string>
+
+
+    <string name="option_required">Option title required</string>
+    <string name="vote_added_successfully">Vote added successfully</string>
+    <string name="vote_title_required">Vote Title Required</string>
+    <string name="minimum_option">Please add at least two options</string>
+    <string name="add_smart_vote">Add Smart Vote</string>
+    <string name="add_option">Add Option</string>
+    <string name="add_survey">Add Survey</string>
+
+    <string name="no_votes_found">No votes found.</string>
+    <string name="survey_added_successfully">Survey added successfully</string>
+    <string name="survey_title_required">Survey Title Required.</string>
+    <string name="invalid_group">Invalid Group.</string>
+    <string name="minimum_vote">Please select at least one vote</string>
+    <string name="unknown_error_please_try_again">Unknown error please try again</string>
+    <string name="opened">Opened</string>
+    <string name="survey_details">Survey Details</string>
+    <string name="vote_submitted">Your vote was successfully submitted</string>
+    <string name="add_votes_first">Please add the votes first</string>
+    <string name="questionnaire">Questionnaire</string>
+    <string name="no_survey_found">No Survey Found.</string>
+    <string name="vote">Vote</string>
+    <string name="survey">Survey</string>
+    <string name="smart_Vote">Smart Vote</string>
+    <string name="stopped">Stopped</string>
+    <string name="started">Started</string>
+    <string name="do_you_want_delete_survey">Do you want to delete this survey ..!</string>
+    <string name="vote_title">Vote Tite …</string>
+    <string name="you_can_add_more_options">You can add more options..</string>
+    <string name="save_vote">Save Vote</string>
+    <string name="you_can_add_a_new_option">You can add a new option</string>
+    <string name="option_title">Option Title …</string>
+    <string name="survey_title">Survey Title …</string>
+    <string name="you_can_add_a_new_vote">You can add a new vote</string>
+    <string name="my_survey">My Survey</string>
+    <string name="delete_survey">Delete</string>
+
+    <string name="person">Person</string>
+    <string name="answer_all_questions">Please answer all questions to submit your answers ..!</string>
+    <string name="answer_correct">The correct answer is :</string>
+    <string name="correct_answers">Correct answers</string>
+
+    <string name="days">Week Days</string>
+    <string name="start_week">Start Week Date</string>
+    <string name="add_day">Add Day</string>
+    <string name="assignmentname">AssignmentName :</string>
+    <string name="lessonname">LessonName :</string>
+    <string name="no_data_day">There is no data found in this day..!</string>
+    <string name="view_lesson">View Lesson</string>
+    <string name="view_assignment">View Assignment</string>
+
+
+    <string-array name="weeks">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+    </string-array>
+
+
+    <string-array name="weeksWithOutSaturday">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+    </string-array>
+
+
+    <string name="do_you_want_delete_todo">Do you want to delete this to-do ..!</string>
+
+    <string name="no_todo_found">No Tasks Found.</string>
+    <string name="todo_content_required">To-Do Content is required!</string>
+    <string name="update_todo">Update To-Do</string>
+    <string name="update_t">UPDATE</string>
+    <string name="todo_deleted_successfully">To-Do Deleted Successfully</string>
+    <string name="todo_finished">To-Do Finished Successfully</string>
+    <string name="todo_list">To-Do List</string>
+    <string name="todo_date">To-Do Date …</string>
+    <string name="todo_content">To-Do Content …</string>
+    <string name="todo_date_required">To-Do date required!</string>
+    <string name="mode">Mode</string>
+    <string name="smart_pass">Smart Pass</string>
+    <string name="attend_message">تم تسجيل حضورك فى تمام الساعة :</string>
+    <string name="absence_message">تم تسجيل انصرافك فى تمام الساعة :</string>
+    <string name="departure">Departure</string>
+    <string name="smart_attendance">Smart Attendance</string>
+    <string name="qr_code_changes">This QR code changes after :</string>
+    <string name="seconds">seconds</string>
+    <string name="scan_more_card">Please don\'t scan more than one employee card at the same time</string>
+    <string name="attend_view">Attend</string>
+    <string name="absence_view">Absence</string>
+    <string name="attendance_card">Attendance card</string>
+    <string name="the_attempt_failed">The attempt failed</string>
+    <string name="permission_needed_camera">Camera permission denied!</string>
+
+    <string name="already_logged_in">Your registration attempt failed because you are already enrolled in the school. Please log off first</string>
+    <string name="already_logged_out">Your registration attempt failed because you are already logged out, please register first</string>
+    <string name="permission_location_required">This permission is required so far to enable the QR code reader for the attendance and exit registration site.</string>
+
+    <string name="permission_not_available">Permission location is not available. please try again.</string>
+    <string name="sorry_permission_needed">Sorry, you can not turn on Attendance without permission to apply the phone camera and location feature.</string>
+    <string name="attendance_qr">Attendance</string>
+    <string name="error_with_connection">Sorry there was a error in the connection, please try again</string>
+    <string name="invalid_passcode">Sorry, invalid pass code</string>
+    <string name="choice_the_day">please choose the day of the week please , and try again ..!</string>
+    <string name="you_can_not_add_weekly">you can not add weekly plan please add the weeks first then try again ..!</string>
+    <string name="there_is_no_attachment_is">There is no attachment is available..!</string>
+    <string name="open_file">Open file</string>
+    <string name="attach">Attachment</string>
+    <string name="no_weekly_plan_found">No Weekly Plan Found.</string>
+
+    <string name="manage_profile">Manage Profile</string>
+    <string name="scan_code">Scan Code</string>
+    <string name="maximum_images">maxmum images is 5</string>
+    <string name="are_you_sure_delete_image">are you sure to delete this picture</string>
+    <string name="please_choice_the_day">please choice the day of the week please , and try again ..!</string>
+    <string name="place_details">place details</string>
+    <string name="branch">Branches</string>
+    <string name="off_your_invoice">Discount off your invoice</string>
+    <string name="choice_logo">Choice logo</string>
+    <string name="notes_english">Notes english</string>
+    <string name="notes_arabic">Notes arabic</string>
+    <string name="name_english">Name english</string>
+    <string name="name_arabic">Name arabic</string>
+    <string name="discounts">Discounts %</string>
+    <string name="add_location">Add location</string>
+    <string name="partners">Discount partners</string>
+    <string name="partners_details">Partners Details</string>
+    <string name="no_branches">There is no branches available..!</string>
+    <string name="password_changed_success">Your password changed successfully</string>
+    <string name="get_your_discount">Get your discount</string>
+    <string name="discount_card">Discount card</string>
+    <string name="invaild_id_read_qr">National id is incorrect or your account is disabled , please try again later..!</string>
+    <string name="add_discount">please add discount</string>
+    <string name="add_symbol">please add symbol</string>
+    <string name="seasions_expired">Your sessions expired please login again..!</string>
+    <string name="partners_evalutaion">Partner 1.6</string>
+    <string name="no_partners_found">No partners found</string>
+    <string name="question_one">Have you got the declared discount rate?</string>
+    <string name="question_two">What is your assessment of the place?</string>
+    <string name="notes_eva">Your notes</string>
+    <string name="submit_evaluation">submit Evaluation</string>
+    <string name="evaluations_add_sucessfully">Ratings submitted successfully</string>
+    <string name="Evaluation">Evaluation</string>
+
+
+    <string name="bus_absence">Bus Absence</string>
+    <string name="bus_number_invalid">Please choose your bus number</string>
+    <string name="reason_absence">Reason of absence</string>
+    <string name="reason_is_required">Reason is required</string>
+    <string name="confirm_students_absence">Confirm Students Absence</string>
+    <string name="reason_absence_title">Reason Absence</string>
+    <string name="you_can_add_a_reason_of_absence">You can add a reason of absence</string>
+    <string name="attendance_action">Attendance:</string>
+    <string name="choose_the_trip_type">Choose the trip type</string>
+    <string name="going_to_school">Going to school</string>
+    <string name="going_to_home">Going to home</string>
+    <string name="please_choose_the_trip_type">Please choose the trip type</string>
+    <string name="confirm">Confirm</string>
+    <string name="rating">Ratings</string>
+
+
+    <string name="driver_phone">Driver phone:</string>
+    <string name="contact_the_bus_driver">Do you want to contact the bus driver? \n</string>
+    <string name="payments">Payments</string>
+    <string name="total">Total : </string>
+    <string name="outcome_details">Outcome Details</string>
+    <string name="income_details">Income Details</string>
+
+
+    <string name="add_branch">Add branch</string>
+    <string name="main_branch">Main branch</string>
+    <string name="please_choose_branch">please choose the branch..!</string>
+    <string name="manage_branches">Manage branches</string>
+    <string name="create_new_branch">Create new branch</string>
+    <string name="update_branch">Update branch</string>
+    <string name="my_branch">Branch</string>
+
+    <string name="statistics_student">Student statistics</string>
+    <string name="statistics_teacher">Teacher statistics</string>
+
+    <string name="student_number">Number of students  :</string>
+    <string name="available_places">Available places :</string>
+    <string name="pay_by_fawray">Pay by Fawry</string>
+    <string name="pay_by_card">Pay By Card</string>
+    <string name="card_number">Card number</string>
+    <string name="cvv">PIN CVV</string>
+    <string name="mm">MM</string>
+    <string name="yy">YY</string>
+    <string name="price">price</string>
+    <string name="continue_complate">Continue</string>
+    <string name="total_payment">Total</string>
+    <string name="number_classes">Number of classes</string>
+    <string name="statistics_classes">Classes statistics</string>
+    <string name="statistics_employee">Employees statistics</string>
+    <string name="statistics_buss">Bus Statistics</string>
+    <string name="fees">Study fees</string>
+    <string name="school_uniform">School uniform</string>
+    <string name="other">Other</string>
+    <string name="the_amount_paid">The amount paid</string>
+    <string name="remaining_amount">Remaining amount</string>
+    <string name="date_next_receipt">Next Payment Date</string>
+    <string name="my_store">Store</string>
+    <string name="filter_by">filter by</string>
+    <string name="study_fees">Study fees</string>
+    <string name="school_study_fees">School Study Fees</string>
+    <string name="study_fees_sp">Study fees</string>
+    <string name="select_the_safe">Select the safe</string>
+    <string name="main_safe">Main Safe</string>
+    <string name="education_safe">Education safe</string>
+    <string name="reason_for_discount_addition">Reason for discount / addition</string>
+    <string name="discount_brothers">Discount brothers</string>
+    <string name="add_receipt">Please add receipt no</string>
+    <string name="please_add_discount">please add the discount</string>
+    <string name="add_receipt_alert">Add receipt</string>
+    <string name="expenses_value">Expenses Value</string>
+    <string name="payment_date">Payment Date</string>
+
+    <string name="paid_greater_than">Paid greater than</string>
+    <string name="paid_smaller_than">Paid smaller than</string>
+    <string name="paid_equal">Paid equal</string>
+    <string name="no_fees_found">No school fees found..!</string>
+    <string name="without_discount">No discount</string>
+    <string name="total_amount">Total paid</string>
+    <string name="please_add_amount">Please check your amount ..!!</string>
+    <string name="please_add_recipe">Please check the receipt number ..!</string>
+    <string name="discount_value">Discount value</string>
+
+
+    <string name="add_irregularities">Add Penalties</string>
+    <string name="should_delete_others">You should delete the others first</string>
+    <string name="error_more_than_one_student">Sorry, no more than one student can be selected</string>
+    <string name="violation_name_required">Penalties name is required</string>
+    <string name="write_the_name">Write the name …</string>
+    <string name="write_the_violation">Write the Penalties</string>
+    <string name="add_violation">Add Penalties</string>
+    <string name="violation_name">Penalties Name :</string>
+    <string name="violation_deleted_successfully">Penalties Deleted Successfully</string>
+    <string name="student_name_xxxxxx">Student Name :</string>
+    <string name="school_xxxxxx">School xxxxxx</string>
+    <string name="class_xxxxxx">Class xxxxxx</string>
+    <string name="save_violation">Submit Penalties</string>
+    <string name="scan_student_code">Scan student code</string>
+    <string name="write_notes">Write notes …</string>
+    <string name="irregularities">Penalties</string>
+
+    <string name="irregularities_student">Penalties student</string>
+
+
+    <string name="error_403">You cannot answer this quiz because quiz no have degree..!</string>
+    <string name="smart_schools_store">Smart Schools Store</string>
+    <string name="Store_description">You can buy school tools for your children with ease from our application smart school network store Click to start the application now shopping</string>
+    <string name="start_app">Start App</string>
+    <string name="notes">Notes :</string>
+    <string name="write_comments">write comments …</string>
+    <string name="comments_grade">Comments :</string>
+    <string name="no_fees_student">This student has no fees..!</string>
+    <string name="vaild_date">Valid dates</string>
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+    <string name="select_your_location">Select your location …</string>
+    <string name="permission_access_your_location">This permission is needed to access your location</string>
+
+
+    <string name="school_settings">School settings</string>
+    <string name="school_settings_location_message">You must adjust the school\'s location settings on Google Map in order to enable the school bus service</string>
+    <string name="ALL">ALL</string>
+    <string name="error_401_grades">The degree you entered already exists.!</string>
+    <string name="this_week_already_added">This week has already been added, please change the week and try again ..!</string>
+    <string name="pleas_add_the_answer_text">Please add the answer text..!</string>
+
+    <string name="invalid_lesson">Please select the lesson..!</string>
+    <string name="invalid_unit">Please select the unit..!</string>
+    <string name="invalid_subject">Please select the subject..!</string>
+
+    <string name="check_for_update">Check for updates</string>
+
+    <string name="start_update">Start update</string>
+    <string name="smart_schools_update">Check for update Smart Schools Application is</string>
+    <string name="device_token_is_req">Please check your internet connection and try again later .!</string>
+    <string name="activites">Activities </string>
+    <string name="project">Projects </string>
+    <string name="participations">participation\'s </string>
+    <string name="assignment1">Assignment No </string>
+    <string name="quizzes1">Quiz No </string>
+    <string name="results_dialog">Result</string>
+    <string name="exam_details">Details Results  Exams </string>
+    <string name="update_app_message">A new update is available from the app You must update the application in order for us to provide you with the best service.</string>
+    <string name="update_application">Update application</string>
+    <string name="tell_me_later">Tell me later</string>
+    <string name="average">Average</string>
+    <string name="class_a">Class room </string>
+    <string name="stage_a">Class</string>
+    <string name="student_a">Student</string>
+    <string name="points">Points</string>
+    <string name="congratulations">Congratulations.!</string>
+    <string name="final_result">Grades Statistics</string>
+    <string name="no_results_found_for_this_subject">No results found for this subject.!</string>
+    <string name="quarters">quarters</string>
+    <string name="city">Governorate</string>
+    <string name="all_smart">General</string>
+    <string name="happy_birthday1">Happy Birthday</string>
+
+    <string name="want_to_join">You need to enter a meeting number/ vanity id which you want to join.</string>
+    <string name="both_meeting">Both meeting number and vanity id have value,  just set one of them</string>
+    <string name="invalid_meeting_number">Invalid meeting number:</string>
+    <string name="v_classroom">V-Classroom</string>
+
+    <string name="country">country</string>
+    <string name="governorate">Governorate</string>
+    <string name="management_learning">Education Administration</string>
+    <string name="school_name">School name</string>
+    <string name="invaild_country">Please enter your country</string>
+    <string name="invaild_governorate">Please enter your governorate</string>
+    <string name="invaild_management">Please enter your educational management</string>
+    <string name="invaild_school_name">Please enter your  school name</string>
+    <string name="invaild_stage">Please enter your  stage name</string>
+    <string name="invaild_type">Please Choose Type User</string>
+    <string name="full_name_reg">Full name</string>
+    <string name="registered_succes">Your information has been registered successfully. You will be contacted soon.</string>
+    <string name="video_conference">Video Conference</string>
+
+    <string name="meeting">Meetings Room</string>
+    <string name="this_session_not_active">This meeting is not active now .!</string>
+    <string name="this_session_is_online">This meeting is active now , you can try again later..!</string>
+    <string name="meeting_reports">Teachers Reports</string>
+    <string name="admins_reports">Admins Reports</string>
+
+
+    <string-array name="typeregister">
+        <item>Choose Type User</item>
+        <item>School manager</item>
+        <item>School official</item>
+        <item>Teacher</item>
+        <item>Student</item>
+        <item>Parent</item>
+    </string-array>
+
+
+    <string name="researches">Researches</string>
+    <string name="no_researches_found">No researches found.</string>
+    <string name="conference_room">Conference room</string>
+    <string name="no_video_conference_is_available">No video conference is available</string>
+    <string name="link_youtube"> Web https://www.youtube.com/watch?v= Code \n Mobile https://youtu.be/ Code </string>
+    <string name="researches_submit">Researchs Submit</string>
+    <string name="research_description">Research Description</string>
+    <string name="researches_title">Title</string>
+    <string name="research_topic">Research topic :</string>
+    <string name="grade_is">Grade is :</string>
+    <string name="this_research_has_already_been_submitted">This search has already been submitted. The same search cannot be resent</string>
+
+
+    <string name="send_notification">Send Notifications</string>
+    <string name="body_arabic">Body Arabic</string>
+    <string name="body_english">Body English</string>
+    <string name="title_arabic">Title Arabic</string>
+    <string name="title_english">Title English</string>
+    <string name="if_you_want_notifications">If you want to send notifications for all.!</string>
+    <string name="sent_notifications_for_all">Send notifications for all</string>
+    <string name="ahln_ramdan">Welcome Ramadan</string>
+    <string name="buss_admin">School buses</string>
+    <string name="load_supject_more">Load more subjects</string>
+    <string name="no_subject_more">There is no subjects more..!</string>
+    <string name="total_assignments">Total Counts Assignments :</string>
+    <string name="total_quiz">Total Counts َQuiz :</string>
+
+
+    <string name="choose_class">Choose Class</string>
+    <string name="meetings">Meetings</string>
+
+
+    <string name="ycuwq_datepicker_decide">OK</string>
+    <string name="ycuwq_datepicker_cancel">Cancel</string>
+
+    <string name="ycuwq_datepicker_hour">H</string>
+    <string name="ycuwq_datepicker_minute">m</string>
+
+    <string name="time_set">Set time</string>
+    <string name="day_and_time">Day and Time :</string>
+
+    <string name="teach_name">Teacher Name : </string>
+    <string name="no_meetings_found">No meetings found</string>
+    <string name="meeting_successfully_booked">The meeting was successfully booked</string>
+    <string name="start_time_meeting">The start time of the meeting</string>
+    <string name="end_time_meeting">The end time of the meeting</string>
+    <string name="reports_for_admin"> Reports for admin</string>
+    <string name="grade_quiz">Quiz grade :</string>
+
+
+    <string name="Assignments">Assignments</string>
+    <string name="reserve_shares">Reserve</string>
+    <string name="statistics">Statistics</string>
+    <string name="v_room">V-Room</string>
+
+
+    <string name="virtual_class_schedule">Virtual Class  Schedule</string>
+    <string name="academic_schedules">Academic schedules for the academic year</string>
+    <string name="school_class_schedule">School class schedule</string>
+    <string name="virtual_schedule">Virtual Class Schedule</string>
+    <string name="dont_press_back">Please wait to join the meeting. Do not press the Back button ..!</string>
+    <string name="plase_wait">Please Wait..!</string>
+    <string name="started_on">Started on :</string>
+    <string name="ended_in">Ended in :</string>
+    <string name="privacy">Privacy</string>
+    <string name="partner">Partners</string>
+    <string name="language_title">EN</string>
+    <string name="germany">Germany</string>
+    <string name="touch_id"> Touch ID</string>
+    <string name="touch_id2"><strike> Touch ID </strike></string>
+
+    <string name="or">OR</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms&Conditions]]></string>
+    <string name="create_account">Create Account</string>
+    <string name="confirm_my_password">Confirm Password</string>
+    <string name="login_to_smartschools">Login to SmartSchools</string>
+    <string name="hello"> Hello: </string>
+    <string name="write_your_message_here">Write your message here..!</string>
+    <string name="set_home_location">Set Home Location</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="arabic">Arabic</string>
+
+    <string name="title_fingerprint">One-touch Sign In</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="manage_accounts">Manage Account</string>
+    <string name="app_settings">App Setting</string>
+    <string name="rating_app">Rating App</string>
+    <string name="my_notifications">My Notifications</string>
+    <string name="clear_all">Clear All</string>
+
+    <string name="to">To :</string>
+    <string name="rate_our_app">Rate Our App</string>
+    <string name="name_on_the_card">Name on the card</string>
+    <string name="student_expenses">Student Expenses</string>
+    <string name="expire_date">Expire Date</string>
+    <string name="add_expenses">Add Expenses</string>
+
+
+    <string name="research_projects">Research Projects</string>
+    <string name="schedules">Schedules</string>
+    <string name="evaluate_student">Evaluate Student</string>
+    <string name="note_title">Note :</string>
+    <string name="add_receipt_name">Add receipt</string>
+    <string name="name_vs">الاسم :</string>
+    <string name="job">Job</string>
+    <string name="adding_complains">Adding Complains</string>
+    <string name="adding_complains_or_suggestions">Adding Complains or Suggestions</string>
+    <string name="add_the_subject">Add The Subject</string>
+    <string name="add_details">Add Details</string>
+    <string name="attach_your_files">Attach Your Files</string>
+    <string name="clear_selected">Clear Selected</string>
+    <string name="area_name">Area Name</string>
+    <string name="location_name">Location Name</string>
+
+
+    <string name="voice_note">Voice Note</string>
+    <string name="record_voice_note">Press the mic button \n to record voice note</string>
+    <string name="playing">Playing</string>
+    <string name="finished">Finished</string>
+    <string name="media_player">Media Player</string>
+
+    <string name="vaild_dagree_total">خطأ ف الدرجات حيث ان درجه الاختبار </string>
+    <string name="vaild_dagree_total1">مجموع الدرجات المدخله</string>
+    <string name="add_assignment">Add Assignment</string>
+    <string name="student_degrees">Student Degrees</string>
+    <string name="body">Body</string>
+    <string name="add_weekly_plan">Add Weekly Plan</string>
+    <string name="update_weeklyplan">Update WeeklyPlan</string>
+    <string name="submit_researches">Submit Researches</string>
+    <string name="your_degree">Your Degree :</string>
+    <string name="start_the_quiz">Start The Quiz</string>
+    <string name="q">Q :</string>
+    <string name="name_semi">Name :</string>
+    <string name="grade_semi">Grade :</string>
+    <string name="school_name_semi">School Name :</string>
+    <string name="exam_class_semi">Exam Class :</string>
+
+
+    <string name="exit_the_editor">Are you sure you want to exit the editor?</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="exit_editor">Exit Editor?</string>
+    <string name="choose">Choose</string>
+    <string name="answer_content">Answer content</string>
+    <string name="question_content_2">Question content</string>
+
+    <string name="permission_storage_needed">Permission to use gallery</string>
+
+
+    <string name="permission_message_photo">This permission is required to access your storage</string>
+    <string name="permission_message_location">This permission is required  to connect to the GPS so that we can access your location</string>
+    <string name="access_your_storage">We need this permission to access your storage</string>
+
+    <string name="question_content">Question content …</string>
+    <string name="start_writing_here">Start writing here…</string>
+    <string name="choose_the_right_answer" translatable="false">Please choose the right answer ?</string>
+    <string name="title_activity_editor_test">Editor Demo</string>
+
+
+    <string name="excellent_students">Excellent Students</string>
+    <string name="first_place">First Place</string>
+    <string name="second_place">Second Place</string>
+    <string name="third_place">Third Place</string>
+    <string name="fourth_place">Fourth Place</string>
+    <string name="fifth_place">Fifth Place</string>
+    <string name="sixth_place">Sixth Place</string>
+    <string name="seventh_place">Seventh Place</string>
+    <string name="eighth_place">Eighth Place</string>
+    <string name="ninth_place">Ninth Place</string>
+    <string name="tenth_place">Tenth Place</string>
+
+    <string name="maximum_video">Maximum post video 8 videos</string>
+    <string name="add_comment">add comment</string>
+    <string name="Done">Done</string>
+    <string name="invite_friends">Invite friends</string>
+    <string name="follow">Follow</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="personal_info">Personal info</string>
+    <string name="centerReviews">Reviews</string>
+    <string name="suggested">Suggested</string>
+    <string name="title_feeds_empty">Build your community</string>
+    <string name="findfriends">Find Friends</string>
+    <string name="text_content_feeds_empty">this is where your friends activity will appear. follow your most active friend using rellit, to track their adventures and share some encouragement</string>
+    <string name="what_s_in_your_mind">what\'s in your mind …</string>
+    <string name="like">Like</string>
+    <string name="comments">Comments</string>
+    <string name="no_comments_found">No Comments Found.</string>
+    <string name="likes">Likes</string>
+    <string name="like_me">Like</string>
+    <string name="feeds">Feeds</string>
+    <string name="minutes">Minutes</string>
+    <string name="hours">Hours</string>
+    <string name="Years">Years</string>
+    <string name="months">Months</string>
+    <string name="dashboard_feeds">dashboard</string>
+    <string name="comment_feed">\" Comment\"</string>
+    <string name="comment_0">0 Comment</string>
+    <string name="like_0">0 Like</string>
+
+
+    <string name="sample_title">ChatKit for Android</string>
+
+    <string name="view">View</string>
+
+
+    <string name="sample_title_default">Default view</string>
+    <string name="sample_subtitle_default">Dialogs and messages with default style</string>
+    <string name="sample_title_attrs">Styled view</string>
+    <string name="sample_subtitle_attrs">Styled components using embedded attributes</string>
+    <string name="sample_title_layout">Custom layout</string>
+    <string name="sample_subtitle_layout">Custom layouts to change default views position</string>
+    <string name="sample_title_holder">Custom view holder</string>
+    <string name="sample_subtitle_holder">Custom view holder to extend default behaviour for a new features</string>
+    <string name="sample_title_custom_content">Custom content type</string>
+    <string name="sample_subtitle_custom_content">Custom message content on the example of voice message</string>
+
+    <string name="hint_enter_a_message">Type a message…</string>
+    <string name="on_log_click_message">Your custom long click handler</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="copied_message">Message copied!</string>
+
+    <string name="date_header_today">Today</string>
+    <string name="date_header_yesterday">Yesterday</string>
+
+    <string-array name="view_types_dialog">
+        <item name="image">Image (default)</item>
+        <item name="voice">Voice message (custom)</item>
+    </string-array>
+
+    <string name="start_typing_status">Start typing</string>
+    <string name="stop_typing_status">Stop typing</string>
+    <string name="from">From : </string>
+    <string name="Attachment">"Attachment : "</string>
+    <string name="reply_message">Reply Message</string>
+    <string name="complain_inbox">Complain Inbox</string>
+    <string name="complain_sent">Complain Sent</string>
+    <string name="suggestion_inbox">Suggestion Inbox</string>
+    <string name="suggestion_sent">Suggestion Sent</string>
+    <string name="mail">Mail</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="complain">Complain</string>
+    <string name="stage">Stage</string>
+    <string name="name_contactus">name</string>
+    <string name="title_message">title message</string>
+    <string name="sent_archive">Sent archive</string>
+    <string name="inbox_archive">In-Coming message archive</string>
+    <string name="inbox2">Inbox</string>
+    <string name="archive_message">Archive messages</string>
+    <string name="section_no">Section No :</string>
+    <string name="label_paid">The amount paid</string>
+    <string name="label_not_paid">Remaining amount</string>
+    <string name="touch_id_for_smartschools">Touch Id for SmartSchools</string>
+    <string name="do_you_want_to_use_the_fingerprint_login_feature">Do you want to use the fingerprint login feature?</string>
+    <string name="add_quiz_assignment">Add Electronic homework</string>
+    <string name="quiz_assignment">Electronic homework</string>
+    <string name="start_quiz_assignment">Start your homework</string>
+    <string name="degree_quiz">Degree quiz :</string>
+    <string name="label_assignments">Assignments</string>
+    <string name="back_to_main">Back to main</string>
+    <string name="friday">Friday</string>
+    <string name="please_choice_the_month">Please choice the month</string>
+    <string name="accounts">My accounts</string>
+    <string name="back">Back</string>
+    <string name="invalid_login_or_active">Username or password incorrect or your account is disabled by administration Please contact the administration..!</string>
+    <string name="chlid_irregularites">Children Irregularities</string>
+    <string name="student_result_quiz">Quiz answers </string>
+    <string name="no_folders_found">no folders found</string>
+    <string name="product">Products</string>
+    <string name="available_product">Available Product</string>
+    <string name="exception_product">Exception Product</string>
+    <string name="canteen_school">Canteen School</string>
+    <string name="product_available_for_student">Product Available For Student</string>
+    <string name="product_exception_for_student">Product Exception For Student</string>
+    <string name="my_wallet">"My Wallet "</string>
+    <string name="invaild_amont">please enter amounts</string>
+    <string name="buy_product_for_student">Buy Product For Student</string>
+    <string name="delete_products_exception">Delete Products Exception</string>
+    <string name="choos_products_exception">Choose Products Exception</string>
+    <string name="balance">Balance :</string>
+    <string name="quantity">Quantity</string>
+    <string name="cost">Cost</string>
+    <string name="description_arabic">description arabic</string>
+    <string name="logo_product">Logo product</string>
+    <string name="attention_please_if_you_need_to_update_item_please_select_to_update_if_you_need_to_delete_item_select_to_delete">Attention please if you need to update item please select to update .. if you need to delete item select to delete ..!</string>
+    <string name="invalid_quantity">Please enter Quantity</string>
+    <string name="invaild_descriptio_product">Please enter description .</string>
+    <string name="invalid_attachment">please add logo product</string>
+    <string name="add_product">Add Product</string>
+    <string name="update_product">Update Product</string>
+    <string name="sale_product_student">Sale Product For Student</string>
+    <string name="add_fees_to_parent">Add Fees For Parent</string>
+    <string name="scan_card_student">Scan Card </string>
+    <string name="cash">Cash</string>
+    <string name="active_buy">Active Buy Products</string>
+    <string name="wallet_buy">Buy From My Wallet</string>
+    <string name="please_choose_products">Please select the products you want to buy..!</string>
+    <string name="student_requests_available">Student Requests Available</string>
+    <string name="wallet_charge">Wallet Charge</string>
+    <string name="repeting_questions">Error in repeating questions. Please delete the repeated question..!</string>
+    <string name="new_complain_or_suggest">New Complain Or Suggest</string>
+    <string name="password">Password</string>
+    <string name="certificate">Certificate</string>
+    <string name="red_result">Red = Didn\'t master the skills</string>
+    <string name="yellow_result">Yellow = Needs some support</string>
+    <string name="green_result">Green = have knowledge</string>
+    <string name="blue_result">Blue = exceeded expectations</string>
+    <string name="exceeded_expectations">exceeded expectations</string>
+    <string name="have_the_knowledge">have knowledge</string>
+    <string name="in_need_of_some_support">needs some support</string>
+    <string name="didnt_master_the_skills"> Didn\'t master the skills</string>
+    <string name="total_order">Total order : %1$d L.E</string>
 </resources>

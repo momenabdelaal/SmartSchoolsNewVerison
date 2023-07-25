@@ -7,8 +7,8 @@ import javax.inject.Inject
 class UserUseCase @Inject constructor(private val userRepo: UserRepository) {
 
 
-    fun saveApiKeyToken(apiKey: String) = userRepo.saveApiKeyToken(apiKey)
-    fun saveRememberMe(rememberMe: String) = userRepo.saveRememberMe(rememberMe)
+//    fun saveApiKeyToken(apiKey: String) = userRepo.saveApiKeyToken(apiKey)
+//    fun saveRememberMe(rememberMe: String) = userRepo.saveRememberMe(rememberMe)
 
 //    suspend fun userLogin(userName: String, pass: String) =
 //        userRepo.userLogin(userName, pass)

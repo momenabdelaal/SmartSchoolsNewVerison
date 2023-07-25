@@ -1,10 +1,254 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#9a1208</color>
+    <color name="colorPrimaryDark">#9a1208</color>
+    <color name="colorAccent">#9a1208</color>
+    <color name="colorbuExpand">#ce205f</color>
+
+
+
+    <color name="ColorYellow"> #f6ec21</color>
+    <color name="colorTextHint">#4b4d4f</color>
+    <color name="colorText">#4b4d52</color>
+    <color name="ColorTextBlack">#0f0d0d</color>
+    <color name="ColorBackgroundNav">#dfe5e6</color>
+    <color name="ColorView">#cecece</color>
+    <color name="colorOfGray">#f9f9f9</color>
+    <color name="colorGray">#A3A2A2</color>
+
+
+    <color name="colorSchoolSchedule">#FFBC36</color>
+    <color name="color">#FFBC36</color>
+
+
+
+    <color name="colorNotification">#0999c1</color>
+
+
+    <color name="colorSPrimary">#3e0333</color>
+    <color name="transparent">#80000000</color>
+    <color name="colorOrangeText">#fdaf04</color>
+    <color name="colorBlueText">#0071da</color>
+    <color name="colorRedText">#9b1e21</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorGreen">#25ab00</color>
+    <color name="colorGreenDark">#238c07</color>
+    <color name="green">#71d629</color>
+    <color name="green2">#F1FBEA</color>
+    <color name="graylight">#fafafa</color>
+    <color name="primaryDark">#292b3d</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="line">#21a8f6</color>
+
+    <color name="app_fonts_colors">#CC0066</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#e6b710</color>
+    <color name="transparent_black">#ae000000</color>
+
+    <color name="colorPrimaryText">#ffffff</color>
+    <color name="colorSecondaryText">#965f5f</color>
+    <color name="colorHintText">#b7b3b3</color>
+    <color name="colorLine">#cad0cb</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="gen_black">#000000</color>
+    <color name="new_title_color">#636161</color>
+
+    <color name="description">#a9a9a9</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+
+    <color name="bkcolor">#f0f0f0</color>
+    <color name="grey_light">#E0E0E0</color>
+    <color name="grey_dark">#E0E0E0</color>
+    <color name="grey_back">#d7dddf</color>
+    <color name="blue">#0787ff</color>
+    <color name="red">#c9000d</color>
+
+
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#2278d4</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#d1395c</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+
+
+
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#93c6fd</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#e4b5fc</color>
+    <color name="dot_light_screen4">#f98da5</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+    <!-- Placeholder colors-->
+    <color name="stay_color">#999999</color>
+
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+    <color name="bg_row_background">#fa315b</color>
+    <color name="archive_background">#0b6c52</color>
+    <color name="subject">#111111</color>
+
+    <color name="from">#000000</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+    <color name="yellow">#FFEB3B</color>
+    <color name="gold">#ffd700</color>
+
+    <color name="grey_light_more">#f2f2f2</color>
+
+    <color name="inputtext">#aeadab</color>
+    <color name="radio">#787777</color>
+    <color name="colorpink">#E91E63</color>
+
+    <color name="colorTransback">#3E9A1208</color>
+
+
+    <array name="array_class">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/line</item>
+        <item>@color/colorGreen</item>
+
+        <item>@color/blue</item>
+
+        <item>@color/colorNotification</item>
+        <item>@color/primaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+
+    </array>
+
+
+
+
+
+
+
+
+    <color name="colorIndicator">#00b2ff</color>
+    <color name="Snow">#fafafa</color>
+    <color name="Brandeisblue">#0075fb</color>
+    <color name="colorPrimaryFeed">#F7F7F7</color>
+    <color name="colorPrimaryDarkFeed">#F7F7F7</color>
+    <color name="colorAccentFeed">#EA80FC</color>
+    <color name="colorB">#034ee5</color>
+    <color name="colorM">#2D69ED</color>
+    <color name="colorBlue">#3e82f7</color>
+    <color name="colorActionBar">#00223c</color>
+    <color name="yellowSelective">#ffb900</color>
+    <color name="grayTaupe">#80878d</color>
+    <color name="colorSlateBlue">#7052d5</color>
+
+    <color name="OxfordBlue">#00223c</color>
+    <color name="Ghostwhite">#fafafb</color>
+    <color name="Ashgrey">#b6b6b6</color>
+    <color name="Taupegray">#80878d</color>
+    <color name="BleudeFrance">#3e82f7</color>
+    <color name="Deepskyblue">#00b2ff</color>
+    <color name="Cornflowerblue">#6887f0</color>
+    <color name="colorOfLineView">#eaeaeb</color>
+    <color name="Whitesmoke">#f5f6f8</color>
+    <color name="grayDim">#707070</color>
+
+
+
+
+
+
+
+
+
+    <color name="cornflower_blue">#6274e2</color>
+    <color name="cornflower_blue_dark">#303F9F</color>
+    <color name="cornflower_blue_darkest">#2d3a93</color>
+    <color name="gray">#ebebeb</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark">#858585</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="gray_darkest">#ae282828</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#19000000</color>
+    <color name="ivory">#f8efe6</color>
+    <color name="ivory_dark">#f7e8d9</color>
+    <!--    <color name="green">#38be55</color>-->
+    <color name="green_dark">#2da346</color>
+    <!--    <color name="red">#e94f4f</color>-->
+    <color name="brown">#4e342e</color>
+
+    <!--    <color name="white">#fff</color>-->
+
+
+    <color name="purple_200">#9C27B0</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#E095ED</color>
+    <color name="teal_200">#1E1E1E</color>
+    <color name="teal_700">#A49FA5</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <color name="Lapislazuli">#3b5999</color>
+    <color name="Dimgray">#707070</color>
+    <color name="Slateblue">#7052d5</color>
+    <color name="Onyx">#01101b</color>
+    <color name="Manatee">#95989a</color>
+    <color name="Charcoal">#344049</color>
+    <color name="facebookbgcolor">#3b5999</color>
+    <color name="grey">#b6b6b6</color>
+    <color name="yellow_middle">#C9C9C9</color>
+    <color name="yellow_end">#fafafb</color>
+
+
+
+
+
 </resources>

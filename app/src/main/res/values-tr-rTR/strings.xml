@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Akıllı Okullar</string>
+
+    <string name="submit">Gönder</string>
+    <string name="save_new_password">Şifreyi Kaydet</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="network_error">Ağ Hatası</string>
+    <string name="time">Zaman :</string>
+    <string name="date">Tarih</string>
+    <string name="cancel">İptal</string>
+    <string name="clear">Temizle</string>
+    <string name="technical_suppor">teknik destek</string>
+    <string name="ok">Tamam</string>
+
+
+    <string name="next">Sonraki</string>
+    <string name="change_password">Şifreyi Değiştir</string>
+    <string name="skip">SKIP</string>
+    <string name="start">ANLADI</string>
+
+
+    <!--dört ekran kaydırıcısını yapmak-->
+    <string name="slide_1_title">Yönetici</string>
+    <string name="slide_1_desc">Yönetici, öğretmenler, öğrenciler ve veliler arasında etkili iletişim. tüm işlemlerin tam otomasyonuyla .</string>
+
+    <string name="slide_2_title">Ebeveynler</string>
+    <string name="slide_2_desc">Ebeveyn, okul koordinatörü ile doğrudan iletişim kurabilir ve başkalarının davranış ihlallerini takip ederek bunların oluşumunu ve kayıtlarını oluşturabilir, ayrıca çocukların notlarını ve başarı dosyalarını takip edebilir ve takip edebilir. öğretmenler \'çocukları değerlendirebilir ve okul anketine katılabilir.</string>
+
+    <string name="slide_3_title">Öğrenciler </string>
+    <string name="slide_3_desc">SmartSchools, Öğrenciler ve okulun paydaşları arasındaki iletişimi kolaylaştırır ve en iyi uzaktan eğitim yöntemlerini uygular.</string>
+
+
+    <string name="slide_4_title">Öğretmen </string>
+    <string name="slide_4_desc">SmartSchools, kalıcı olarak açık bir iletişim kanalıyla Öğretmenler ve Öğrenciler veya yöneticiler ve çalışanlar arasındaki iletişimi ve işbirliğini kolaylaştırır. Genel iletişim yönetimini kolaylaştırırlar: küresel veya bireysel e-postalar, mesajlar, Sosyal Öğrenme ve gündem. Kullanıcının tüm önemli veya hayati bilgileri tek bir ekranda bulabileceği bir ortam.</string>
+    <!--dört ekran kaydırıcısını yapmak-->
+
+
+    <string name="bus_tracking">Otobüs Takibi</string>
+
+    <string name="about_us">Hakkımızda</string>
+
+    <string name="contact_us">Bize Ulaşın</string>
+
+    <string name="search">Ara</string>
+
+
+    <string name="details">Ayrıntılar</string>
+    <string name="image">resmin</string>
+    <string name="wifi_off">İnternet\'e bağlanılamıyor Lütfen ağa bağlandığınızdan emin olun ve tekrar deneyin</string>
+    <string name="try_again">TEKRAR DENEYİN</string>
+    <string name="pref_ringtone_silent">Sessiz</string>
+    <string name="summary_language">Tercih ettiğiniz dili belirtin</string>
+    <string name="summary_choose_ringtone">Bildirim sesini seçin</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="title_new_notification_sound">Yeni mesaj bildirimi</string>
+    <string name="key_language">anahtar_dil</string>
+    <string name="notifications_new_message">bildirimler</string>
+    <string name="correct_errors">lütfen hataları düzeltin</string>
+
+
+    <string name="language">Dil</string>
+    <string name="settings">Ayarlar</string>
+    <string name="status">Durum : </string>
+
+    <string name="are_you_sure">Voulez-vous démarrer un appel téléphonique avec ce pilote ?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="attention">Dikkat</string>
+    <string name="person_name">Kate Jennifer</string>
+    <string-array name="lang_entries">
+        <item>العربية</item>
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="pref_lang">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+
+
+    <string name="no_internet_connection">İnternet bağlantısı yok .</string>
+    <string name="terms_condition">Şartlar Koşul</string>
+
+
+    <string name="new_pass">Yeni şifre</string>
+    <string name="confirm_password">Yeni şifreyi onaylayın</string>
+    <string name="terms_conditions">Şartlar ve Koşullar</string>
+    <string name="send"> Gönder </string>
+    <string name="navigation_drawer_open"> Gezinme çekmecesini aç</string>
+    <string name="navigation_drawer_close"> Gezinme çekmecesini kapatın</string>
+    <string name="name"> Tam ad</string>
+    <string name="email"> E-posta</string>
+
+    <string name="login">Giriş</string>
+    <string name="invalid_name"> Lütfen adınızı girin</string>
+
+
+    <string name="invalid_email">Lütfen geçerli e-posta adresinizi girin</string>
+    <string name="invalid_email_phone">Lütfen e-posta adresinizi veya telefonunuzu girin</string>
+    <string name="invalid_description">Lütfen açıklama girin</string>
+
+    <string name="invalid_phone"> Lütfen telefon numaranızı girin</string>
+
+
+    <string name="invalid_login">Kullanıcı adı veya şifre yanlış</string>
+    <string name="invalid_password">Lütfen geçerli bir şifre girin</string>
+    <string name="invalid_password_confirm">Lütfen şifrenizi onaylayın</string>
+    <string name="compaines"> Şirketler </string>
+
+
+    <string name="permission_needed">GPS kullanma izni</string>
+    <string name="permission_message">Kişisel fotoğrafınızı yükleyebilmeniz için resimlere bağlanmak için bile bu izin gereklidir.</string>
+    <string name="must_permission">Bu izin, kişisel fotoğrafınızı yükleyebilmeniz için resimlere bağlanmak için bile gereklidir.</string>
+
+
+    <string name="message_title">Mesaj Başlığı</string>
+    <string name="message_body">Mesaj Gövdesi</string>
+
+
+    <string name="invalid_section">Lütfen reklam bölümünü seçin</string>
+
+    <string name="invalid_type">Lütfen reklam türünü seçin</string>
+
+
+    <string name="error_530">Üzgünüz, sunucumuzda bir sorun oluştu, lütfen yönetici ile devam edin</string>
+    <string name="error_404">Bu sayfadaki veriler şu anda kullanılamıyor, daha sonra tekrar deneyin</string>
+    <string name="error_500">Üzgünüz, sunucumuzda bir sorun oluştu, lütfen yönetici ile devam edin</string>
+    <string name="error_400">Bilinmeyen bir hata oluştu, lütfen yönetici ile devam edin"</string>
+
+    <string name="unknown_error">Bilinmeyen bir hata oluştu, lütfen yönetici ile devam edin"</string>
+    <string name="illega_state_exception">Verileri görüntülemeye çalışırken bir hata oluştu. Lütfen yönetimle iletişime geçin</string>
+    <string name="mycard">Kartım</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="enter_your_e_mail_below_to_rest_your_password">Şifrenizi yenilemek için aşağıya e-posta adresinizi girin.</string>
+    <string name="help">Yardım</string>
+    <string name="mobile">Mobil</string>
+
+    <string name="old_password">Eski Şifre</string>
+    <string name="old_password_title">Şifrenizi yenilemek için Eski Parolanızı aşağıya girin.</string>
+
+
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="my_messages">Mesajım</string>
+
+    <string name="membership_card">MemberShip Kartı</string>
+
+    <string name="attendance">Katılım</string>
+    <string name="weekly_plan">Haftalık Plan</string>
+    <string name="quiz">Sınav</string>
+    <string name="assignment">Günlük ödevler</string>
+    <string name="grading">Not Verme</string>
+    <string name="my_children">Çocuklarım</string>
+    <string name="bus">Otobüs</string>
+
+
+    <string name="notification_text">İzleme, iptal etmek için dokunun</string>
+    <string name="transport_id" translatable="false">7891</string>
+    <string name="firebase_path" translatable="false">harita/işaretçiler</string>
+    <string name="firebase_email" translatable="false">mahmoud.elhofy92@gmail.com</string>
+    <string name="firebase_password" translatable="false">Pa$$w0rd</string>
+
+
+    <string name="inbox">Gelen mesaj</string>
+    <string name="sent">Gönderildi</string>
+
+
+    <string name="schoolcourses">Okul Kursları</string>
+    <string name="studentsevaluations">Öğrenci Değerlendirmeleri</string>
+
+    <string name="create_assigment">Atama Oluştur</string>
+    <string name="absence_report">Yokluk Raporu</string>
+    <string name="archive">Arşivle</string>
+    <string name="first">ilk</string>
+    <string name="second">saniye</string>
+    <string name="thried">denetim</string>
+    <string name="fourth">dördüncü</string>
+    <string name="weeklyplan">Haftalık Plan</string>
+    <string name="save">Kaydet</string>
+    <string name="select_classes">Sınıfları Seçin</string>
+    <string name="smartschoolsnetwork">Akıllı Okullar Ağı</string>
+    <string name="namecard">Mahmud ibrahim mohamed</string>
+    <string name="_30_08_2019">Bitiş : 30 –08 – 2019</string>
+    <string name="stuednt">Öğrenci</string>
+    <string name="dashboard">Gösterge Tablosu</string>
+    <string name="attendance_student">Katılım Öğrencisi</string>
+    <string name="teachers">Öğretmenler</string>
+    <string name="student">Öğrenci</string>
+    <string name="employees">Çalışanlar</string>
+    <string name="supervisors">Denetçiler</string>
+    <string name="buss">Otobüs</string>
+    <string name="classes">Sınıflar</string>
+
+
+    <string name="grade">Sınıf *</string>
+    <string name="attachments">Ekler</string>
+    <string name="attachment">Ek : </string>
+
+
+    <string name="assignment_details">Atama Ayrıntıları</string>
+    <string name="select_subject">Konu Seç</string>
+    <string name="done_successfully">Başarıyla Yapıldı</string>
+    <string name="select_picture">Resim Seç</string>
+
+    <string name="invalid_class">geçersiz Sınıf</string>
+    <string name="select_section">Bölüm Seç</string>
+    <string name="income">Gelir</string>
+    <string name="outcome">Sonuç</string>
+    <string name="testname">Ad testi :</string>
+    <string name="testmetterm">test terimi</string>
+    <string name="gradetest">Sınıf :</string>
+    <string name="closed">kapatıldı</string>
+    <string name="type">Tür :</string>
+    <string name="timetext">Zaman :</string>
+    <string name="review">İnceleme : </string>
+    <string name="students">Öğrenciler :</string>
+    <string name="comment_supervisor">Yorum Denetçisi</string>
+    <string name="message_details">Mesaj Ayrıntıları</string>
+    <string name="student_answer">Öğrenci Yanıtı</string>
+    <string name="write_the_answer_here">Yanıtı buraya yazın…</string>
+    <string name="choose_file">Dosya Seç</string>
+    <string name="school_courses">Okul Kursları</string>
+    <string name="quizzes">Sınavlar</string>
+    <string name="start_quiz">Sınavı Başlat</string>
+    <string name="done">bitti!</string>
+    <string name="min_sec">%d dk, %d sn</string>
+    <string name="answer_has_been_sent">Yanıtınız başarıyla gönderildi</string>
+    <string name="week">Hafta:</string>
+    <string name="term">Terim :</string>
+
+
+    <!--yükseltme anı-->
+    <string name="newmessage">Yeni Mesaj</string>
+    <string name="send_to">Gönder</string>
+    <string name="message">Mesaj</string>
+    <string name="write_the_assignment_here">Atama ayrıntıları… *</string>
+    <string name="from_date_17_12_2018">17–12–2018 Tarihinden *</string>
+    <string name="to_date_17_12_2018">17–12–2018 Tarihine Kadar *</string>
+    <string name="giza_haram_6_october">Gize - Haram - 6 Ekim</string>
+    <string name="bus_number_5_at_sd">Otobüs Numarası: </string>
+    <string name="driver_logy_mohamed_ahmed">Sürücü : </string>
+    <string name="start_the_travel">Seyahate başlayın</string>
+    <string name="address">adres</string>
+    <!--momen-->
+
+
+    <string name="saturday">Cumartesi</string>
+
+    <string name="sunday">Pazar</string>
+
+    <string name="monday">Pazartesi</string>
+
+    <string name="tuesday">Salı</string>
+
+    <string name="wednesday">Çarşamba</string>
+
+    <string name="thursday">Perşembe</string>
+
+    <string name="select_lesson">Ders Seç</string>
+
+    <string name="attendance_staff">Personel Günlük \nYokluk</string>
+    <string name="absence_staff">Personelin Günlük Devamsızlığı</string>
+
+    <string name="select_units">Birimleri Seçin</string>
+    <string name="driver">Sürücü</string>
+    <string name="supervisor">Denetçi</string>
+    <string name="buses">Otobüsler</string>
+    <string name="points_10">Puanlar</string>
+    <string name="you_have_no_children">Okul otobüsüne kayıtlı çocuğunuz yok</string>
+    <string name="forward">İleri</string>
+    <string name="reply">Yanıtla</string>
+    <string name="the_sender">Gönderen</string>
+    <string name="absence">Yokluk</string>
+    <string name="students_absence">Öğrencilere Devam</string>
+    <string name="session_activities">Öğrenci Davranışları</string>
+    <string name="teacher_absence">Öğretmen Devamsızlığı</string>
+    <string name="without_excuse">Mazeretsiz</string>
+    <string name="employee_absence">Çalışan Devamsızlığı</string>
+
+
+    <string name="select_quetsions">Soruları Seçin</string>
+    <string name="one_answer">Tek Cevap</string>
+
+    <string name="mutli_answers">Birden Çok Yanıt</string>
+    <string name="name_quiz">Sınav Başlığı</string>
+    <string name="choice_term">Seçim Terimi</string>
+    <string name="term_1">1. Dönem</string>
+    <string name="term_2">2. Dönem</string>
+    <string name="term_3">3. Dönem</string>
+    <string name="term_4">4. Dönem</string>
+
+    <string name="periodic_quiz">Periyodik Test</string>
+    <string name="un_periodic_quiz">Periyodik olmayan Test</string>
+    <string name="class_name">Sınıf Adı :</string>
+    <string name="choose_questions">Soru seçin</string>
+    <string name="open">Aç</string>
+    <string name="close">Kapalı</string>
+    <string name="questions_bank">Soru bankası</string>
+    <string name="select_class">Sınıf Seç</string>
+    <string name="show_students">Veri Yükle</string>
+    <string name="select_all">tümünü seç</string>
+    <string name="select_type_attendance">Katılım türünü seçin</string>
+    <string name="attendance_employee">Katılım Çalışanı</string>
+
+    <!-- sdsd -->
+    <string name="study_schedules">Çalışma Programları</string>
+    <string name="no_results_found">Sonuç bulunamadı .</string>
+    <string name="update">Güncelleme</string>
+    <string name="forget_your_password">Şifrenizi mi unuttunuz?</string>
+    <string name="enter_your_password">Parola</string>
+    <string name="add">Ekle</string>
+    <string name="describe_your_product">Ürününüzü tanımlayın… *</string>
+    <string name="title">Başlık *</string>
+    <string name="profile">Profil</string>
+    <string name="edit_profile_message">Verileriniz başarıyla değiştirildi</string>
+    <string name="login_success">Akıllı okullar sistemine hoş geldiniz</string>
+    <string name="logout">Çıkış</string>
+
+
+    <string name="unit">Birim</string>
+    <string name="lesson">Ders</string>
+    <string name="mygrade">Notunuz</string>
+    <string name="question_name">soru adı</string>
+    <string name="teachers_library">Öğretmen Kitaplığı</string>
+    <string name="subject">Konu : </string>
+    <string name="class_teacher">Sınıf : </string>
+    <string name="lecture">Ders : </string>
+    <string name="teacher_name">Öğretmen : </string>
+    <string name="bus_tracker">Otobüs İzleyici</string>
+
+
+    <string name="update_this_assignments">Bu atamaları güncellemek istiyor musunuz..!</string>
+
+
+    <string name="invalid_term">Lütfen eklenecek terimi seçin</string>
+    <string name="do_you_want_delete">Bu atamayı silmek istiyor musunuz ..!</string>
+    <string name="update_assignment">Atamayı güncelleyin </string>
+    <string name="delete_assignment">Atamayı sil</string>
+
+    <string name="invalid_grade"> Lütfen notunuzu girin</string>
+    <string name="invalid_time"> Lütfen saatinizi girin</string>
+    <string name="invalid_date"> Lütfen tarihinizi girin</string>
+    <string name="invalid_body"> Lütfen bedeninizi girin</string>
+    <string name="agreement_on_discounts">İndirim anlaşması</string>
+    <string name="invalid_question">Lütfen soruları seçin</string>
+    <string name="student_report"><![CDATA[Katılım ve ayrılma]]></string>
+
+    <string name="session_1"> ilk </string>
+
+    <string name="session_2"> saniye </string>
+
+    <string name="session_3"> üçüncü </string>
+
+    <string name="session_4"> dördüncü </string>
+
+    <string name="session_5"> beşinci </string>
+
+    <string name="session_6"> altıncı </string>
+
+    <string name="session_7"> yedinci </string>
+
+    <string name="session_8"> sekizinci </string>
+
+    <string name="session_9"> dokuzuncu </string>
+
+    <string name="session_10"> onuncu </string>
+    <string name="do_open">Bu dosyayı açmak istiyor musunuz?</string>
+    <string name="download">İndir</string>
+
+    <string name="absence_daily_attend">absence.daily katılım</string>
+    <string name="attend">Katıl </string>
+    <string name="coming_late">Geç geliyor </string>
+    <string name="didnt_solve_assignment">Ödevi çözmedi </string>
+    <string name="penalty">Penaltı </string>
+    <string name="penalty_reason">Ceza nedeni </string>
+    <string name="bonus">Bonus </string>
+    <string name="excused_absence">Affedilen devamsızlık </string>
+    <string name="reason_of_absence">Yok olma nedeni </string>
+
+    <string name="invalid_type_attendance">Lütfen devamsızlık türünü belirtin</string>
+    <string name="no_sessions_found">Oturum bulunamadı</string>
+    <string name="date_dd_mm_yyyy">Tarih GG/AA/YYYY</string>
+    <string name="select_time">Zaman Seç</string>
+    <string name="choice_subject_have_question">Lütfen konu seçiminde bir sorunuz var ..!</string>
+    <string name="time_table_exams">Sınav Tabloları</string>
+    <string name="exams_result">Sınav Sonuçları</string>
+
+    <string name="expense_name">- Ad :</string>
+    <string name="receipt_no"> Fatura numarası </string>
+    <string name="payment_date_21_11_2017">Ödeme Tarihi:21 11 2017</string>
+    <string name="paid_date">Ödeme Tarihi:</string>
+    <string name="amount">Miktar </string>
+    <string name="total_expenses">Toplam :</string>
+    <string name="total_remains">Kalanlar: </string>
+    <string name="degree">Derece : </string>
+    <string name="scale">Not Verme Ölçeği : </string>
+
+    <string name="school_fees">Okul Ücretleri</string>
+
+
+    <string name="seat_number">Koltuk Numarası</string>
+    <string name="seat_no">Koltuk Numarası: </string>
+    <string name="academic_no">Akademik Yıl : </string>
+
+    <string name="seat_number_student">Yer Numarası Öğrenci</string>
+    <string name="class_exam">Sınıf Sınavı :</string>
+    <string name="exit">Çıkış</string>
+    <string name="grade_not_changed">Sınıf değiştirilmedi .. !!</string>
+    <string name="full_name">Lütfen tam adı girin</string>
+    <string name="enter_subject">Lütfen konuyu girin</string>
+    <string name="enter_message">Lütfen mesajı girin</string>
+
+    <string name="do_update">Bu satırı güncellemek istiyor musunuz?</string>
+    <string name="title_version">Sürüm 1.42</string>
+    <string name="url_verison">https://play.google.com/store/apps/details?id=smartschool.networl.com</string>
+
+    <string name="my_app_store">App Store\'daki Uygulama</string>
+    <string name="exams_affairs">Sınav İşleri</string>
+
+
+    <string name="course">Kurs : </string>
+
+    <string name="homeroom_teacher">Sınıf Öğretmeni: </string>
+    <string name="academic_year">Yıl</string>
+
+
+    <string name="grade_level">Sınıf Düzeyi :</string>
+    <string name="comment">Yorum :</string>
+    <string name="absence_no">Yokluk </string>
+    <string name="schedules_for_school_year_exams">Okul yılı sınavları için programlar</string>
+    <string name="control_examinations">Kontrol ve Muayenelerin Yönetimi</string>
+
+
+    <string name="exam_result">Sınav sonuçları</string>
+    <string name="mark">İşaretle</string>
+    <string name="Comments">Yorumlar</string>
+    <string name="grading_scele">Not Verme Ölçeği</string>
+    <string name="student_evalutions">Öğrenci Değerlendirmesi</string>
+
+    <string name="items">Öğeler</string>
+    <string name="my_points">Puanlarım</string>
+    <string name="last_update">Son güncelleme </string>
+    <string name="expenses">Giderler</string>
+    <string name="january">Ocak</string>
+    <string name="february">Şubat</string>
+    <string name="march">Mart</string>
+    <string name="april">Nisan</string>
+    <string name="may">Mayıs</string>
+    <string name="june">Haziran</string>
+    <string name="july">Temmuz</string>
+    <string name="august">Ağustos</string>
+    <string name="september">Eylül</string>
+    <string name="october">Ekim</string>
+    <string name="november">Kasım</string>
+    <string name="december">Aralık</string>
+
+    <string name="student_points">Öğrenci Puanları</string>
+
+    <string-array name="monthsArray">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+
+    </string-array>
+
+
+    <string-array name="months">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Haziran</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Aralık</item>
+    </string-array>
+
+
+    <string name="notifications">Bildirimler</string>
+    <string name="grade_from">Not:</string>
+    <string name="swtich_acoounts">Hesap Değiştir</string>
+
+
+    <string name="lorem_ipsum">Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir.</string>
+
+    <string name="discount_partners">İndirim Ortakları</string>
+    <string name="teacher">Öğretmen</string>
+
+
+    <string name="update_available">
+        Google Play Store\'da uygulama güncellemesi hız ve verimlilik gerektirir.\n
+Güncellemeyi yüklemek istiyor musunuz?
+    </string>
+    <string name="dear_customer">Akıllı Okullar Ağı Üyeleri:</string>
+    <string name="remind_me_later">Bana Daha Sonra Hatırlat</string>
+    <string name="update_available_title">Güncelleme Mevcut</string>
+    <string name="update_app">Yükle</string>
+
+
+    <string name="student_evaluate">Öğrenci Değerlendirmesi</string>
+
+    <string name="student_evaluate_activities">Bu öğrenci için tüm etkinlikleri değerlendirebilirsiniz.</string>
+    <string name="set_all">Tümünü Ayarla</string>
+
+    <string name="invalid_evaluate_value">Lütfen 0 ile 10 arasında bir değer girin</string>
+    <string name="invalid_evaluate_required">değerlendirme değeri gerekli</string>
+
+
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="move_to">Taşı</string>
+    <string name="upload_file">Dosya yükle</string>
+    <string name="create_folder">Klasör oluştur</string>
+    <string name="folder_name">Klasör Adı</string>
+
+    <string name="create_flie">Create flie</string>
+    <string name="description">Description</string>
+    <string name="file_name">File Name</string>
+    <string name="copy_to">Copy to</string>
+    <string name="update_folder"> Update folder</string>
+    <string name="update_file">Update File</string>
+    <string name="questionsbank">Questions Bank</string>
+    <string name="delete_success">Your Folder or File delete SuccesFully</string>
+
+    <string name="do_you_want_delete_file_or_folder">Do you want delete this file or folder?</string>
+
+
+    <string name="student_evaluation">Student Evaluation</string>
+    <string name="evaluation_details">Evaluation Details</string>
+    <string name="evaluation">Evaluation</string>
+    <string name="children_evaluations">Children Evaluations</string>
+
+
+    <string name="add_question">Add Question</string>
+    <string name="add_answer">Add answer</string>
+    <string name="single_answer">Single answer</string>
+    <string name="multi_answers">Multi answers</string>>
+    <string name="answer_name">Answer Name</string>
+    <string name="correct_answer">Correct answer</string>
+
+    <string name="minuem_answers">Please add two answers to this question..!</string>
+    <string name="please_choice_correct_answer">Please choose the correct answer to this question or check type of the question..!</string>
+    <string name="do_you_want_delete_question">Do you want to delete this question ..!</string>
+    <string name="edit_question">Edit question</string>
+
+    <string name="do_you_want_delete_quiz">Do you want to delete this quiz ..!</string>
+    <string name="single_answer_error">Your question type is single answer ,you cannot add multi answers for this question..!</string>
+    <string name="multi_answers_error">Your question type is  multi answers ,you cannot add single answer for this question..!</string>
+    <string name="chose_answers_error">You have chosen more than one correct answer. You have to add more answers..!</string>
+    <string name="delete_all">Delete all</string>
+    <string name="delete_selected">Delete selected</string>
+    <string name="content">Content</string>
+
+
+    <string-array name="categoryArray">
+        <item>Hospitals</item>
+        <item>Analytical Laboratories</item>
+        <item>Radiology Centers</item>
+        <item>Pharmacies</item>
+        <item>Doctors</item>
+        <item>Libraries</item>
+        <item>Shops</item>
+        <item>Entertainment</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="categoryValue">
+        <item>hospitals</item>
+        <item>analytical_laboratories</item>
+        <item>radiology_centers</item>
+        <item>pharmacies</item>
+        <item>doctors</item>
+        <item>libraries</item>
+        <item>shops</item>
+        <item>entertainment</item>
+        <item>others</item>
+    </string-array>
+
+    <string name="company_name">Şirket Adı :</string>
+    <string name="company_discount">İndirim</string>
+    <string name="company_governorate">Valilik :</string>
+    <string name="company_area">Alan :</string>
+    <string name="company_address">Adres :</string>
+
+    <string name="discount">- İndirim</string>
+    <string name="distance">Mesafe</string>
+    <string name="sort_by">Sırala :</string>
+
+    <string name="edit_data">Güncelleme</string>
+
+
+    <string name="total_result">Toplam Derece :</string>
+    <string name="total_percentage">Toplam Yüzde : </string>
+    <string name="total_evaluation">Toplam Ölçek : </string>
+    <string name="please_add_the_grade">lütfen notu ekleyin</string>
+    <string name="the_website_url_wrong">web sitesi url\'si yanlış ..!</string>
+    <string name="poll_survey"><![CDATA[Anket ve Anket]]></string>
+    <string name="please_select_attendance_or_absence">Lütfen devam veya devamsızlık seçin..!!</string>
+
+
+    <string name="subjects">Konular</string>
+    <string name="basic_subjects">Temel Konular</string>
+    <string name="subjects_not_total">Konular toplama eklenmemiş</string>
+
+    <!-- YAPILACAKLAR: Bu yer tutucu metni kaldırın veya değiştirin -->
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
+    <string name="occasions">Olaylar</string>
+    <string name="birthday">Doğum günü:</string>
+    <string name="say_happy_birthday">Doğum Günün Kutlu Olsun Deyin</string>
+    <string name="smart_schools">Akıllı Okullar</string>
+
+    <string name="facebook_app_id">1022392681294632</string>
+    <string name="fb_login_protocol_scheme">fb1022392681294632</string>
+    <string name="register">Kaydol</string>
+    <string name="middle_exams_result">Orta Sınav Sonucu</string>
+    <string name="secondary_exams_result">İkincil Sınav Sonucu</string>
+    <string name="primary_exams_result">Birincil Sınav Sonucu</string>
+
+
+    <string name="id_number">Ulusal Kimlik</string>
+    <string name="phone">Telefon</string>
+    <string name="regtiser">Kayıt</string>
+    <string name="invaild_id"> Lütfen ulusal kimliğinizi girin</string>
+    <string name="results">Sonuçlar</string>
+    <string name="invalid_set_no">* رقم الجلوس مطلوب</string>
+
+    <string name="details_survey">Ayrıntılar</string>
+    <string name="suggetion_complaint"><![CDATA[Öneriler ve \n şikayet]]></string>
+    <string name="complaints">Şikayetler</string>
+    <string name="suggestions">Öneriler</string>
+    <string name="please_enter_body">Lütfen içeriği girin</string>
+    <string name="please_enter_header">Lütfen üstbilgiyi girin</string>
+    <string name="header">Döşeme</string>
+    <string name="public_rational">Halkla ilişkiler</string>
+
+    <string name="if_u_have_suggestions">Önerileriniz varsa bize yardımcı olun..!</string>
+    <string name="if_u_have_compliant">Bir şikayetiniz varsa bize yardım edin..!</string>
+    <string name="public_relations_managment">Halkla ilişkiler yönetimi..!</string>
+    <string name="congratulations_from">Tebrikler :</string>
+    <string name="happy_birthday">Yaşın Tarihi</string>
+    <string name="Success">Önemli değil</string>
+    <string name="events">Olaylar</string>
+    <string name="birth_days">Doğum Günleri</string>
+    <string name="url_is_wrong">web sitesi url\'si yanlış ..!</string>
+
+
+    <string name="message_suggested">Önerilen mesaj</string>
+    <string name="message_compliant">Şikayet mesajı </string>
+    <string name="content_message">Mesajların içeriği..!</string>
+    <string name="if_u_have_inbox">Gelen kutusu mesajınız varsa..!</string>
+    <string name="if_u_have_sent">Mesaj gönderdiyseniz..!</string>
+
+
+    <string name="suggestions_complaints">Şikayetler &amp; Öneri</string>
+    <string name="manage_suggestions_complaint">Önerileri ve şikayetleri yönetin ..!</string>
+
+    <string name="school_attendance">Okula Devamsızlık</string>
+
+
+    <string name="add_event_activity">Etkinlik Ekle</string>
+
+    <string name="add_event">Etkinlik Ekle</string>
+    <string name="event_updated">Etkinlik güncellendi</string>
+    <string name="event_added">Etkinlik başarıyla eklendi</string>
+    <string name="edit_event">Etkinliği Düzenle</string>
+    <string name="date_of_event">Etkinlik tarihi</string>
+    <string name="description_event">Açıklama olayı…</string>
+    <string name="event_deleted">Etkinlik silindi</string>
+    <string name="add_grade">Not ekle</string>
+    <string name="answer_assignment">Yanıt ataması</string>
+
+    <string name="user_not_activeted">Hesabınız yönetim tarafından devre dışı bırakıldı Lütfen yönetimle iletişime geçin..!</string>
+    <string name="no_evaluation_found">Bu ay için değerlendirme yok</string>
+    <string name="no_absence_found">Yokluk bulunamadı.</string>
+    <string name="no_assignments_found">Atama bulunamadı.</string>
+    <string name="no_answers_found">Yanıt bulunamadı.</string>
+    <string name="no_birthdays_found">Doğum günü bulunamadı.</string>
+    <string name="no_events_found">Etkinlik bulunamadı.</string>
+    <string name="no_courses_found">Kurs bulunamadı.</string>
+    <string name="no_files_found">Dosya bulunamadı.</string>
+    <string name="no_exams_tables_found">Sınav tablosu bulunamadı.</string>
+    <string name="no_expenses_found">Harcama bulunamadı.</string>
+    <string name="no_evaluat_found">Değerlendirme bulunamadı.</string>
+    <string name="no_points_found">Puan bulunamadı.</string>
+    <string name="no_questions_found">Soru bulunamadı.</string>
+    <string name="no_quizzes_found">Test bulunamadı.</string>
+    <string name="no_students_found">Hiç öğrenci bulunamadı.</string>
+
+
+    <string name="official">Resmi</string>
+    <string name="experimental">Deneysel</string>
+    <string name="no_result">Sonuç bulunamadı.</string>
+    <string name="no_messages_found">Mesaj bulunamadı.</string>
+    <string name="students_quiz">Öğrenciler</string>
+
+    <string name="total_deggree">Toplam sonuçlar toplam puanlarla eşleşmiyor, lütfen tekrar deneyin..!</string>
+    <string name="check_id">Kimliği olmayan bu ad, lütfen kimliği kontrol edin ve tekrar deneyin</string>
+
+
+    <string name="option_required">Seçenek başlığı gerekli</string>
+    <string name="vote_added_successfully">Oy başarıyla eklendi</string>
+    <string name="vote_title_required">Oy Başlığı Gerekli</string>
+    <string name="minimum_option">Lütfen en az iki seçenek ekleyin</string>
+    <string name="add_smart_vote">Akıllı Oy Ekle</string>
+    <string name="add_option">Seçenek Ekle</string>
+    <string name="add_survey">Anket Ekle</string>
+
+    <string name="no_votes_found">Oy bulunamadı.</string>
+    <string name="survey_added_successfully">Anket başarıyla eklendi</string>
+    <string name="survey_title_required">Anket Başlığı Gerekli.</string>
+    <string name="invalid_group">Geçersiz Grup.</string>
+    <string name="minimum_vote">Lütfen en az bir oy seçin</string>
+    <string name="unknown_error_please_try_again">Bilinmeyen hata lütfen tekrar deneyin</string>
+    <string name="opened">Açıldı</string>
+    <string name="survey_details">Anket Ayrıntıları</string>
+    <string name="vote_submitted">Oyunuz başarıyla gönderildi</string>
+    <string name="add_votes_first">Lütfen önce oyları ekleyin</string>
+    <string name="questionnaire">Anket</string>
+    <string name="no_survey_found">Anket Bulunamadı.</string>
+    <string name="vote">Oy ver</string>
+    <string name="survey">Anket</string>
+    <string name="smart_Vote">Akıllı Oylama</string>
+    <string name="stopped">Durduruldu</string>
+    <string name="started">Başladı</string>
+    <string name="do_you_want_delete_survey">Bu anketi silmek istiyor musunuz ..!</string>
+    <string name="vote_title">Oy Adı…</string>
+    <string name="you_can_add_more_options">Daha fazla seçenek ekleyebilirsiniz..</string>
+    <string name="save_vote">Oyu Kaydet</string>
+    <string name="you_can_add_a_new_option">Yeni bir seçenek ekleyebilirsiniz</string>
+    <string name="option_title">Seçenek Başlığı…</string>
+    <string name="survey_title">Anket Başlığı…</string>
+    <string name="you_can_add_a_new_vote">Yeni bir oy ekleyebilirsiniz</string>
+    <string name="my_survey">Anketim</string>
+    <string name="delete_survey">Sil</string>
+
+    <string name="person">Kişi</string>
+    <string name="answer_all_questions">Cevaplarınızı göndermek için lütfen tüm soruları yanıtlayın ..!</string>
+    <string name="answer_correct">Doğru cevap:</string>
+    <string name="correct_answers">Doğru cevaplar</string>
+
+
+
+    <string name="days">Hafta Günleri</string>
+    <string name="start_week">Hafta Başlangıç ​​Tarihi</string>
+    <string name="add_day">Gün Ekle</string>
+    <string name="assignmentname">AssignmentName :</string>
+    <string name="lessonname">DersAdı :</string>
+    <string name="no_data_day">Bu gün içinde veri bulunamadı..!</string>
+    <string name="view_lesson">Dersi Görüntüle</string>
+    <string name="view_assignment">Ödevi Görüntüle</string>
+
+
+    <string-array name="weeks">
+        <item>Cumartesi</item>
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+    </string-array>
+
+
+    <string-array name="weeksWithOutSaturday">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+    </string-array>
+
+
+    <string name="do_you_want_delete_todo">Bu yapılacakları silmek istiyor musunuz..!</string>
+
+    <string name="no_todo_found">Görev Bulunamadı.</string>
+    <string name="todo_content_required">Yapılacaklar İçeriği gerekli!</string>
+    <string name="update_todo">Yapılacak İşleri Güncelle</string>
+    <string name="update_t">GÜNCELLEME</string>
+    <string name="todo_deleted_successfully">Yapılacak İş Başarıyla Silindi</string>
+    <string name="todo_finished">Yapılacak İş Başarıyla Tamamlandı</string>
+    <string name="todo_list">Yapılacaklar Listesi</string>
+    <string name="todo_date">Yapılacak Tarih…</string>
+    <string name="todo_content">Yapılacak İçerik…</string>
+    <string name="todo_date_required">Yapılacak İş tarihi gerekli!</string>
+    <string name="mode">Mod</string>
+    <string name="smart_pass">Akıllı Geçiş</string>
+    <string name="attend_message">Kurulum mesajı:</string>
+    <string name="absence_message">Yanlışlıkla ilgili açıklama :</string>
+    <string name="departure">Kalkış</string>
+    <string name="smart_attendance">Akıllı Katılım</string>
+    <string name="qr_code_changes">Bu QR kodu şundan sonra değişir:</string>
+    <string name="seconds">saniye</string>
+    <string name="scan_more_card">Lütfen aynı anda birden fazla çalışan kartını taramayın</string>
+    <string name="attend_view">Katıl</string>
+    <string name="absence_view">Yokluk</string>
+    <string name="attendance_card">Katılım kartı</string>
+    <string name="the_attempt_failed">Deneme başarısız oldu</string>
+    <string name="permission_needed_camera">Kamera izni reddedildi!</string>
+
+    <string name="already_logged_in">Okula kayıtlı olduğunuz için kayıt girişiminiz başarısız oldu. Lütfen önce oturumu kapatın</string>
+    <string name="already_logged_out">Çıkış yapmış olduğunuz için kayıt girişiminiz başarısız oldu, lütfen önce kaydolun</string>
+    <string name="permission_location_required">Bu izin şu ana kadar QR kod okuyucunun katılım ve çıkış kayıt sitesi için etkinleştirilmesi için gereklidir.</string>
+
+    <string name="permission_not_available">İzin konumu mevcut değil. lütfen tekrar deneyin.</string>
+    <string name="sorry_permission_needed">Maalesef, telefon kamerası ve konum özelliğini uygulama izniniz olmadan Katılım\'ı açamazsınız.</string>
+    <string name="attendance_qr">Katılım</string>
+    <string name="error_with_connection">Maalesef bağlantıda bir hata oluştu, lütfen tekrar deneyin</string>
+    <string name="invalid_passcode">Üzgünüz, geçersiz geçiş kodu</string>
+    <string name="choice_the_day">lütfen haftanın gününü seçin ve tekrar deneyin ..!</string>
+    <string name="you_can_not_add_weekly">Haftalık plan ekleyemezsiniz lütfen önce haftaları ekleyin, ardından tekrar deneyin..!</string>
+    <string name="there_is_no_attachment_is">Ek yok..!</string>
+    <string name="open_file">Dosyayı aç</string>
+    <string name="attach">Ek</string>
+    <string name="no_weekly_plan_found">Haftalık Plan Bulunamadı.</string>
+
+    <string name="manage_profile">Profili Yönet</string>
+    <string name="scan_code">Kodu Tarama</string>
+    <string name="maximum_images">maksimum resim sayısı 5</string>
+    <string name="are_you_sure_delete_image">Bu resmi silmek istediğinizden emin misiniz</string>
+    <string name="please_choice_the_day">lütfen haftanın gününü seçin lütfen ve tekrar deneyin ..!</string>
+    <string name="place_details">yer ayrıntıları</string>
+    <string name="branch">Dallar</string>
+    <string name="off_your_invoice">Faturanızda indirim</string>
+    <string name="choice_logo">Seçim logosu</string>
+    <string name="notes_english">İngilizce notlar</string>
+    <string name="notes_arabic">Arapça notlar</string>
+    <string name="name_english">İngilizce adı</string>
+    <string name="name_arabic">Arapça isim</string>
+    <string name="discounts">İndirim %</string>
+    <string name="add_location">Konum ekle</string>
+    <string name="partners">İndirim ortakları</string>
+    <string name="partners_details">İş Ortağı Ayrıntıları</string>
+    <string name="no_branches">Kullanılabilir şube yok..!</string>
+    <string name="password_changed_success">Şifreniz başarıyla değiştirildi</string>
+    <string name="get_your_discount">İndiriminizi alın</string>
+    <string name="discount_card">İndirim kartı</string>
+    <string name="invaild_id_read_qr">Ulusal kimlik yanlış veya hesabınız devre dışı, lütfen daha sonra tekrar deneyin..!</string>
+    <string name="add_discount">lütfen indirim ekleyin</string>
+    <string name="add_symbol">lütfen sembol ekleyin</string>
+    <string name="seasions_expired">Oturumlarınızın süresi doldu, lütfen tekrar giriş yapın..!</string>
+    <string name="partners_evalutaion">İş Ortağı 1.6</string>
+    <string name="no_partners_found">Ortak bulunamadı</string>
+    <string name="question_one">Beyan edilen indirim oranını aldınız mı?</string>
+    <string name="question_two">Yerle ilgili değerlendirmeniz nedir?</string>
+    <string name="notes_eva">Notlarınız</string>
+    <string name="submit_evaluation">Değerlendirmeyi gönder</string>
+    <string name="evaluations_add_sucessfully">Puanlar başarıyla gönderildi</string>
+    <string name="Evaluation">Değerlendirme</string>
+
+
+    <string name="bus_absence">Otobüs Yokluğu</string>
+    <string name="bus_number_invalid">Lütfen otobüs numaranızı seçin</string>
+    <string name="reason_absence">Yok olma nedeni</string>
+    <string name="reason_is_required">Neden gerekli</string>
+    <string name="confirm_students_absence">Öğrencilerin Devamsızlığını Onaylayın</string>
+    <string name="reason_absence_title">Olamama Nedeni</string>
+    <string name="you_can_add_a_reason_of_absence">Bir devamsızlık nedeni ekleyebilirsiniz</string>
+    <string name="attendance_action">Katılım:</string>
+    <string name="choose_the_trip_type">Gezi türünü seçin</string>
+    <string name="going_to_school">Okula gitmek</string>
+    <string name="going_to_home">Eve gitmek</string>
+    <string name="please_choose_the_trip_type">Lütfen yolculuk türünü seçin</string>
+    <string name="confirm">Onayla</string>
+    <string name="rating">Derecelendirmeler</string>
+
+
+    <string name="driver_phone">Sürücü telefonu:</string>
+    <string name="contact_the_bus_driver">Otobüs sürücüsüyle iletişime geçmek istiyor musunuz? \n</string>
+    <string name="payments">Ödemeler</string>
+    <string name="total">Toplam : </string>
+    <string name="outcome_details">Sonuç Ayrıntıları</string>
+    <string name="income_details">Gelir Ayrıntıları</string>
+
+
+    <string name="add_branch">Şube ekle</string>
+    <string name="main_branch">Ana dal</string>
+    <string name="please_choose_branch">lütfen şubeyi seçin..!</string>
+    <string name="manage_branches">Dalları yönet</string>
+    <string name="create_new_branch">Yeni şube oluştur</string>
+    <string name="update_branch">Şubeyi güncelle</string>
+    <string name="my_branch">Şube</string>
+
+    <string name="statistics_student">Öğrenci istatistikleri</string>
+    <string name="statistics_teacher">Öğretmen istatistikleri</string>
+
+    <string name="student_number">Öğrenci sayısı :</string>
+    <string name="available_places">Kullanılabilir yerler :</string>
+    <string name="pay_by_fawray">Fawry ile Öde</string>
+    <string name="pay_by_card">Kartla Öde</string>
+    <string name="card_number">Kart numarası</string>
+    <string name="cvv">PIN CVV</string>
+    <string name="mm">AA</string>
+    <string name="yy">YY</string>
+    <string name="price">fiyat</string>
+    <string name="continue_complate">Devam et</string>
+    <string name="total_payment">Toplam</string>
+    <string name="number_classes">Sınıf sayısı</string>
+    <string name="statistics_classes">Sınıf istatistikleri</string>
+    <string name="statistics_employee">Çalışan istatistikleri</string>
+    <string name="statistics_buss">Otobüs İstatistikleri</string>
+    <string name="fees">Çalışma ücretleri</string>
+    <string name="school_uniform">Okul üniforması</string>
+    <string name="other">Diğer</string>
+    <string name="the_amount_paid">Ödenen miktar</string>
+    <string name="remaining_amount">Kalan miktar</string>
+    <string name="date_next_receipt">Sonraki Ödeme Tarihi</string>
+    <string name="my_store">Mağaza</string>
+    <string name="filter_by">filtreleme</string>
+    <string name="study_fees">Çalışma ücretleri</string>
+    <string name="school_study_fees">Okul Eğitim Ücretleri</string>
+    <string name="study_fees_sp">Çalışma ücretleri</string>
+    <string name="select_the_safe">Kasayı seçin</string>
+    <string name="main_safe">Ana Kasa</string>
+    <string name="education_safe">Eğitim için güvenli</string>
+    <string name="reason_for_discount_addition">İndirim / ekleme nedeni</string>
+    <string name="discount_brothers">İndirimli kardeşler</string>
+    <string name="add_receipt">Lütfen makbuz numarası ekleyin</string>
+    <string name="please_add_discount">lütfen indirimi ekleyin</string>
+    <string name="add_receipt_alert">Makbuz ekle</string>
+    <string name="expenses_value">Gider Değeri</string>
+    <string name="payment_date">Ödeme Tarihi</string>
+
+    <string name="paid_greater_than">Ödenen tutar:</string>
+    <string name="paid_smaller_than">Ödenen şundan daha küçük</string>
+    <string name="paid_equal">Ödenen eşit</string>
+    <string name="no_fees_found">Okul ücreti bulunamadı..!</string>
+    <string name="without_discount">İndirim yok</string>
+    <string name="total_amount">Toplam ödenen</string>
+    <string name="please_add_amount">Lütfen tutarınızı kontrol edin ..!!</string>
+    <string name="please_add_recipe">Lütfen makbuz numarasını kontrol edin ..!</string>
+    <string name="discount_value">İndirim değeri</string>
+
+
+    <string name="add_irregularities">Cezaları Ekleyin</string>
+    <string name="should_delete_others">Önce diğerlerini silmelisiniz</string>
+    <string name="error_more_than_one_student">Maalesef, birden fazla öğrenci seçilemez</string>
+    <string name="violation_name_required">Ceza adı gerekli</string>
+    <string name="write_the_name">Adını yazın…</string>
+    <string name="write_the_violation">Cezaları Yazın</string>
+    <string name="add_violation">Cezaları Ekleyin</string>
+    <string name="violation_name">Penaltı Adı :</string>
+    <string name="violation_deleted_successfully">Penaltılar Başarıyla Silindi</string>
+    <string name="student_name_xxxxxx">Öğrenci Adı :</string>
+    <string name="school_xxxxxx">Okul xxxxxx</string>
+    <string name="class_xxxxxx">Sınıf xxxxxx</string>
+    <string name="save_violation">Cezaları Gönder</string>
+    <string name="scan_student_code">Öğrenci kodunu tara</string>
+    <string name="write_notes">Not yazın…</string>
+    <string name="irregularities">Cezalar</string>
+
+    <string name="irregularities_student">Penaltı öğrencisi</string>
+
+
+    <string name="error_403">Bu sınavı cevaplayamazsınız çünkü sınavın derecesi yok..!</string>
+    <string name="smart_schools_store">Akıllı Okullar Mağazası</string>
+    <string name="Store_description">Akıllı okul ağ mağazamız uygulamamızdan çocuklarınız için okul araçlarını kolaylıkla satın alabilirsiniz. Hemen alışverişe başlamak için tıklayın</string>
+    <string name="start_app">Uygulamayı Başlat</string>
+    <string name="notes">Notlar :</string>
+    <string name="write_comments">yorum yaz …</string>
+    <string name="comments_grade">Yorumlar :</string>
+    <string name="no_fees_student">Bu öğrencinin ücreti yok..!</string>
+    <string name="vaild_date">Geçerli tarihler</string>
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+    <string name="select_your_location">Konumunuzu seçin…</string>
+    <string name="permission_access_your_location">Konumunuza erişmek için bu izin gereklidir</string>
+
+
+    <string name="school_settings">Okul ayarları</string>
+    <string name="school_settings_location_message">Okul otobüsü hizmetini etkinleştirmek için okulun Google Haritasındaki konum ayarlarını değiştirmelisiniz</string>
+    <string name="ALL">TÜMÜ</string>
+    <string name="error_401_grades">Girdiğiniz derece zaten mevcut.!</string>
+    <string name="this_week_already_added">Bu hafta zaten eklendi, lütfen haftayı değiştirip tekrar deneyin..!</string>
+    <string name="pleas_add_the_answer_text">Lütfen cevap metnini ekleyin..!</string>
+
+    <string name="invalid_lesson">Lütfen dersi seçin..!</string>
+    <string name="invalid_unit">Lütfen birimi seçin..!</string>
+    <string name="invalid_subject">Lütfen konuyu seçin..!</string>
+
+    <string name="check_for_update">Güncellemeleri kontrol edin</string>
+
+    <string name="start_update">Güncellemeyi başlat</string>
+    <string name="smart_schools_update">Akıllı Okullar Uygulaması güncellemesini kontrol edin</string>
+    <string name="device_token_is_req">Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.!</string>
+    <string name="activites">Etkinlikler </string>
+    <string name="project">Projeler </string>
+    <string name="participations">katılımın </string>
+    <string name="assignment1">Atama No </string>
+    <string name="quizzes1">Sınav No </string>
+    <string name="results_dialog">Sonuç</string>
+    <string name="exam_details">Ayrıntılar Sonuçlar Sınavları </string>
+    <string name="update_app_message">Uygulamada yeni bir güncelleme var Size en iyi hizmeti verebilmemiz için uygulamayı güncellemeniz gerekir.</string>
+    <string name="update_application">Uygulamayı güncelle</string>
+    <string name="tell_me_later">Daha sonra söyle</string>
+    <string name="average">Ortalama</string>
+    <string name="class_a">Sınıf odası </string>
+    <string name="stage_a">Sınıf</string>
+    <string name="student_a">Öğrenci</string>
+    <string name="points">Puanlar</string>
+    <string name="congratulations">Tebrikler.!</string>
+
+    <string name="final_result">Not İstatistikleri</string>
+    <string name="no_results_found_for_this_subject">Bu konu için sonuç bulunamadı.!</string>
+    <string name="quarters">çeyrek</string>
+    <string name="city">Valilik</string>
+    <string name="all_smart">Genel</string>
+    <string name="happy_birthday1">Doğum günün kutlu olsun</string>
+
+    <string name="want_to_join">Katılmak istediğiniz toplantı numarasını/ özel kimlik numarasını girmeniz gerekiyor.</string>
+    <string name="both_meeting">Hem toplantı numarası hem de özel kimlik değeri vardır, bunlardan birini ayarlamanız yeterlidir</string>
+    <string name="invalid_meeting_number">Geçersiz toplantı numarası:</string>
+    <string name="v_classroom">V-Classroom</string>
+
+    <string name="country">ülke</string>
+    <string name="governorate">Valilik</string>
+    <string name="management_learning">Eğitim Yönetimi</string>
+    <string name="school_name">Okul adı</string>
+    <string name="invaild_country">Lütfen ülkenizi girin</string>
+    <string name="invaild_governorate">Lütfen valiliğinizi girin</string>
+    <string name="invaild_management">Lütfen eğitim yönetiminizi girin</string>
+    <string name="invaild_school_name">Lütfen okulunuzun adını girin</string>
+    <string name="invaild_stage">Lütfen sahne adınızı girin</string>
+    <string name="invaild_type">Lütfen Kullanıcı Türünü Seçin</string>
+    <string name="full_name_reg">Tam ad</string>
+    <string name="registered_succes">Bilgileriniz başarıyla kaydedildi. Yakında sizinle iletişime geçilecektir.</string>
+    <string name="video_conference">Video Konferans</string>
+
+    <string name="meeting">Toplantı Odası</string>
+    <string name="this_session_not_active">Bu toplantı şu anda etkin değil.!</string>
+    <string name="this_session_is_online">Bu toplantı şu anda aktif , daha sonra tekrar deneyebilirsiniz..!</string>
+    <string name="meeting_reports">Öğretmen Raporları</string>
+    <string name="admins_reports">Yönetici Raporları</string>
+
+    <string-array name="typeregister">
+        <item>Kullanıcı Türünü Seçin</item>
+        <item>Okul müdürü</item>
+        <item>Okul görevlisi</item>
+        <item>Öğretmen</item>
+        <item>Öğrenci</item>
+        <item>Üst</item>
+    </string-array>
+
+
+    <string name="researches">Araştırmalar</string>
+    <string name="no_researches_found">Araştırma bulunamadı.</string>
+    <string name="conference_room">Konferans odası</string>
+    <string name="no_video_conference_is_available">Kullanılabilir video konferans yok</string>
+    <string name="link_youtube"> Web https://www.youtube.com/watch?v= Kod \n Mobil https://youtu.be/ Kod </string>
+    <string name="researches_submit">Araştırmaların Gönderilmesi</string>
+    <string name="research_description">Araştırma Açıklaması</string>
+    <string name="researches_title">Başlık</string>
+    <string name="research_topic">Araştırma konusu :</string>
+    <string name="grade_is">Sınıf:</string>
+    <string name="this_research_has_already_been_submitted">Bu arama zaten gönderildi. Aynı arama yeniden gönderilemez</string>
+
+
+    <string name="send_notification">Bildirimleri Gönder</string>
+    <string name="body_arabic">Vücut Arapçası</string>
+    <string name="body_english">Beden İngilizcesi</string>
+    <string name="title_arabic">Başlık Arapça</string>
+    <string name="title_english">Başlık İngilizce</string>
+    <string name="if_you_want_notifications">Herkese bildirim göndermek istiyorsanız.!</string>
+    <string name="sent_notifications_for_all">Herkes için bildirim gönder</string>
+    <string name="ahln_ramdan">Hoşgeldin Ramazan</string>
+    <string name="buss_admin">Okul otobüsleri</string>
+    <string name="load_supject_more">Daha fazla konu yükle</string>
+    <string name="no_subject_more">Başka konu yok..!</string>
+    <string name="total_assignments">Toplam Sayı Ataması :</string>
+    <string name="total_quiz">Toplam Sayılar َQuiz :</string>
+
+
+    <string name="choose_class">Sınıf Seçin</string>
+    <string name="meetings">Toplantılar</string>
+
+
+    <string name="ycuwq_datepicker_decide">Tamam</string>
+    <string name="ycuwq_datepicker_cancel">İptal</string>
+
+    <string name="ycuwq_datepicker_hour">H</string>
+    <string name="ycuwq_datepicker_minute">m</string>
+
+    <string name="time_set">Saati ayarla</string>
+    <string name="day_and_time">Gün ve Saat :</string>
+
+    <string name="teach_name">Öğretmen Adı: </string>
+    <string name="no_meetings_found">Toplantı bulunamadı</string>
+    <string name="meeting_successfully_booked">Toplantı başarıyla rezerve edildi</string>
+    <string name="start_time_meeting">Toplantının başlangıç ​​zamanı</string>
+    <string name="end_time_meeting">Toplantının bitiş zamanı</string>
+    <string name="reports_for_admin"> Yönetici için raporlar</string>
+    <string name="grade_quiz">Sınav notu :</string>
+
+
+    <string name="Assignments">Ödevler</string>
+    <string name="reserve_shares">Yedek</string>
+    <string name="statistics">İstatistikler</string>
+    <string name="v_room">V-Odası</string>
+
+
+    <string name="virtual_class_schedule">Sanal Sınıf Takvimi</string>
+    <string name="academic_schedules">Akademik yıl için akademik programlar</string>
+    <string name="school_class_schedule">Okul ders programı</string>
+    <string name="virtual_schedule">Sanal Sınıf Takvimi</string>
+    <string name="dont_press_back">Lütfen toplantıya katılmak için bekleyin. Geri düğmesine basmayın ..!</string>
+    <string name="plase_wait">Lütfen Bekleyin..!</string>
+    <string name="started_on">Başlangıç ​​tarihi:</string>
+    <string name="ended_in">Şu ile biter:</string>
+    <string name="privacy">Gizlilik</string>
+    <string name="partner">Ortaklar</string>
+    <string name="language_title">TR</string>
+    <string name="germany">Almanya</string>
+    <string name="touch_id"> Dokunma Kimliği</string>
+    <string name="touch_id2"><strike> Dokunma Kimliği </strike></string>
+    <string name="or">VEYA</string>
+    <string name="terms_amp_conditions"><![CDATA[Şartlar ve Koşullar]]></string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="confirm_my_password">Şifreyi Onayla</string>
+    <string name="login_to_smartschools">SmartSchools\'ta Oturum Açın</string>
+    <string name="hello"> Merhaba: </string>
+    <string name="write_your_message_here">Mesajınızı buraya yazın..!</string>
+    <string name="set_home_location">Ev Konumunu Ayarla</string>
+    <string name="english">İngilizce</string>
+    <string name="french">Fransızca</string>
+    <string name="arabic">Arapça</string>
+
+    <string name="title_fingerprint">Tek Dokunuşla Oturum Açma</string>
+    <string name="desc_fingerprint">Kimliğinizi doğrulamak için lütfen parmak ucunuzu tarayıcının üzerine koyun</string>
+    <string name="note">(Parmak izi ile oturum açmak, uygulama girişinizi çok daha hızlı hale getirir. Cihazınızın, cihaz ayarlarında kayıtlı en az bir parmak izi olmalıdır)</string>
+    <string name="manage_accounts">Hesabı Yönet</string>
+    <string name="app_settings">Uygulama Ayarı</string>
+    <string name="rating_app">Derecelendirme Uygulaması</string>
+    <string name="my_notifications">Bildirimlerim</string>
+    <string name="clear_all">Tümünü Temizle</string>
+
+    <string name="to">Kime:</string>
+    <string name="rate_our_app">Uygulamamızı Puanlayın</string>
+    <string name="name_on_the_card">Karttaki ad</string>
+    <string name="student_expenses">Öğrenci Giderleri</string>
+    <string name="expire_date">Son Kullanma Tarihi</string>
+    <string name="add_expenses">Giderleri Ekle</string>
+
+
+    <string name="research_projects">Araştırma Projeleri</string>
+    <string name="schedules">Programlar</string>
+    <string name="evaluate_student">Öğrenciyi Değerlendir</string>
+    <string name="note_title">Not :</string>
+    <string name="add_receipt_name">Makbuz ekle</string>
+    <string name="name_vs">Ana :</string>
+    <string name="job">İş</string>
+    <string name="adding_complains">Şikayet Ekleme</string>
+    <string name="adding_complains_or_suggestions">Şikayet veya Öneri Ekleme</string>
+    <string name="add_the_subject">Konuyu Ekle</string>
+    <string name="add_details">Ayrıntıları Ekle</string>
+    <string name="attach_your_files">Dosyalarınızı Ekleyin</string>
+    <string name="clear_selected">Seçilileri Temizle</string>
+    <string name="area_name">Alan Adı</string>
+    <string name="location_name">Konum Adı</string>
+
+
+    <string name="voice_note">Sesli Not</string>
+    <string name="record_voice_note">Sesli not kaydetmek için mikrofon düğmesine \n basın</string>
+    <string name="playing">Oynuyor</string>
+    <string name="finished">Bitti</string>
+    <string name="media_player">Medya Oynatıcı</string>
+
+    <string name="vaild_dagree_total">خطأ ف الدرجات حيث ان درجه الاختبار </string>
+    <string name="vaild_dagree_total1">مجموع الدرجات المدخله</string>
+    <string name="add_assignment">Ödev Ekle</string>
+    <string name="student_degrees">Öğrenci Dereceleri</string>
+    <string name="body">Gövde</string>
+    <string name="add_weekly_plan">Haftalık Plan Ekle</string>
+    <string name="update_weeklyplan">Haftalık Planı Güncelle</string>
+    <string name="submit_researches">Araştırmaları Gönder</string>
+    <string name="your_degree">Dereceniz :</string>
+    <string name="start_the_quiz">Sınavı Başlat</string>
+    <string name="q">S :</string>
+    <string name="name_semi">Ad :</string>
+    <string name="grade_semi">Sınıf :</string>
+    <string name="school_name_semi">Okul Adı :</string>
+    <string name="exam_class_semi">Sınav Sınıfı :</string>
+
+
+    <string name="exit_the_editor">Düzenleyiciden çıkmak istediğinizden emin misiniz?</string>
+    <string name="cancelled">İptal edildi</string>
+    <string name="exit_editor">Düzenleyiciden çıkılsın mı?</string>
+    <string name="choose">Seç</string>
+    <string name="answer_content">İçeriği yanıtlayın</string>
+    <string name="question_content_2">Soru içeriği</string>
+
+    <string name="permission_storage_needed">Galeri kullanma izni</string>
+
+
+    <string name="permission_message_photo">Bu izin, depolama alanınıza erişmek için gereklidir</string>
+    <string name="permission_message_location">Konumunuza erişebilmemiz için GPS\'e bağlanmak için bu izin gereklidir</string>
+    <string name="access_your_storage">Depolamanıza erişmek için bu izne ihtiyacımız var</string>
+
+    <string name="question_content">Soru içeriği…</string>
+    <string name="start_writing_here">Buraya yazmaya başlayın…</string>
+    <string name="choose_the_right_answer" translatable="false">Lütfen doğru cevabı seçin ?</string>
+    <string name="title_activity_editor_test">Editör Demosu</string>
+
+
+    <string name="excellent_students">Mükemmel Öğrenciler</string>
+    <string name="first_place">Birinci Sıra</string>
+    <string name="second_place">İkinci Sıra</string>
+    <string name="third_place">Üçüncülük</string>
+    <string name="fourth_place">Dördüncülük</string>
+    <string name="fifth_place">Beşinci Sıra</string>
+    <string name="sixth_place">Altıncı Sıra</string>
+    <string name="seventh_place">Yedinci Sıra</string>
+    <string name="eighth_place">Sekizinci Sıra</string>
+    <string name="ninth_place">Dokuzuncu Sıra</string>
+    <string name="tenth_place">Onuncu Sıra</string>
+
+    <string name="maximum_video">Maksimum video yayınlama 8 video</string>
+    <string name="add_comment">yorum ekle</string>
+    <string name="Done">Bitti</string>
+    <string name="invite_friends">Arkadaşlarını davet et</string>
+    <string name="follow">Takip et</string>
+    <string name="followers">Takipçiler</string>
+    <string name="following">Takip ediliyor</string>
+    <string name="personal_info">Kişisel bilgiler</string>
+    <string name="centerReviews">İncelemeler</string>
+    <string name="suggested">Önerilen</string>
+    <string name="title_feeds_empty">Topluluğunuzu oluşturun</string>
+    <string name="findfriends">Arkadaş Bul</string>
+    <string name="text_content_feeds_empty">arkadaşlarınızın etkinliğinin görüneceği yer burasıdır. en aktif arkadaşınızı rellit kullanarak takip edin, maceralarını takip edin ve biraz cesaretlendirin</string>
+    <string name="what_s_in_your_mind">aklınızdan neler geçiyor…</string>
+    <string name="like">Beğen</string>
+    <string name="comments">Yorumlar</string>
+    <string name="no_comments_found">Yorum Bulunamadı.</string>
+    <string name="likes">Beğeniler</string>
+    <string name="like_me">Beğen</string>
+    <string name="feeds">Yayınlar</string>
+    <string name="minutes">Dakika</string>
+    <string name="hours">Saat</string>
+    <string name="Years">Yıllar</string>
+    <string name="months">Ay</string>
+    <string name="dashboard_feeds">gösterge tablosu</string>
+    <string name="comment_feed">\" Yorum\"</string>
+    <string name="comment_0">0 Yorum</string>
+    <string name="like_0">0 Beğeni</string>
+
+
+    <string name="sample_title">Android için ChatKit</string>
+
+    <string name="view">Görüntüle</string>
+
+
+    <string name="sample_title_default">Varsayılan görünüm</string>
+    <string name="sample_subtitle_default">Varsayılan stile sahip diyaloglar ve mesajlar</string>
+    <string name="sample_title_attrs">Tarzlı görünüm</string>
+    <string name="sample_subtitle_attrs">Gömülü öznitelikleri kullanan stilize edilmiş bileşenler</string>
+    <string name="sample_title_layout">Özel düzen</string>
+    <string name="sample_subtitle_layout">Varsayılan görünüm konumunu değiştirmek için özel düzenler</string>
+    <string name="sample_title_holder">Özel görünüm sahibi</string>
+    <string name="sample_subtitle_holder">Yeni özellikler için varsayılan davranışı genişletmek için özel görünüm sahibi</string>
+    <string name="sample_title_custom_content">Özel içerik türü</string>
+    <string name="sample_subtitle_custom_content">Sesli mesaj örneğinde özel mesaj içeriği</string>
+
+    <string name="hint_enter_a_message">Bir mesaj yazın…</string>
+    <string name="on_log_click_message">Özel uzun tıklama işleyiciniz</string>
+    <string name="action_delete">Sil</string>
+    <string name="action_copy">Kopyala</string>
+    <string name="copied_message">Mesaj kopyalandı!</string>
+
+    <string name="date_header_today">Bugün</string>
+    <string name="date_header_yesterday">Dün</string>
+
+    <string-array name="view_types_dialog">
+        <item name="image">Resim (varsayılan)</item>
+        <item name="voice">Sesli mesaj (özel)</item>
+    </string-array>
+
+    <string name="start_typing_status">Yazmaya başlayın</string>
+    <string name="stop_typing_status">Yazmayı bırak</string>
+    <string name="from">Kimden: </string>
+    <string name="Attachment">"Ek : "</string>
+    <string name="reply_message">Mesajı Yanıtla</string>
+    <string name="complain_inbox">Şikayet Gelen Kutusu</string>
+    <string name="complain_sent">Şikayet Gönderildi</string>
+    <string name="suggestion_inbox">Öneri Gelen Kutusu</string>
+    <string name="suggestion_sent">Öneri Gönderildi</string>
+    <string name="mail">Posta</string>
+    <string name="suggestion">Öneri</string>
+    <string name="complain">Şikayet et</string>
+    <string name="stage">Aşama</string>
+    <string name="name_contactus">ad</string>
+    <string name="title_message">başlık mesajı</string>
+    <string name="sent_archive">Arşiv gönderildi</string>
+    <string name="inbox_archive">Gelen ileti arşivi</string>
+    <string name="inbox2">Gelen Kutusu</string>
+    <string name="archive_message">İletileri arşivleyin</string>
+    <string name="section_no">Bölüm No :</string>
+    <string name="label_paid">Ödenen miktar</string>
+    <string name="label_not_paid">Kalan tutar</string>
+    <string name="touch_id_for_smartschools">SmartSchools için Dokunma Kimliği</string>
+    <string name="do_you_want_to_use_the_fingerprint_login_feature">Parmak izi oturum açma özelliğini kullanmak istiyor musunuz?</string>
+    <string name="add_quiz_assignment">Elektronik ödev ekle</string>
+    <string name="quiz_assignment">Elektronik ödev</string>
+    <string name="start_quiz_assignment">Ödevinize başlayın</string>
+    <string name="degree_quiz">Derece testi :</string>
+    <string name="label_assignments">Ödevler</string>
+    <string name="back_to_main">Ana sayfaya dön</string>
+    <string name="friday">Cuma</string>
+    <string name="please_choice_the_month">Lütfen ayı seçin</string>
+    <string name="accounts">Hesaplarım</string>
+    <string name="back">Geri</string>
+    <string name="invalid_login_or_active">Kullanıcı adı veya şifre yanlış veya hesabınız yönetim tarafından devre dışı bırakıldı Lütfen yönetimle iletişime geçin..!</string>
+    <string name="chlid_irregularites">Çocuk Düzensizlikleri</string>
+    <string name="student_result_quiz">Test yanıtları </string>
+    <string name="no_folders_found">klasör bulunamadı</string>
+    <string name="product">Products</string>
+    <string name="available_product">Available Products</string>
+    <string name="exception_product">Exception Products</string>
+    <string name="product_available_for_student">Product Available For Student</string>
+    <string name="product_exception_for_student">Product Exception For Student</string>
+    <string name="my_wallet">"My Wallet "</string>
+    <string name="invaild_amont">please enter amounts</string>
+    <string name="buy_product_for_student">Buy Product For Student</string>
+    <string name="delete_products_exception">Delete Products Exception</string>
+    <string name="choos_products_exception">Choose Products Exception</string>
+    <string name="balance">Balance :</string>
+    <string name="quantity">Quantity</string>
+    <string name="cost">Cost</string>
+    <string name="description_arabic">description arabic</string>
+    <string name="logo_product">Logo product</string>
+    <string name="attention_please_if_you_need_to_update_item_please_select_to_update_if_you_need_to_delete_item_select_to_delete">Attention please if you need to update item please select to update .. if you need to delete item select to delete ..!</string>
+    >
+    <string name="canteen_school">Canteen School</string>
+    <string name="invalid_quantity">Please enter Quantity</string>
+    <string name="invaild_descriptio_product">Please enter description .</string>
+    <string name="invalid_attachment">please add logo product</string>
+    <string name="add_product">Add Product</string>
+    <string name="update_product">Update Product</string>
+    <string name="sale_product_student">Sale Product For Student</string>
+    <string name="add_fees_to_parent">Add Fees For Parent</string>
+    <string name="scan_card_student">Scan Card</string>
+    <string name="cash">Cash</string>
+    <string name="active_buy">ActiveBuyProducts</string>
+    <string name="wallet_buy">Buy From My Wallet</string>
+    <string name="please_choose_products">Please select the products you want to buy..!</string>
+    <string name="student_requests_available">الطلبات المتاح للطالب</string>
+    <string name="password">Password</string>
+    <string name="certificate">Certificate</string>
+    <string name="red_result">Red = Didn\'t master the skills</string>
+    <string name="yellow_result">Yellow = Needs some support</string>
+    <string name="green_result">Green = have knowledge</string>
+    <string name="blue_result">Blue = exceeded expectations</string>
+
+    <string name="wallet_charge">Wallet Charge</string>
+    <string name="repeting_questions">خطا فى تكرار الاسئلة من فضلك امسح السؤال المتكرر..!</string>
+    <string name="new_complain_or_suggest">New Complain Or Suggest</string>
+    <string name="exceeded_expectations">exceeded expectations</string>
+    <string name="have_the_knowledge">have knowledge</string>
+    <string name="in_need_of_some_support">needs some support</string>
+    <string name="didnt_master_the_skills"> Didn\'t master the skills</string>
+    <string name="total_order">Total order : %1$d L.E</string>
+</resources>

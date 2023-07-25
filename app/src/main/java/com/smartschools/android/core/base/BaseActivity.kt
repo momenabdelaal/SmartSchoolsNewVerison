@@ -49,7 +49,7 @@ import kotlin.collections.ArrayList
 import kotlin.system.exitProcess
 
 
-@AndroidEntryPoint
+//@AndroidEntryPoint
 open class BaseActivity : AppCompatActivity() {
 
     var fragment: Fragment? = null

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="@string/settings">
+
+        <ListPreference
+            android:dialogTitle="Choose your language"
+            android:entries="@array/lang_entries"
+            android:entryValues="@array/pref_lang"
+            android:key="@string/key_language"
+            android:summary="@string/summary_language"
+            android:title="@string/language" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/notifications_new_message"
+            android:title="@string/title_new_notification_sound" />
+
+
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+         android:title="@string/my_app_store">
+
+
+        <Preference
+            android:selectable="true"
+            android:summary="@string/app_name"
+            android:title="@string/title_version">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_verison" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -7,13 +7,13 @@ import com.exas.qpmoemp.data.persistentStorage.sharedPref.SharedPreferencesImpl
 object LoadingScreen {
 
     fun Fragment.showProgress() {
-        if (activity != null)
-            (requireActivity() as BaseActivity).showProgress(true)
+//        if (activity != null)
+//            (requireActivity() as BaseActivity).showProgress(true)
     }
 
     fun Fragment.hideProgress() {
-        if (activity != null)
-            (requireActivity() as BaseActivity).showProgress(false)
+//        if (activity != null)
+//            (requireActivity() as BaseActivity).showProgress(false)
     }
 
     fun Fragment.logOut() {

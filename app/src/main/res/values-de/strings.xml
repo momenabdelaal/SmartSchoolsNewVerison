@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Schools</string>
+
+
+    <string name="network_error">Netzwerkfehler</string>
+    <string name="action_settings">Änderungen</string>
+    <string name="save_new_password">Passwort speichern</string>
+    <string name="submit">senden</string>
+    <string name="time">Zeit :</string>
+    <string name="date">Datum</string>
+
+    <string name="cancel">Abbrechen</string>
+    <string name="clear">Löschen</string>
+    <string name="invalid_login">Der Benutzername oder das Passwort ist falsch</string>
+
+    <string name="technical_suppor">Technischer Support</string>
+
+    <string name="save">Speichern</string>
+
+    <string name="ok">OK</string>
+
+    <string name="details">Einzelheiten</string>
+    <string name="about_us">Über uns</string>
+
+    <string name="contact_us">Kontaktieren Sie uns</string>
+    <string name="change_password">Passwort ändern</string>
+    <string name="person_name"> Kate Jennifer </string>
+
+
+    <!--todo four screen slider-->
+    <string name="skip">überspringen</string>
+    <string name="start">Start</string>
+    <string name="next"> Weiter </string>
+    <string name="slide_1_title">Administrator</string>
+    <string name="slide_1_desc">Das System bietet eine effektive Kommunikation zwischen Betreuer, Lehrern, Schülern und Eltern und eine vollständige Automatisierung aller Verwaltungsabteilungen (Studentenangelegenheiten, Personalangelegenheiten, Finanzen und Gehälter, Geschäfte, Einkäufe, Öffentlichkeitsarbeit und Informationen, Schulbibliothek, Verfolgung der Fahrtroute von Schulbussen und viele weitere Vorteile)</string>
+
+    <string name="slide_2_title">Wächter</string>
+    <string name="slide_2_desc">Der Erziehungsberechtigte kann direkt mit dem Personal der Schule kommunizieren und die Verhaltensverstöße der Kinder verfolgen, sobald sie auftreten, und sie registrieren, sowie die Noten und Leistungsakten der Kinder verfolgen und verfolgen die Beurteilung der Kinder durch die Lehrer und können an der Meinungsumfrage der Schule teilnehmen. </string>
+    <string name="slide_3_title">Student </string>
+    <string name="slide_3_desc">Der Schüler kann jederzeit und von überall direkt mit Lehrern oder mit seinen Kollegen kommunizieren, und er kann auch das Lernen durch moderne Technologie-Tools und eine vollständige Anwendung für den Fernunterricht genießen.</string>
+
+    <string name="slide_4_title">Lehrer</string>
+    <string name="slide_4_desc">Die Anwendung erleichtert die Kommunikation und Zusammenarbeit zwischen Lehrern, Schülern und Personaladministratoren mit einem permanent offenen Kommunikationskanal: E-Mails, Warnmeldungen, soziale Lernaktivitäten und Agenda. Eine Umgebung, in der der Lehrer alle wichtigen oder lebenswichtigen Informationen auf nur einem Bildschirm mit der optimalen Anwendung für den Fernunterricht finden kann.</string>
+    <!--todo-4-Bildschirm-Slider-->
+
+    <string name="bus_tracking">Verfolge den Schulbus</string>
+    <string name="search">Suche</string>
+
+    <string name="wifi_off"> Verbindung zum Internet nicht möglich Bitte vergewissern Sie sich, dass Sie mit dem Netzwerk verbunden sind und versuchen Sie es erneut </string>
+
+    <string name="try_again">erneut versuchen</string>
+    <string name="image">dein Bild</string>
+    <string name="pref_ringtone_silent"> Lautlos </string>
+    <string name="summary_language">Wähle deine bevorzugte Sprache</string>
+    <string name="summary_choose_ringtone"> Wähle den Benachrichtigungston </string>
+
+
+    <string name="privacy_policy">Datenschutzerklärung</string>
+
+
+    <string name="title_new_notification_sound">Benachrichtigung über neue Nachrichten</string>
+    <string name="key_language"> key_language </string>
+    <string name="notifications_new_message"> Benachrichtigungen_neue_Nachricht </string>
+
+
+    <string name="correct_errors">Bitte korrigieren Sie die Fehler</string>
+    <string name="language">Sprache</string>
+    <string name="settings"> Einstellungen </string>
+    <string name="status">Status: </string>
+    <string name="are_you_sure">Möchtest du den Fahrer anrufen...?</string>
+    <string name="yes"> Ja </string>
+    <string name="no">nein</string>
+    <string name="attention">Alarm</string>
+
+    <string-array name="lang_entries">
+        <item>العربية</item>
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Navigationsschublade öffnen</string>
+    <string name="navigation_drawer_close">Navigationsschublade schließen</string>
+
+    <string name="terms_conditions">Allgemeine Geschäftsbedingungen</string>
+    <string name="compaines">Unternehmen</string>
+    <string name="login">Anmelden</string>
+
+
+    <string name="email">E-Mail</string>
+    <string name="name">Benutzername</string>
+
+
+    <string name="new_pass">Neues Passwort</string>
+    <string name="confirm_password">Neues Passwort bestätigen</string>
+    <string name="send"> Senden </string>
+    <string name="invalid_name">Bitte geben Sie einen Namen ein</string>
+    <string name="invalid_email">Bitte gib deine gültige E-Mail ein</string>
+    <string name="invalid_email_phone">Bitte geben Sie Ihre E-Mail oder Telefonnummer ein</string>
+    <string name="invalid_phone">Bitte geben Sie Ihre Telefonnummer ein</string>
+
+    <string name="invalid_password">Bitte geben Sie ein Passwort ein</string>
+    <string name="invalid_password_confirm">Bitte Passwort bestätigen</string>
+    <string-array name="pref_lang">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="no_internet_connection">Keine Internetverbindung</string>
+
+
+    <string name="permission_needed">Berechtigung auswählen</string>
+    <string name="permission_message">Diese Berechtigung ist sogar für den Zugriff auf Bilder erforderlich, damit Sie Ihr Profilbild hochladen können.</string>
+    <string name="must_permission">Du musst über eine Bildzugriffsberechtigung verfügen, um deinen Avatar hochladen zu können.</string>
+    <string name="message_title">Titel der Nachricht</string>
+    <string name="message_body">Nachrichtentext</string>
+
+    <string name="invalid_section">Bitte wähle eine Klasse aus</string>
+    <string name="invalid_type">Bitte wählen Sie einen Werbetyp aus</string>
+
+    <string name="error_404">Die Daten auf dieser Seite sind derzeit nicht verfügbar, versuchen Sie es später noch einmal</string>
+    <string name="error_530">Entschuldigung, es gab ein Problem mit unserem Server, bitte kontaktieren Sie die Administration</string>
+    <string name="error_500">Entschuldigung, es gab ein Problem mit unserem Server, bitte kontaktieren Sie die Administration</string>
+    <string name="error_400">Ein unbekannter Fehler ist aufgetreten, bitte kontaktieren Sie die Administration"</string>
+    <string name="unknown_error">Ein unbekannter Fehler ist aufgetreten, bitte kontaktieren Sie die Administration"</string>
+    <string name="illega_state_exception">Bei der Anzeige der Daten ist ein Fehler aufgetreten, bitte kontaktieren Sie die Administration</string>
+    <string name="mycard">Meine Karte</string>
+    <string name="username">Benutzername</string>
+    <string name="enter_your_e_mail_below_to_rest_your_password">Geben Sie unten Ihre E-Mail-Adresse ein, um Ihr Passwort zurückzusetzen.</string>
+    <string name="help">Hilfe</string>
+
+    <string name="mobile">Mobil</string>
+
+    <string name="old_password">Altes Passwort</string>
+    <string name="old_password_title"> Geben Sie unten Ihr altes Passwort ein, um Ihr Passwort zu ändern. </string>
+
+    <string name="edit_profile">Profil bearbeiten</string>
+    <string name="my_messages">Nachrichten</string>
+
+    <string name="membership_card">Mitgliedskarte</string>
+    <string name="attendance">Anwesenheit</string>
+    <string name="weekly_plan">Wochenplan</string>
+    <string name="quiz">Test</string>
+    <string name="assignment">Tägliche Hausaufgaben</string>
+    <string name="grading">Bewertung</string>
+    <string name="my_children">Kinder</string>
+    <string name="bus">Schulbus</string>
+
+
+    <string name="inbox">Eingehende Nachricht</string>
+    <string name="sent">Gesendet</string>
+    <string name="schoolcourses">Kurse</string>
+    <string name="studentsevaluations">Schülerbewertung</string>
+    <string name="create_assigment">Zuweisung hinzufügen</string>
+    <string name="absence_report">Abwesenheitsbericht</string>
+    <string name="archive">archivieren</string>
+    <string name="first">zuerst</string>
+    <string name="second">Sekunde</string>
+    <string name="thried">Dritter</string>
+    <string name="fourth">vierter</string>
+    <string name="notification_text">Tracking, zum Abbrechen klicken</string>
+
+    <string name="terms_condition">Bedingung</string>
+    <string name="weeklyplan">Wochenplan</string>
+    <string name="select_classes">Klassen auswählen</string>
+    <string name="smartschoolsnetwork">Smart Schools-Netzwerk</string>
+    <string name="namecard">Mahmoud Ibrahim Muhammad Muhammad</string>
+    <string name="_30_08_2019">Ablauf: 30.08.2019</string>
+    <string name="stuednt">Schüler</string>
+    <string name="dashboard">Startseite</string>
+    <string name="attendance_student">Fehlen der Schüler</string>
+    <string name="teachers">Lehrer</string>
+    <string name="student">Studenten</string>
+    <string name="employees">Mitarbeiter</string>
+    <string name="supervisors">Administratoren</string>
+    <string name="buss">Schulbus</string>
+    <string name="classes">Klassen</string>
+
+
+    <string name="grade">Note </string>
+    <string name="attachments">Anhänge</string>
+
+
+    <string name="assignment_details">Zuweisungsdetails</string>
+    <string name="select_subject">Material auswählen</string>
+    <string name="done_successfully">Vorgang erfolgreich abgeschlossen</string>
+    <string name="select_picture">Bild auswählen</string>
+
+
+    <string name="invalid_class">Klassenfehler</string>
+    <string name="select_section">Klasse auswählen</string>
+    <string name="income">Einnahmen</string>
+    <string name="outcome">Ausgaben</string>
+    <string name="testname">Testname:</string>
+    <string name="testmetterm">Zwischenprüfung</string>
+    <string name="gradetest">Note:</string>
+    <string name="closed">geschlossen</string>
+    <string name="type">Typ:</string>
+    <string name="timetext">Dauer:</string>
+    <string name="review">Rezension: </string>
+    <string name="students">Studenten:</string>
+    <string name="comment_supervisor">Admin-Kommentar</string>
+    <string name="message_details">Nachrichtendetails</string>
+    <string name="student_answer">Antwort des Schülers</string>
+    <string name="write_the_answer_here">Schreibe deine Antwort hier...</string>
+    <string name="choose_file">Anhänge senden</string>
+    <string name="school_courses">Lehrplan</string>
+    <string name="quizzes">Tests</string>
+    <string name="start_quiz">Start</string>
+    <string name="done">Fertig!</string>
+    <string name="min_sec">%d Minuten, %d Sekunden</string>
+    <string name="answer_has_been_sent">Ihre Antwort wurde erfolgreich gesendet</string>
+    <string name="week">Woche:</string>
+    <string name="term">Begriff:</string>
+    <string name="newmessage">Neue Mail</string>
+    <string name="send_to">Gesendet an:</string>
+    <string name="message">Nachrichten</string>
+    <string name="write_the_assignment_here">Zuweisungsdetails... *</string>
+    <string name="from_date_17_12_2018">vom 10.10.2018 *</string>
+    <string name="to_date_17_12_2018"> bis 17.12.2018 *</string>
+
+    <string name="giza_haram_6_october">Gizeh - 6. Oktober - Haram</string>
+    <string name="bus_number_5_at_sd">Busnummer: </string>
+    <string name="driver_logy_mohamed_ahmed">Fahrer: </string>
+    <string name="start_the_travel">Starte die Reise</string>
+
+
+    <!--Moment-->
+    <string name="address">Adresse </string>
+
+
+    <string name="saturday">Samstag</string>
+    <string name="sunday">Sonntag</string>
+    <string name="monday">Montag</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="wednesday">Mittwoch</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="select_lesson">Lektion auswählen</string>
+    <string name="attendance_staff">Schulabwesenheit</string>
+    <string name="absence_staff">Personalabwesenheit</string>
+    <string name="select_units">Einheit auswählen</string>
+    <string name="driver">Treiber</string>
+    <string name="supervisor">admin</string>
+    <string name="buses">Schulbus</string>
+    <string name="points_10">Punkte</string>
+    <string name="you_have_no_children">Du hast keine Kinder im Schulbus angemeldet.</string>
+    <string name="forward">weiter</string>
+    <string name="reply">Erneut senden</string>
+
+
+    <string name="the_sender">Absender</string>
+    <string name="absence">Abwesenheit</string>
+    <string name="students_absence">Studentenabwesenheit</string>
+    <string name="session_activities">Schülerverhalten</string>
+    <string name="teacher_absence">Lehrerabwesenheit</string>
+    <string name="employee_absence">Abwesenheit des Mitarbeiters</string>
+    <string name="without_excuse">Ohne Entschuldigung</string>
+
+
+    <string name="one_answer">Eine Lösung</string>
+    <string name="mutli_answers">Mehr als eine Lösung</string>
+    <string name="name_quiz">Questname</string>
+    <string name="choice_term">Wähle einen Begriff</string>
+    <string name="term_1">erster Begriff</string>
+    <string name="term_2">Term Zwei</string>
+    <string name="term_3">Term III</string>
+    <string name="term_4">Quartal</string>
+    <string name="periodic_quiz">zeitraumdefiniert</string>
+    <string name="un_periodic_quiz"> Undefiniert </string>
+    <string name="class_name">Klassenname:</string>
+    <string name="class_teacher">Klasse: </string>
+    <string name="choose_questions">Fragen auswählen</string>
+    <string name="lecture">Teilen : </string>
+    <string name="teacher_name">Lehrer: </string>
+    <string name="open">öffnen</string>
+    <string name="close">geschlossen</string>
+    <string name="questions_bank">Fragenbank</string>
+    <string name="select_quetsions">wähle die Frage aus</string>
+    <string name="select_class">Klasse auswählen</string>
+    <string name="show_students">Daten anzeigen</string>
+    <string name="select_all">alle auswählen</string>
+    <string name="select_type_attendance">Art der Abwesenheit auswählen</string>
+    <string name="attendance_employee">Abwesenheit des Mitarbeiters</string>
+    <string name="study_schedules">Stundenpläne</string>
+
+
+    <string name="no_results_found">Keine Daten gefunden.</string>
+    <string name="update">ändern</string>
+    <string name="forget_your_password">Passwort vergessen?</string>
+    <string name="enter_your_password">Passwort</string>
+    <string name="add">hinzufügen</string>
+    <string name="describe_your_product">Beschreibe dein Produkt... *</string>
+    <string name="title">Titel der Aufgabe *</string>
+    <string name="logout">Abmelden</string>
+    <string name="edit_profile_message">Ihre Daten wurden erfolgreich geändert</string>
+    <string name="login_success">Willkommen bei der Smart Schools-App</string>
+    <string name="profile">Profil</string>
+
+
+    <string name="unit">Einheit</string>
+    <string name="lesson">Lektion</string>
+    <string name="mygrade">Deine Note</string>
+    <string name="question_name">Fragename</string>
+    <string name="attachment">Anhang: </string>
+    <string name="teachers_library">Lehrerbibliothek</string>
+    <string name="subject">Material: </string>
+    <string name="degree">Abschluss: </string>
+
+
+    <string name="update_this_assignments">Möchtest du diese Aufgabe aktualisieren...!</string>
+    <string name="invalid_term">Bitte wähle einen Begriff aus</string>
+    <string name="do_you_want_delete">Willst du diese Zuordnung löschen..!</string>
+
+    <string name="update_assignment">Zuweisung ändern</string>
+    <string name="delete_assignment">Zuordnung löschen</string>
+
+
+    <string name="invalid_grade">Bitte geben Sie eine Note ein</string>
+    <string name="invalid_time">Bitte Zeit eingeben</string>
+    <string name="invalid_date">Bitte geben Sie ein Datum ein</string>
+    <string name="invalid_body">Bitte geben Sie den Inhalt ein</string>
+
+    <string name="bus_tracker">Schulbus</string>
+    <string name="agreement_on_discounts">Unsere Rabattpartner</string>
+    <string name="invalid_question">Bitte wähle eine Frage aus</string>
+
+
+    <string name="session_1">zuerst</string>
+    <string name="session_2">Zweiter</string>
+    <string name="session_3">Dritter</string>
+    <string name="session_4">Vierte</string>
+    <string name="session_5">Fünfte</string>
+    <string name="session_6">Sechster</string>
+    <string name="session_7">Siebter</string>
+    <string name="session_8">Achter</string>
+    <string name="session_9">Neunte</string>
+    <string name="session_10">Zehnter</string>
+
+
+    <string name="do_open">Möchten Sie diese Datei öffnen?</string>
+    <string name="download">Herunterladen</string>
+    <string name="school_fees">Ausgaben</string>
+
+    <string name="student_report">Teilnehmen und gehen</string>
+
+    <string name="absence_daily_attend">Abwesenheit</string>
+    <string name="attend">Teilnehmen</string>
+    <string name="coming_late">Verzögerung</string>
+    <string name="didnt_solve_assignment">Zuweisung nicht abgeschlossen</string>
+    <string name="penalty">Verstoß</string>
+    <string name="penalty_reason">Der Grund für den Verstoß</string>
+    <string name="bonus">Ausgezeichnete Punkte</string>
+    <string name="excused_absence">Es gibt eine Entschuldigung</string>
+    <string name="reason_of_absence">Grund der Abwesenheit</string>
+
+
+    <string name="expense_name">-name : </string>
+    <string name="receipt_no"> Belegnummer: </string>
+    <string name="payment_date_21_11_2017">Datum: 21.11.2017</string>
+    <string name="paid_date">Zahlungsdatum: </string>
+    <string name="amount">Betrag</string>
+    <string name="total_expenses">Gesamt bezahlt: </string>
+    <string name="total_remains">Restbetrag: </string>
+
+
+    <string name="invalid_type_attendance">Bitte wählen Sie die Art der Abwesenheit aus</string>
+    <string name="no_sessions_found">Keine Klassen</string>
+    <string name="date_dd_mm_yyyy">Datum TT/MM/JJJJ</string>
+    <string name="select_time">Zeit auswählen</string>
+    <string name="choice_subject_have_question">Bitte wähle ein Thema mit Fragen aus..!</string>
+    <string name="time_table_exams">Prüfungspläne</string>
+
+
+    <string name="seat_number">Sitznummer</string>
+    <string name="seat_no">Platznummer: </string>
+    <string name="seat_number_student">Studentenplatznummer</string>
+    <string name="class_exam">Komitee:</string>
+    <string name="exit">Beenden</string>
+    <string name="grade_not_changed">Die Note hat sich nicht geändert..!!</string>
+    <string name="full_name">Geben Sie die Nummer des Empfängers ein</string>
+    <string name="enter_subject">Bitte geben Sie den Titel ein</string>
+    <string name="enter_message">Bitte geben Sie den Inhalt ein</string>
+
+    <string name="do_update">Möchten Sie diese Zeile ändern?</string>
+
+    <string name="title_version">Version 1.42</string>
+    <string name="url_verison">https://play.google.com/store/apps/details?id=smartschool.networl.com</string>
+    <string name="my_app_store">App im Store</string>
+    <string name="exam_result">Prüfungsergebnisse</string>
+    <string name="mark">Markiere </string>
+    <string name="Comments">Kommentare </string>
+    <string name="grading_scele">Bewertungsskala</string>
+
+    <string name="student_evalutions">bewertet Schüler</string>
+    <string name="items">Artikel</string>
+    <string name="my_points">Meine Punkte</string>
+    <string name="last_update">zuletzt geändert</string>
+    <string name="expenses">Ausgaben</string>
+
+
+    <string name="exams_affairs">Prüfungsangelegenheiten</string>
+
+    <string name="academic_no">Schuljahr: </string>
+    <string name="exams_result">Prüfungsergebnis</string>
+
+
+    <string name="scale">Schätzung: </string>
+    <string name="absence_no">Abwesenheit</string>
+
+    <string name="course">Artikel : </string>
+
+
+    <string name="academic_year">Jahr</string>
+    <string name="homeroom_teacher">Klassenlehrer: </string>
+    <string name="grade_level">Note: </string>
+    <string name="comment">Kommentar: </string>
+    <string name="schedules_for_school_year_exams">Zeitpläne für Schuljahresprüfungen</string>
+    <string name="control_examinations">Kontrollen und Prüfungen verwalten</string>
+    <string name="student_points">Schülerpunkte</string>
+
+    <string name="january">Januar</string>
+    <string name="february">Februar</string>
+    <string name="march">März</string>
+    <string name="april">April</string>
+    <string name="may">Mbayo</string>
+    <string name="june">Juni</string>
+    <string name="july">Juli</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">Oktober</string>
+    <string name="november">November</string>
+    <string name="december">Dezember</string>
+    <string name="grade_from">Note von</string>
+    <string name="swtich_acoounts">Konto wechseln</string>
+
+
+    <string-array name="monthsArray">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>März</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Dezember</item>
+
+    </string-array>
+
+
+    <string-array name="months">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>März</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Dezember</item>
+    </string-array>
+
+    <string name="notifications">Benachrichtigungen</string>
+
+    <string name="lorem_ipsum">Lorem Ipsum ist ein virtuelles Modell, das in Designs platziert wird, um es dem Kunden zu präsentieren.</string>
+
+    <string name="discount_partners">Rabattpartner</string>
+    <string name="teacher">Lehrer</string>
+
+
+    <string name="update_available">Ein Update ist für die Anwendung im Google Play Store verfügbar, um die Effizienz und Geschwindigkeit der Anwendung zu verbessern. \nMöchtest du das Update installieren?</string>
+    <string name="dear_customer">Mitglieder des Smart School Network: </string>
+    <string name="remind_me_later">Erinnere mich später</string>
+
+    <string name="update_available_title">Anwendungsupdate verfügbar</string>
+    <string name="update_app">Installieren</string>
+
+
+    <string name="student_evaluate">Schülerbeurteilung</string>
+
+    <string name="student_evaluate_activities">Du kannst alle Aktivitäten für diesen Schüler bewerten.</string>
+    <string name="set_all">Auf alle setzen</string>
+
+    <string name="invalid_evaluate_value">Bitte gib einen gültigen Wert zwischen 0 und 10 ein</string>
+
+    <string name="invalid_evaluate_required">Bewertung eingeben</string>
+
+
+    <string name="delete">Löschen</string>
+    <string name="edit">bearbeiten</string>
+    <string name="move_to">Verschieben nach</string>
+    <string name="upload_file">Datei hochladen</string>
+    <string name="create_folder">Datei erstellen</string>
+    <string name="folder_name">Dateiname</string>
+
+
+    <string name="create_flie">Datei hochladen</string>
+    <string name="description">Beschreibung</string>
+    <string name="file_name">Ordnername</string>
+    <string name="copy_to">kopieren nach</string>
+    <string name="update_folder">Datei ändern</string>
+    <string name="update_file">Ordner ändern</string>
+    <string name="questionsbank">Fragenbank</string>
+
+    <string name="delete_success">Der Ordner wurde erfolgreich gelöscht</string>
+    <string name="do_you_want_delete_file_or_folder">Möchten Sie diese Datei oder diesen Ordner löschen?</string>
+
+
+    <string name="student_evaluation">Schülerbewertungen</string>
+    <string name="evaluation_details">Bewertungsdetails</string>
+    <string name="evaluation">Bewertung</string>
+    <string name="children_evaluations">Kinderbewertungen</string>
+
+
+    <string name="add_question">Frage hinzufügen</string>
+    <string name="add_answer">Füge eine Antwort hinzu</string>
+    <string name="single_answer">Eine Antwort</string>
+    <string name="multi_answers">Mehrfachantwort</string>>
+    <string name="answer_name">Antwortname</string>
+    <string name="correct_answer">korrekte Antwort</string>
+    <string name="minuem_answers">Bitte füge eine Antwort zu dieser Frage hinzu..!</string>
+    <string name="please_choice_correct_answer">Bitte wählen Sie die richtige Antwort auf diese Frage oder überprüfen Sie den Fragetyp..!</string>
+    <string name="do_you_want_delete_question">Lösche diese Frage..!</string>
+    <string name="edit_question">Frage bearbeiten</string>
+    <string name="do_you_want_delete_quiz">Willst du diese Prüfung löschen..!</string>
+
+
+    <string name="single_answer_error">Ihr Fragetyp ist eine Antwort, Sie können dieser Frage nicht mehrere Antworten hinzufügen..!</string>
+    <string name="multi_answers_error">Dein Fragetyp sind mehrere Antworten, du kannst dieser Frage keine einzige Antwort hinzufügen..!</string>
+    <string name="chose_answers_error">Du hast mehr als eine richtige Antwort ausgewählt, du musst weitere Antworten hinzufügen..!</string>
+    <string name="delete_all">Alle löschen</string>
+    <string name="delete_selected">Ausgewählte löschen</string>
+    <string name="content">Inhalt</string>
+    <string-array name="categoryArray">
+        <item>Krankenhäuser</item>
+        <item>Analyselabore</item>
+        <item>Radiologiezentren</item>
+        <item>Apotheken</item>
+        <item>Ärzte</item>
+        <item>Bibliotheken</item>
+        <item>Geschäfte</item>
+        <item>Unterhaltung</item>
+        <item>Sonstiges</item>
+    </string-array>
+
+
+    <string-array name="categoryValue">
+        <item>Krankenhäuser</item>
+        <item>analytische_laboratorien</item>
+        <item>radiologie_zentren</item>
+        <item>Apotheken</item>
+        <item>Ärzte</item>
+        <item>Bibliotheken</item>
+        <item>Geschäfte</item>
+        <item>Unterhaltung</item>
+        <item>andere</item>
+    </string-array>
+
+
+    <string name="company_name">Firmenname:</string>
+    <string name="company_discount">Rabatt</string>
+    <string name="company_governorate">Provinz:</string>
+    <string name="company_area">Bereich:</string>
+    <string name="company_address">Adresse:</string>
+
+    <string name="discount">Rabattprozentsatz</string>
+    <string name="distance">Leerzeichen</string>
+    <string name="sort_by">Sortieren nach: </string>
+    <string name="edit_data">Meine Daten bearbeiten</string>
+
+
+    <string name="total_result">gesamt : </string>
+    <string name="total_percentage">Prozentsatz : </string>
+    <string name="total_evaluation">Gesamtnote: </string>
+    <string name="please_add_the_grade">Bitte fügen Sie die Note hinzu</string>
+    <string name="the_website_url_wrong">Ungültige Website..!</string>
+    <string name="please_select_attendance_or_absence">Bitte wähle An- oder Abwesenheit aus..!!</string>
+
+
+    <string name="subjects">Materialien</string>
+    <string name="basic_subjects">Basismaterial</string>
+    <string name="subjects_not_total">Fächer, die nicht zur Gesamtsumme hinzugefügt werden</string>
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="occasions">Ereignisse</string>
+    <string name="birthday">Geburtstag :</string>
+    <string name="say_happy_birthday">Geburtstagsgrüße:</string>
+    <string name="smart_schools">Smart Schools-Netzwerk</string>
+
+
+    <string name="facebook_app_id">1022392681294632</string>
+    <string name="fb_login_protocol_scheme">fb1022392681294632</string>
+    <string name="register">Registrierung</string>
+
+
+    <string name="primary_exams_result">Ergebnisse des primären Zertifikats</string>
+    <string name="middle_exams_result">Ergebnisse des Mittelschulabschlusses</string>
+    <string name="secondary_exams_result">Zweitzertifikatsergebnisse</string>
+
+
+    <string name="id_number">Nationale Nummer</string>
+    <string name="phone">Telefonnummer</string>
+    <string name="regtiser">Registrierung</string>
+    <string name="invaild_id"> Bitte geben Sie die Nationale ID ein </string>
+    <string name="results">Prüfungsergebnisse</string>
+    <string name="invalid_set_no">* Platznummer ist erforderlich</string>
+    <string name="details_survey">Einzelheiten</string>
+    <string name="suggetion_complaint">Vorschläge und Beschwerden</string>
+    <string name="complaints">beschweren</string>
+    <string name="suggestions">Vorschläge</string>
+
+
+    <string name="please_enter_body">Bitte geben Sie den Inhalt ein</string>
+    <string name="please_enter_header">Bitte Adresse eingeben</string>
+    <string name="header">Überschrift</string>
+    <string name="public_rational">Öffentlichkeitsarbeit</string>
+    <string name="if_u_have_suggestions">Wenn du Vorschläge hast, die uns helfen könnten...!</string>
+    <string name="if_u_have_compliant">Wenn du eine Beschwerde hast, hilf uns...!</string>
+    <string name="public_relations_managment">Abteilung für Öffentlichkeitsarbeit...!</string>
+
+
+    <string name="happy_birthday">Alles Gute zum Geburtstag</string>
+    <string name="congratulations_from">Du hast Glückwünsche erhalten von:</string>
+    <string name="Success">Gesendet</string>
+    <string name="events">Ereignisse</string>
+    <string name="birth_days">Geburtstage</string>
+    <string name="url_is_wrong">!..Ungültige URL.. !</string>
+    <string name="message_suggested">Nachricht mit Vorschlägen</string>
+    <string name="message_compliant">Beschwerdeschreiben</string>
+    <string name="content_message">Inhaltsmeldungen..!</string>
+    <string name="if_u_have_inbox">Wenn du einen Posteingang hast..!</string>
+    <string name="if_u_have_sent">Wenn du eine Nachricht gesendet hast..!</string>
+    <string name="suggestions_complaints"> Beschwerden und Vorschläge </string>
+    <string name="manage_suggestions_complaint">Beschwerden und Vorschläge verwalten..!</string>
+
+    <string name="school_attendance">Schulabwesenheit</string>
+
+    <string name="add_event_activity">Ereignis hinzufügen</string>
+    <string name="add_event">Ereignis hinzufügen</string>
+    <string name="event_updated">Ereignis geändert</string>
+    <string name="edit_event">Ereignis bearbeiten</string>
+    <string name="date_of_event">Das Datum des Ereignisses</string>
+    <string name="description_event">Beschreibe den Anlass...</string>
+    <string name="event_added">Veranstaltung erfolgreich hinzugefügt</string>
+
+    <string name="invalid_description">Bitte geben Sie eine Beschreibung des Ereignisses ein</string>
+    <string name="event_deleted">Veranstaltung wurde gelöscht</string>
+    <string name="add_grade">Note hinzufügen</string>
+    <string name="answer_assignment">Aufgabe beantworten</string>
+    <string name="user_not_activeted">Dein Account wurde von der Administration deaktiviert. Bitte kontaktiere die Administration..!</string>
+    <string name="no_evaluation_found">Keine Bewertung für den Monat</string>
+    <string name="no_absence_found">Keine Abwesenheit gefunden.</string>
+    <string name="no_assignments_found">Keine Zuweisungen gefunden.</string>
+    <string name="no_answers_found">Keine Antworten gefunden.</string>
+    <string name="no_birthdays_found">Es wurden keine Geburtstage gefunden.</string>
+    <string name="no_events_found">Keine Veranstaltungen gefunden.</string>
+    <string name="no_courses_found">Keine Kurse gefunden.</string>
+    <string name="no_files_found">Keine Dateien gefunden.</string>
+    <string name="no_exams_tables_found">Keine Prüfungstabellen gefunden.</string>
+    <string name="no_expenses_found">Keine Ausgaben gefunden.</string>
+    <string name="no_evaluat_found">Keine Bewertung gefunden.</string>
+    <string name="no_points_found">Keine Punkte gefunden.</string>
+    <string name="no_questions_found">Es wurden keine Fragen gefunden.</string>
+    <string name="no_quizzes_found">Keine Tests gefunden.</string>
+    <string name="no_students_found">Es wurden keine Schüler gefunden.</string>
+    <string name="official">offiziell</string>
+    <string name="experimental">experimentell</string>
+    <string name="no_result">Keine Ergebnisse gefunden.</string>
+    <string name="no_messages_found">Keine Nachrichten gefunden.</string>
+    <string name="students_quiz">Studenten</string>
+    <string name="total_deggree">Die Gesamtpunktzahl stimmt nicht mit der Gesamtpunktzahl überein, bitte versuche es erneut..!</string>
+    <string name="check_id">Dieser Name ist ohne ID, bitte überprüfen Sie die ID und versuchen Sie es erneut..!</string>
+
+
+    <string name="add_smart_vote">Abstimmung hinzufügen</string>
+    <string name="add_option">Neue Option hinzufügen</string>
+    <string name="add_survey">Umfrage hinzufügen</string>
+    <string name="no_votes_found">Es wurden keine Stimmen gefunden.</string>
+
+
+    <string name="poll_survey">Umfrage</string>
+    <string name="option_required">Die Wahladresse ist erforderlich</string>
+    <string name="vote_added_successfully">Stimme erfolgreich hinzugefügt</string>
+    <string name="vote_title_required">Abstimmungstitel ist erforderlich</string>
+    <string name="minimum_option">Bitte fügen Sie mehr als zwei Mindestoptionen hinzu</string>
+
+
+    <string name="survey_added_successfully">Umfrage erfolgreich hinzugefügt</string>
+    <string name="survey_title_required">Inspektionstitel erforderlich</string>
+    <string name="invalid_group">Die Gruppe muss ausgewählt werden</string>
+    <string name="minimum_vote">Bitte wähle mindestens eine Stimme aus</string>
+    <string name="unknown_error_please_try_again">Ein unbekannter Fehler ist aufgetreten, bitte versuche es erneut</string>
+
+
+    <string name="opened">öffnen</string>
+    <string name="survey_details">Inspektionsdetails</string>
+    <string name="vote_submitted">Ihre Stimme wurde erfolgreich übermittelt</string>
+
+    <string name="add_votes_first">Bitte fügen Sie zuerst eine Stimme hinzu</string>
+    <string name="questionnaire">Performer-Umfrage</string>
+    <string name="no_survey_found">Keine Umfragen gefunden.</string>
+    <string name="vote">abstimmen</string>
+    <string name="survey">Umfrage</string>
+    <string name="smart_Vote">Stimmen</string>
+    <string name="stopped">deaktiviert</string>
+    <string name="started">aktiv</string>
+    <string name="do_you_want_delete_survey">Willst du diese Umfrage löschen...!</string>
+    <string name="vote_title">Abstimmungstitel...</string>
+    <string name="you_can_add_more_options">Du kannst weitere Optionen hinzufügen..</string>
+    <string name="save_vote">Abstimmung speichern</string>
+    <string name="you_can_add_a_new_option">Du kannst eine neue Option hinzufügen</string>
+
+
+    <string name="option_title">Titel der Option...</string>
+    <string name="survey_title">Titel der Umfrage...</string>
+    <string name="you_can_add_a_new_vote">Du kannst eine neue Stimme hinzufügen</string>
+    <string name="my_survey">Umfragen</string>
+    <string name="delete_survey">Löschen</string>
+
+    <string name="person">Person</string>
+    <string name="answer_all_questions">Bitte beantworte alle Fragen, um deine Antworten einzureichen..!</string>
+    <string name="answer_correct">Die richtige Antwort lautet:</string>
+    <string name="correct_answers">richtige Antworten</string>
+
+    <string name="days">Wochentage</string>
+    <string name="start_week">Startdatum der Woche</string>
+    <string name="add_day">Tag hinzufügen</string>
+    <string name="assignmentname">Titel der Aufgabe:</string>
+    <string name="lessonname">Lektionstitel:</string>
+    <string name="no_data_day">Keine Daten für diesen Tag gefunden..!</string>
+    <string name="view_lesson">Lektion ansehen</string>
+    <string name="view_assignment">Zuweisung anzeigen</string>
+
+
+    <string-array name="weeks">
+        <item>Samstag</item>
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+    </string-array>
+
+    <string-array name="weeksWithOutSaturday">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+    </string-array>
+
+
+    <string name="do_you_want_delete_todo">Möchtest du Aufgaben löschen..!</string>
+    <string name="no_todo_found">Keine Aufgaben gefunden.</string>
+
+    <string name="todo_content_required">Aufgabeninhalt erforderlich!</string>
+    <string name="update_todo">Aufgaben ändern</string>
+    <string name="update_t">Ändern</string>
+    <string name="todo_deleted_successfully">Aufgaben erfolgreich gelöscht</string>
+    <string name="todo_finished">Die Aufgabe wurde erfolgreich abgeschlossen</string>
+    <string name="todo_list">Todo-Liste</string>
+    <string name="todo_date">Todo-Datum...</string>
+    <string name="todo_content">Aufgabeninhalt...</string>
+    <string name="todo_date_required">Datum der Aufgabe erforderlich!</string>
+    <string name="mode">Tagesstatus</string>
+    <string name="smart_pass">Smart Pass-Bedienfeld</string>
+    <string name="attend_message">Ihre Zeit wurde registriert um:</string>
+    <string name="departure">Entlassung</string>
+    <string name="smart_attendance">Smartes Anwesenheitssystem</string>
+    <string name="qr_code_changes">Ändert den QR-Code nach: </string>
+    <string name="seconds">Sekunden</string>
+    <string name="scan_more_card">Bitte nicht mehr als eine Mitarbeiterkarte gleichzeitig scannen</string>
+    <string name="attend_view">Aufzeichnung teilnehmen</string>
+    <string name="absence_view">Abfahrtsaufzeichnung</string>
+    <string name="attendance_card">Durchgangskarte</string>
+    <string name="absence_message">Ihre Abreise wurde genau um die Uhrzeit erfasst:</string>
+    <string name="the_attempt_failed">Versuch fehlgeschlagen</string>
+
+    <string name="permission_needed_camera">Wir brauchen eine Aktivierungserlaubnis!</string>
+    <string name="already_logged_in">Der Versuch, deine Anwesenheit zu registrieren, ist fehlgeschlagen, weil du bereits in der Schule registriert bist, bitte melde dich zuerst ab</string>
+    <string name="already_logged_out">Der Versuch, deinen Checkout anzumelden, ist fehlgeschlagen, weil du bereits abgemeldet bist, bitte melde dich zuerst an</string>
+
+
+    <string name="permission_location_required">Diese Berechtigung wird benötigt, damit wir Ihren Standort beim Check-in ermitteln können</string>
+    <string name="permission_not_available">Berechtigung ist erforderlich, um Ihren Standort zu bestimmen. Versuchen Sie es erneut.</string>
+    <string name="sorry_permission_needed">Leider kannst du die Zeiterfassung nicht aktivieren, ohne die Erlaubnis zu erteilen, deinen Standort während der Anwesenheit zu bestimmen</string>
+    <string name="attendance_qr">Anwesenheit</string>
+    <string name="error_with_connection">Leider ist ein Verbindungsfehler aufgetreten, bitte versuchen Sie es erneut</string>
+    <string name="invalid_passcode">Entschuldigung, ungültiger Passcode</string>
+
+
+    <string name="choice_the_day">Bitte wähle den Wochentag aus und versuche es erneut...!</string>
+    <string name="you_can_not_add_weekly">Du kannst keinen Wochenplan hinzufügen, bitte füge zuerst die Wochen hinzu und versuche es dann erneut...!</string>
+    <string name="there_is_no_attachment_is">Kein Anhang verfügbar..!</string>
+    <string name="open_file">Datei öffnen</string>
+    <string name="attach">Anhang</string>
+    <string name="no_weekly_plan_found">Kein Wochenplan gefunden.</string>
+    <string name="manage_profile">Profil verwalten</string>
+    <string name="scan_code">Code scannen</string>
+    <string name="maximum_images">Maximale Bilder sind 5</string>
+    <string name="please_choice_the_day">Bitte wähle den Wochentag aus und versuche es erneut...!</string>
+    <string name="branch">Zweig</string>
+    <string name="off_your_invoice">Von deiner Rechnung abgezogen</string>
+    <string name="choice_logo">wähle ein Logo</string>
+
+    <string name="notes_english">Notizen auf Englisch</string>
+    <string name="notes_arabic">Notizen auf Arabisch</string>
+    <string name="name_english">Name auf Englisch</string>
+    <string name="name_arabic">Name auf Arabisch</string>
+    <string name="discounts">% Rabatte</string>
+    <string name="add_location">Standort hinzufügen</string>
+    <string name="partners">Rabattpartner</string>
+    <string name="partners_details">Partnerdetails</string>
+    <string name="no_branches">Keine Filialen verfügbar..!</string>
+    <string name="password_changed_success">Dein Passwort wurde erfolgreich geändert</string>
+
+    <string name="get_your_discount">Holen Sie sich Ihren Rabatt</string>
+    <string name="discount_card">Debitkarte</string>
+    <string name="invaild_id_read_qr">Ungültiger Personalausweis oder Ihr Konto wurde deaktiviert, bitte versuchen Sie es später erneut...!</string>
+    <string name="add_discount">Bitte fügen Sie den Rabatt hinzu</string>
+    <string name="add_symbol">Bitte fügen Sie das Symbol hinzu</string>
+    <string name="seasions_expired">Deine Sitzung ist abgelaufen. Bitte melde dich erneut an..!</string>
+    <string name="partners_evalutaion">Partnerbewertung</string>
+    <string name="no_partners_found">Keine Partner gefunden</string>
+    <string name="question_one">Hast du den beworbenen Rabatt erhalten?</string>
+    <string name="question_two">Wie beurteilen Sie den Ort?</string>
+    <string name="notes_eva">Deine Notizen</string>
+    <string name="submit_evaluation">Bewertung abgeben</string>
+    <string name="evaluations_add_sucessfully">Bewertungen erfolgreich eingereicht</string>
+    <string name="Evaluation">Bewertung</string>
+
+    <string name="bus_absence">Fehlen des Busses</string>
+    <string name="bus_number_invalid">Die Busnummer ist nicht definiert, bitte wähle zuerst den Bus aus</string>
+
+    <string name="reason_absence">Grund der Abwesenheit</string>
+    <string name="reason_is_required">Grund ist ein Pflichtfeld</string>
+    <string name="confirm_students_absence">Studentenabwesenheit bestätigen</string>
+    <string name="reason_absence_title">Grund der Abwesenheit</string>
+    <string name="you_can_add_a_reason_of_absence">Du kannst einen Abwesenheitsgrund hinzufügen</string>
+    <string name="attendance_action">Teilnahme:</string>
+    <string name="choose_the_trip_type">Wähle einen Reisetyp</string>
+    <string name="going_to_school">Zur Schule gehen</string>
+    <string name="going_to_home">Nach Hause gehen</string>
+    <string name="please_choose_the_trip_type">Bitte wählen Sie einen Reisetyp aus</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="rating">Bewertungen</string>
+
+
+    <string name="are_you_sure_delete_image">Bist du sicher, dass du dieses Bild löschen möchtest</string>
+    <string name="place_details">Ortsdetails</string>
+
+    <string name="add_branch">Zweig hinzufügen</string>
+
+
+    <string name="driver_phone">Telefonnummer des Fahrers:</string>
+    <string name="contact_the_bus_driver">Möchtest du den Busfahrer kontaktieren? \n</string>
+    <string name="payments">Zahlungen</string>
+    <string name="total">gesamt: </string>
+    <string name="outcome_details">Kostendetails</string>
+    <string name="income_details">Einnahmendetails</string>
+    <string name="please_choose_branch">Bitte wählen Sie eine Branche aus.</string>
+    <string name="main_branch">main</string>
+    <string name="manage_branches">Zweige verwalten</string>
+    <string name="create_new_branch">Neuen Zweig hinzufügen</string>
+    <string name="update_branch">Zweig aktualisieren</string>
+    <string name="my_branch">Zweig</string>
+
+    <string name="statistics_student">Studentenstatistik</string>
+    <string name="statistics_teacher">Lehrerstatistik</string>
+    <string name="student_number">Anzahl der Schüler:</string>
+    <string name="available_places">verfügbare Plätze:</string>
+
+    <string name="pay_by_fawray">Bezahle mit Fawry!</string>
+    <string name="pay_by_card">Mit Karte bezahlen.</string>
+    <string name="card_number">Kartennummer</string>
+    <string name="cvv">CVV-Code</string>
+    <string name="mm">Monat</string>
+    <string name="yy">Jahr</string>
+    <string name="price">Preis</string>
+    <string name="continue_complate">fortsetzen</string>
+    <string name="total_payment">gesamt</string>
+    <string name="number_classes">Anzahl der Klassen</string>
+    <string name="statistics_classes">Klassenstatistik</string>
+    <string name="statistics_employee">Mitarbeiterstatistik</string>
+    <string name="statistics_buss">Busstatistiken</string>
+    <string name="fees">Studiengebühren</string>
+    <string name="school_uniform">Schuluniform</string>
+    <string name="other">andere</string>
+    <string name="the_amount_paid">der gezahlte Betrag</string>
+    <string name="remaining_amount">Restmenge</string>
+    <string name="date_next_receipt">Nächstes Zahlungsdatum</string>
+    <string name="my_store">Shop</string>
+    <string name="filter_by">Klassifiziert nach</string>
+    <string name="study_fees">Studiengebühren</string>
+    <string name="school_study_fees">Schulgebühren</string>
+    <string name="study_fees_sp">Studiengebühren</string>
+    <string name="select_the_safe">Tresor auswählen</string>
+    <string name="main_safe">Haupttresor</string>
+    <string name="education_safe">Bildungstresor</string>
+    <string name="reason_for_discount_addition">Grund für Rabatt/Zuschlag</string>
+    <string name="discount_brothers">Brüder-Rabatt</string>
+    <string name="add_receipt">Bitte fügen Sie die Empfangsnummer hinzu</string>
+    <string name="please_add_discount">Bitte fügen Sie einen Rabatt hinzu</string>
+    <string name="add_receipt_alert">Quittung hinzufügen</string>
+    <string name="expenses_value">Ausgabenwert</string>
+    <string name="payment_date">Zahlungsdatum</string>
+    <string name="paid_greater_than">bezahlt ist größer als</string>
+    <string name="paid_smaller_than">bezahlt ist kleiner als</string>
+    <string name="paid_equal">gleich bezahlt</string>
+    <string name="no_fees_found">Keine Kursgebühren gefunden..!</string>
+    <string name="without_discount">ohne Rabatt</string>
+    <string name="total_amount">Gesamtbetrag</string>
+    <string name="please_add_amount">Bitte überprüfen Sie Ihren Betrag..!</string>
+    <string name="please_add_recipe">Bitte überprüfen Sie die Belegnummer..!</string>
+    <string name="discount_value">Rabattwert</string>
+    <string name="add_irregularities">Unregelmäßigkeiten hinzufügen</string>
+
+
+    <string name="should_delete_others">Du musst zuerst die anderen löschen</string>
+    <string name="error_more_than_one_student">Entschuldigung, es ist nicht möglich, mehr als einen Schüler auszuwählen</string>
+    <string name="violation_name_required">Name des Verstoßes ist erforderlich!</string>
+
+    <string name="irregularities_student">Schülerverstöße</string>
+
+    <string name="write_the_name">Name schreiben...</string>
+    <string name="write_the_violation">Schreibe den Verstoß...</string>
+    <string name="violation_name">Name des Verstoßes:</string>
+    <string name="add_violation">Angriff hinzufügen</string>
+    <string name="save_violation">Verletzung aufzeichnen</string>
+    <string name="violation_deleted_successfully">Verstoß erfolgreich gelöscht</string>
+    <string name="student_name_xxxxxx">Schülername: </string>
+    <string name="school_xxxxxx">Schule: </string>
+    <string name="class_xxxxxx">Klasse</string>
+
+    <string name="scan_student_code">Schülercode scannen</string>
+    <string name="irregularities">Unregelmäßigkeiten</string>
+    <string name="write_notes">Notizen schreiben...</string>
+    <string name="error_403">Du kannst diesen Test nicht beantworten, da der Test keine Punktzahl hat..!</string>
+    <string name="smart_schools_store">Smart School Store</string>
+    <string name="Store_description">Sie können ganz einfach Schulmaterial für Ihre Kinder in unserer Anwendung "Smart School Network Store" kaufen. Klicken Sie zum Einkaufen auf die Anwendung jetzt starten</string>
+    <string name="start_app">Anwendung starten</string>
+    <string name="notes">Anmerkungen: </string>
+    <string name="write_comments">Kommentare schreiben...</string>
+    <string name="comments_grade">Kommentare:</string>
+    <string name="no_fees_student">Dieser Student hat keine Gebühren..!</string>
+    <string name="vaild_date">Gültige Daten</string>
+
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+    <string name="select_your_location">Wähle deinen Standort...</string>
+    <string name="permission_access_your_location">Diese Berechtigung ist erforderlich, um auf deine Website zuzugreifen</string>
+    <string name="school_settings">Schuleinstellungen</string>
+    <string name="school_settings_location_message">Sie müssen die Schulsucheinstellungen auf Google Map anpassen, damit wir den Schulbusdienst betreiben können</string>
+    <string name="ALL">Alle</string>
+    <string name="error_401_grades">Die eingegebene Note existiert bereits!</string>
+    <string name="this_week_already_added">Diese Woche wurde bereits hinzugefügt, bitte ändere die Woche und versuche es erneut...!</string>
+    <string name="pleas_add_the_answer_text">Bitte füge die Antwort hinzu..!</string>
+
+    <string name="invalid_lesson">Bitte wähle eine Lektion aus..!</string>
+    <string name="invalid_unit">Bitte wähle eine Einheit aus..!</string>
+    <string name="invalid_subject">Bitte wählen Sie einen Betreff aus..!</string>
+
+    <string name="check_for_update">Nach Updates suchen</string>
+    <string name="start_update">Aktualisierung starten</string>
+    <string name="smart_schools_update">Suche nach einem Smart Schools-App-Update</string>
+    <string name="device_token_is_req">Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es später erneut.!</string>
+    <string name="activites">Aktivitäten</string>
+    <string name="project">Projekte</string>
+    <string name="participations">mit Beiträgen</string>
+    <string name="assignment1">Auftragsnummer</string>
+    <string name="quizzes1">Frage Nr.</string>
+    <string name="results_dialog">Ergebnisse</string>
+    <string name="exam_details">Details zu Prüfungsergebnissen</string>
+    <string name="average">Durchschnitt</string>
+
+
+    <string name="update_app_message">
+        Ein neues Update ist von der App verfügbar, Sie sollten die App aktualisieren, damit wir Ihnen den besten Service bieten können.</string>
+    <string name="update_application">Anwendung aktualisieren</string>
+    <string name="tell_me_later">Erinnere mich später</string>
+    <string name="class_a">Klasse</string>
+    <string name="stage_a">Zeile</string>
+    <string name="student_a">Schüler</string>
+    <string name="points">Punkte</string>
+    <string name="congratulations">Herzlichen Glückwunsch.!</string>
+    <string name="final_result">Ergebnisstatistik</string>
+    <string name="no_results_found_for_this_subject">Für diesen Artikel wurden keine Ergebnisse gefunden.!</string>
+    <string name="quarters">Laufzeit</string>
+    <string name="city">Provinz</string>
+    <string name="all_smart">Allgemein</string>
+    <string name="happy_birthday1">Alles Gute zum Geburtstag</string>
+    <string name="want_to_join">Sie müssen eine Besprechungsnummer/Vanity-ID eingeben, an der Sie teilnehmen möchten.</string>
+    <string name="both_meeting">Sowohl die Besprechungsnummer als auch die Vanity-ID haben einen Wert, legen Sie einfach eine davon fest</string>
+    <string name="invalid_meeting_number">Ungültige Besprechungsnummer:</string>
+
+
+    <string name="v_classroom">Virtuelle Klassen</string>
+    <string name="country">Land</string>
+    <string name="governorate">Regierung</string>
+    <string name="management_learning">Verwalte die Rampe</string>
+    <string name="school_name">Schulname</string>
+    <string name="invaild_country">Bitte gib dein Land ein</string>
+    <string name="invaild_governorate">Bitte geben Sie Ihre Brieftasche ein</string>
+    <string name="invaild_management">Bitte geben Sie Ihre Bildungsverwaltung ein</string>
+    <string name="invaild_school_name">Bitte geben Sie Ihren Schulnamen ein</string>
+    <string name="invaild_stage">Bitte gib deinen Bühnennamen ein</string>
+    <string name="full_name_reg">Name</string>
+    <string name="invaild_type">Bitte wählen Sie einen Benutzertyp aus</string>
+    <string name="registered_succes">Ihre Daten wurden erfolgreich registriert, wir werden Sie bald kontaktieren.</string>
+    <string name="video_conference">Interaktive Meetings</string>
+
+    <string name="meeting">Besprechungsraum</string>
+    <string name="this_session_not_active">Dieses Meeting ist derzeit inaktiv.</string>
+    <string name="this_session_is_online">Dieses Meeting ist jetzt aktiv, du kannst es später noch einmal versuchen...!</string>
+    <string name="meeting_reports">Lehrerberichte</string>
+    <string name="admins_reports">Berichte von Administratoren</string>
+
+
+    <string-array name="typeregister">
+        <item>Benutzertyp auswählen</item>
+        <item>Schulleiter</item>
+        <item>Schulbeamter</item>
+        <item>Lehrer</item>
+        <item>Schüler</item>
+        <item>Wächter</item>
+    </string-array>
+
+    <string name="researches">Forschungsprojekte</string>
+    <string name="researches_submit">Recherche einreichen</string>
+    <string name="research_description">Suchbeschreibung</string>
+
+
+    <string name="conference_room">Interaktive Meetings</string>
+    <string name="no_video_conference_is_available">Keine interaktiven Meetings</string>
+
+    <string name="link_youtube"> Web https://www.youtube.com/watch?v= Code \nMobiler https://youtu.be/ Code </string>
+
+
+    <string name="researches_title">Titel</string>
+    <string name="research_topic">Suchbegriff:</string>
+    <string name="grade_is">Note: </string>
+    <string name="this_research_has_already_been_submitted">Diese Suche wurde schon einmal eingereicht. Dieselbe Suche kann nicht erneut eingereicht werden</string>
+    <string name="no_researches_found">Keine Suchen gefunden.</string>
+
+
+    <string name="send_notification">Benachrichtigungen senden</string>
+    <string name="body_arabic">Arabischer Inhalt</string>
+    <string name="body_english">Englischer Inhalt</string>
+    <string name="title_arabic">Titel auf Arabisch</string>
+    <string name="title_english">englischer Titel</string>
+    <string name="if_you_want_notifications">Wenn du Benachrichtigungen an alle senden möchtest.!</string>
+    <string name="sent_notifications_for_all">Sende eine Benachrichtigung an alle</string>
+    <string name="ahln_ramdan">Willkommen Ramadan</string>
+    <string name="buss_admin">Schulbus</string>
+    <string name="load_supject_more">Weitere Elemente laden</string>
+    <string name="no_subject_more">Keine anderen Artikel..!</string>
+    <string name="total_assignments">Gesamtzahl der Zuweisungen:</string>
+    <string name="total_quiz">Gesamtzahl der Tests:</string>
+
+
+    <string name="choose_class">Klasse wählen</string>
+    <string name="meetings">Online-Vorlesungen</string>
+
+
+    <string name="ycuwq_datepicker_decide">OK</string>
+    <string name="ycuwq_datepicker_cancel">Abbrechen</string>
+    <string name="ycuwq_datepicker_hour">x</string>
+    <string name="ycuwq_datepicker_minute">D</string>
+
+    <string name="time_set">Buch</string>
+
+    <string name="teach_name">Lehrer: </string>
+    <string name="day_and_time">Tag und Uhrzeit:</string>
+    <string name="no_meetings_found">Keine Vorträge</string>
+    <string name="meeting_successfully_booked">Der Vortrag wurde erfolgreich gebucht</string>
+    <string name="start_time_meeting">Vorlesungsbeginn</string>
+    <string name="end_time_meeting">Das Enddatum des Vortrags</string>
+    <string name="virtual_class_schedule">Zeitplan für virtuelle Klassen</string>
+    <string name="academic_schedules">Zeitpläne für das akademische Jahr</string>
+
+    <string name="school_class_schedule">Schulklassenplan</string>
+    <string name="virtual_schedule">Zeitplan für virtuelle Kurse</string>
+
+
+    <string name="reports_for_admin">Site-Administrator-Berichte</string>
+    <string name="grade_quiz">Testergebnis :</string>
+    <string name="Assignments">Zuweisungen</string>
+    <string name="reserve_shares">reservieren</string>
+    <string name="statistics">Statistiken</string>
+    <string name="v_room">Virtuelles Klassenzimmer</string>
+    <string name="dont_press_back">Bitte warten Sie, bis Sie dem Meeting beitreten. Drücke nicht den Zurück-Button..!</string>
+    <string name="plase_wait">Bitte warten...!</string>
+    <string name="started_on">begonnen um:</string>
+    <string name="ended_in"> endete in :</string>
+    <string name="privacy">Datenschutz</string>
+    <string name="partner">Partner</string>
+    <string name="language_title">p</string>
+    <string name="germany">Deutschland</string>
+    <string name="touch_id">Fingerabdruck</string>
+    <string name="touch_id2"><strike>Fingerabdruck</strike></string>
+
+    <string name="or">oder</string>
+    <string name="terms_amp_conditions"><![CDATA[Nutzungsbedingungen]]></string>
+    <string name="create_account">Konto erstellen</string>
+    <string name="confirm_my_password">Passwort bestätigen</string>
+    <string name="login_to_smartschools">Bei Smart Schools anmelden</string>
+    <string name="hello">Willkommen:</string>
+    <string name="write_your_message_here">Schreibe hier deine Nachricht..!</string>
+    <string name="set_home_location">Heimadresse festlegen</string>
+    <string name="english">Englisch</string>
+    <string name="french">Französisch</string>
+    <string name="arabic">Arabisch</string>
+
+    <string name="title_fingerprint">One-Touch-Anmeldung</string>
+    <string name="desc_fingerprint">Bitte legen Sie Ihre Fingerspitze auf den Scanner, um Ihre Identität zu bestätigen</string>
+    <string name="note">(Fingerabdruck-Anmeldung macht Ihre App-Anmeldung viel schneller. Ihr Gerät sollte mindestens einen Fingerabdruck in den Geräteeinstellungen registriert haben)</string>
+    <string name="manage_accounts">Konto verwalten</string>
+    <string name="app_settings">App-Setup</string>
+    <string name="rating_app">App bewerten</string>
+    <string name="my_notifications">Meine Benachrichtigungen</string>
+    <string name="clear_all">Alle löschen</string>
+    <string name="to">An :</string>
+    <string name="rate_our_app">Bewerte unsere App</string>
+    <string name="name_on_the_card">Der Name auf der Karte</string>
+    <string name="student_expenses">Studentenausgaben</string>
+    <string name="expire_date">Ablaufdatum</string>
+    <string name="add_expenses">Ausgaben hinzufügen</string>
+
+
+    <string name="research_projects">Forschungsprojekte</string>
+    <string name="schedules">Tabellen</string>
+    <string name="evaluate_student">Schülerbeurteilung</string>
+    <string name="note_title">Hinweis:</string>
+    <string name="add_receipt_name">Quittung hinzufügen</string>
+    <string name="name_vs">Name :</string>
+
+    <string name="job">job</string>
+    <string name="adding_complains">Beschwerden hinzufügen</string>
+    <string name="adding_complains_or_suggestions">Hinzufügen von Beschwerden oder Vorschlägen</string>
+    <string name="add_the_subject">Betreff hinzufügen</string>
+    <string name="add_details">Details hinzufügen</string>
+    <string name="attach_your_files">Hänge deine Dateien an</string>
+    <string name="clear_selected">Auswahl löschen</string>
+    <string name="area_name">Bereichsname</string>
+    <string name="location_name">Standortname</string>
+
+    <string name="voice_note">Sprachnotizen</string>
+    <string name="record_voice_note">Drücke die Mikrofontaste \n, um Sprachnotizen aufzunehmen</string>
+    <string name="playing">Spieler</string>
+    <string name="finished">fertig</string>
+    <string name="media_player">Audioplayer</string>
+    <string name="vaild_dagree_total">Fehler bei den Ergebnissen als Testergebnis </string>
+    <string name="vaild_dagree_total1">Die Summe der eingegebenen Punktzahlen</string>
+    <string name="add_assignment">Zuweisung hinzufügen</string>
+    <string name="student_degrees">Noten des Schülers</string>
+    <string name="body">Inhalt</string>
+    <string name="add_weekly_plan">Wochenplan hinzufügen</string>
+    <string name="update_weeklyplan">Wochenplan aktualisieren</string>
+    <string name="submit_researches">Recherche einreichen</string>
+    <string name="your_degree">Dein Abschluss:</string>
+    <string name="start_the_quiz">Quiz starten</string>
+    <string name="q">F:</string>
+    <string name="name_semi">Name :</string>
+    <string name="grade_semi">Stufe:</string>
+    <string name="school_name_semi">Schulname:</string>
+    <string name="exam_class_semi">Prüfungskategorie:</string>
+
+    <string name="title_activity_editor_test">Editor</string>
+    <string name="exit_the_editor">Möchten Sie den Editor wirklich verlassen?</string>
+    <string name="cancelled">Abgesagt</string>
+    <string name="exit_editor">Editor beenden</string>
+
+    <string name="choose">auswählen</string>
+    <string name="answer_content">Inhalt beantworten</string>
+    <string name="question_content_2">Inhalt der Frage</string>
+
+    <string name="permission_storage_needed">Berechtigung zum Hochladen von Studio-Bildern</string>
+    <string name="permission_message_photo">Diese Berechtigung ist erforderlich, um auf deinen Speicher zuzugreifen</string>
+    <string name="access_your_storage">Wir benötigen diese Berechtigung, um auf deinen Speicher zuzugreifen</string>
+    <string name="permission_message_location">Diese Berechtigung ist erforderlich, um eine Verbindung zum GPS herzustellen, damit wir auf Ihren Standort zugreifen können</string>
+
+
+    <string name="excellent_students">Exzellente Schüler</string>
+    <string name="first_place">Erster Platz</string>
+    <string name="second_place">Zweiter Platz</string>
+    <string name="third_place">Dritter Platz</string>
+    <string name="fourth_place">Vierter Platz</string>
+    <string name="fifth_place">Fünfter Platz</string>
+    <string name="sixth_place">Sechster Platz</string>
+    <string name="seventh_place">Siebter Platz</string>
+    <string name="eighth_place">Achter Platz</string>
+    <string name="ninth_place">Neunter Platz</string>
+    <string name="tenth_place">Zehnter Platz</string>
+
+    <string name="maximum_video">Maximal 8 Videos posten</string>
+    <string name="add_comment">Kommentar hinzufügen</string>
+    <string name="Done">Fertig</string>
+    <string name="invite_friends">Lade Freunde ein</string>
+    <string name="follow">Folgen</string>
+    <string name="followers">Follower</string>
+    <string name="following">Folge</string>
+    <string name="personal_info">Persönliche Informationen</string>
+    <string name="centerReviews">Bewertungen</string>
+    <string name="suggested">Vorgeschlagen</string>
+    <string name="title_feeds_empty">Baue deine Community auf</string>
+    <string name="findfriends">Freunde finden</string>
+    <string name="text_content_feeds_empty">hier werden die Aktivitäten deiner Freunde angezeigt. folge deinem aktivsten Freund mit rellit, um seine Abenteuer zu verfolgen und etwas Ermutigung zu teilen</string>
+    <string name="what_s_in_your_mind">was ist in deinem Kopf...</string>
+
+
+    <string name="question_content">Inhalt der Frage ...</string>
+    <string name="start_writing_here">Fang hier an zu schreiben...</string>
+    <string name="like">Gefällt mir</string>
+    <string name="comments">Kommentare</string>
+    <string name="no_comments_found">Keine Kommentare gefunden.</string>
+    <string name="likes">Gefällt mir</string>
+    <string name="like_me">Gefällt mir</string>
+    <string name="feeds">Feeds</string>
+    <string name="minutes">Minuten</string>
+    <string name="hours">Stunden</string>
+    <string name="Years">Jahre</string>
+    <string name="months">Monate</string>
+    <string name="dashboard_feeds">Dashboard</string>
+    <string name="comment_feed">\" Kommentar\"</string>
+    <string name="comment_0">0 Kommentar</string>
+    <string name="like_0">0 Gefällt mir</string>
+
+    <string name="sample_title">ChatKit für Android</string>
+
+
+    <string name="view">Ansehen</string>
+
+    <string name="sample_title_default">Standardansicht</string>
+    <string name="sample_subtitle_default">Dialoge und Meldungen mit Standardstil</string>
+    <string name="sample_title_attrs">Gestaltete Ansicht</string>
+    <string name="sample_subtitle_attrs">Gestylte Komponenten mit eingebetteten Attributen</string>
+    <string name="sample_title_layout">Benutzerdefiniertes Layout</string>
+    <string name="sample_subtitle_layout">Benutzerdefinierte Layouts zum Ändern der Standardansichtsposition</string>
+    <string name="sample_title_holder">Benutzerdefinierter Ansichtshalter</string>
+    <string name="sample_subtitle_holder">Benutzerdefinierter Ansichtshalter zum Erweitern des Standardverhaltens für neue Funktionen</string>
+    <string name="sample_title_custom_content">Benutzerdefinierter Inhaltstyp</string>
+    <string name="sample_subtitle_custom_content">Benutzerdefinierter Nachrichteninhalt am Beispiel einer Sprachnachricht</string>
+
+    <string name="hint_enter_a_message">Geben Sie eine Nachricht ein…</string>
+    <string name="on_log_click_message">Ihr benutzerdefinierter Handler für lange Klicks</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_copy">Kopieren</string>
+    <string name="copied_message">Nachricht kopiert!</string>
+
+    <string name="date_header_today">Heute</string>
+    <string name="date_header_yesterday">Gestern</string>
+
+    <string-array name="view_types_dialog">
+        <item name="image">Bild (Standard)</item>
+        <item name="voice">Sprachnachricht (benutzerdefiniert)</item>
+    </string-array>
+
+    <string name="start_typing_status">Beginnen Sie mit der Eingabe</string>
+    <string name="stop_typing_status">Hör auf zu tippen</string>
+    <string name="from">von : </string>
+    <string name="Attachment">Anhang: </string>
+    <string name="reply_message">Auf eine Nachricht antworten</string>
+    <string name="complain_inbox">Eingegangene Beschwerden</string>
+    <string name="complain_sent">Beschwerden senden</string>
+    <string name="suggestion_inbox">Vorschläge erhalten</string>
+    <string name="suggestion_sent">Vorschläge senden</string>
+    <string name="mail">Mail</string>
+    <string name="suggestion">Vorschläge</string>
+    <string name="complain">Beschwerden</string>
+    <string name="stage">Bühne</string>
+    <string name="name_contactus">Name</string>
+    <string name="title_message">Nachrichtentitel</string>
+    <string name="sent_archive">Archiv gesendet</string>
+    <string name="inbox_archive">Eingehende Nachrichten archivieren</string>
+    <string name="inbox2">Posteingang</string>
+    <string name="archive_message">Nachrichten archivieren</string>
+    <string name="section_no">Abschnitt Nr :</string>
+    <string name="label_paid">Der bezahlte Betrag</string>
+    <string name="label_not_paid">Verbleibender Betrag</string>
+    <string name="touch_id_for_smartschools">Fingerabdruck zur Anmeldung bei Smart School verwenden</string>
+    <string name="do_you_want_to_use_the_fingerprint_login_feature">Möchtest du die Anmeldefunktion per Fingerabdruck verwenden?</string>
+    <string name="add_quiz_assignment">Füge eine Online-Aufgabe hinzu</string>
+    <string name="quiz_assignment">Elektronische Hausaufgaben</string>
+    <string name="start_quiz_assignment">Aufgabe beginnen</string>
+    <string name="degree_quiz">Grad von: </string>
+    <string name="label_assignments">Zuweisungen</string>
+    <string name="back_to_main">zurück zur Hauptseite</string>
+    <string name="friday">Freitag</string>
+    <string name="please_choice_the_month">Bitte wähle den Monat aus</string>
+    <string name="accounts">Meine Konten</string>
+    <string name="back">zurück</string>
+    <string name="invalid_login_or_active">Der Benutzername oder das Passwort ist falsch, oder Ihr Konto wurde von der Administration deaktiviert. Bitte wenden Sie sich an die Administration..!</string>
+    <string name="chlid_irregularites">Kindesdelikte</string>
+    <string name="student_result_quiz">Testantworten</string>
+    <string name="no_folders_found">keine Ordner gefunden</string>
+    <string name="product">Products</string>
+    <string name="available_product">Available Product</string>
+    <string name="exception_product">Exception Product</string>
+    <string name="product_available_for_student">Product Available For Student</string>
+    <string name="product_exception_for_student">Product Exception For Student</string>
+    <string name="my_wallet">"My Wallet "</string>
+    <string name="invaild_amont">please enter amounts</string>
+    <string name="buy_product_for_student">Buy Product For Student</string>
+    <string name="delete_products_exception">Delete Products Exception</string>
+    <string name="choos_products_exception">Choose Products Exception</string>
+    <string name="balance">Balance :</string>
+    <string name="quantity">Quantity</string>
+    <string name="cost">Cost</string>
+    <string name="description_arabic">description arabic</string>
+    <string name="logo_product">Logo product</string>
+    <string name="attention_please_if_you_need_to_update_item_please_select_to_update_if_you_need_to_delete_item_select_to_delete">Attention please if you need to update item please select to update .. if you need to delete item select to delete ..!</string>
+    >
+    <string name="canteen_school">Canteen School</string>
+    <string name="invalid_quantity">Please enter Quantity</string>
+    <string name="invaild_descriptio_product">Please enter description .</string>
+    <string name="invalid_attachment">please add logo product</string>
+    <string name="add_product">Add Product</string>
+    <string name="update_product">Update Product</string>
+    <string name="sale_product_student">Sale Product For Student</string>
+    <string name="add_fees_to_parent">Add Fees For Parent</string>
+    <string name="scan_card_student">Scan Card</string>
+    <string name="cash">Cash</string>
+    <string name="active_buy">ActiveBuyProducts</string>
+    <string name="wallet_buy">Buy From My Wallet</string>
+    <string name="please_choose_products">Please select the products you want to buy..!</string>
+    <string name="student_requests_available">الطلبات المتاح للطالب</string>
+    <string name="wallet_charge">Wallet Charge</string>
+    <string name="repeting_questions">خطا فى تكرار الاسئلة من فضلك امسح السؤال المتكرر..!</string>
+    <string name="new_complain_or_suggest">New Complain Or Suggest</string>
+    <string name="password">Password</string>
+    <string name="certificate">Certificate</string>
+    <string name="red_result">Red = Didn\'t master the skills</string>
+    <string name="yellow_result">Yellow = Needs some support</string>
+    <string name="green_result">Green = have knowledge</string>
+    <string name="blue_result">Blue = exceeded expectations</string>
+    <string name="exceeded_expectations">exceeded expectations</string>
+    <string name="have_the_knowledge">have knowledge</string>
+    <string name="in_need_of_some_support">needs some support</string>
+    <string name="didnt_master_the_skills"> Didn\'t master the skills</string>
+    <string name="total_order">Total order : %1$d L.E</string>
+</resources>
