@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bk"
+        android:layoutDirection="ltr">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+                android:text="اختار اللغه"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/lnArabic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivCommentCreator"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ar_lang" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_16sdp"
+                    android:text="اللغة العربية"
+                    android:textColor="@color/gen_black"
+                    android:textSize="@dimen/_17sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/en_flag" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_16sdp"
+
+                    android:text="English"
+
+                    android:textColor="@color/gen_black"
+                    android:textSize="@dimen/_16sdp"
+
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnFrench"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fr_lang" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_16sdp"
+                    android:text="French"
+                    android:textColor="@color/gen_black"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/lnTurkey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/flag_turkey" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="Türkiye"
+                    android:textColor="@color/gen_black"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnGermany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/flag_germany" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_16sdp"
+                    android:text="@string/germany"
+                    android:textColor="@color/gen_black"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>
+
+

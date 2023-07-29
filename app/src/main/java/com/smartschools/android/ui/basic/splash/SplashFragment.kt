@@ -1,4 +1,4 @@
-package com.smartschools.android.ui.splash
+package com.smartschools.android.ui.basic.splash
 
 import android.Manifest
 import android.app.Activity
@@ -10,7 +10,6 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -19,10 +18,9 @@ import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.lifecycle.flowWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.Navigation.findNavController
-import com.exas.qpmoemp.data.persistentStorage.sharedPref.SharedPreferencesImpl
+import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 
 
 import com.karumi.dexter.Dexter
@@ -41,7 +39,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import java.util.*
 
 //@AndroidEntryPoint
 class SplashFragment : Fragment() {
@@ -72,19 +69,21 @@ class SplashFragment : Fragment() {
         //    LocalizationUtils.setDefaultFontConfiguration(requireContext())
 
 
+//        SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ENGLISH)
+//
         if (SharedPreferencesImpl(requireContext()).getLanguage().isEmpty() ||
-            SharedPreferencesImpl(requireContext()).getLanguage() == Constants.LANGUAGE_ARABIC){
-            SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ARABIC)
+            SharedPreferencesImpl(requireContext()).getLanguage() == Constants.LANGUAGE_ARABIC
+        ) {
             LocaleHelper.setLocale(requireContext(), "ar")
             binding!!.root.layoutDirection = View.LAYOUT_DIRECTION_RTL
-        }else{
+        } else {
             LocaleHelper.setLocale(requireContext(), "en")
-            SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ENGLISH)
             binding!!.root.layoutDirection = View.LAYOUT_DIRECTION_LTR
         }
         initScreen()
 //         LocaleHelper.setLocale(requireActivity(), "ar")
     }
+
     private fun initScreen() {
 
 
@@ -93,9 +92,10 @@ class SplashFragment : Fragment() {
 //            viewModel.getPasswordChangedStatus(SharedPreferencesImpl(requireContext()).getUserId().toInt())
 //        else
 //        {
-            setupBoundsImage(true)
+        setupBoundsImage(true)
 //        }
     }
+
     private fun observeUIState() {
 //        lifecycleScope.launch {
 //            viewModel.uiState.flowWithLifecycle(lifecycle)
@@ -108,10 +108,24 @@ class SplashFragment : Fragment() {
     private fun startSplashTimer(status: Boolean) {
         CoroutineScope(Dispatchers.Main).launch {
 
-            findNavController(
-                requireActivity(),
-                R.id.navHostFragment
-            ).navigate(R.id.homeFragment)
+            if (SharedPreferencesImpl(requireContext()).getFirstLaunch() == "true")
+                findNavController(
+                    requireActivity(),
+                    R.id.navHostFragment
+                ).navigate(R.id.languageFragment)
+            else {
+                if (SharedPreferencesImpl(requireContext()).getApiKeyToken().isNotEmpty())
+                    findNavController(
+                        requireActivity(),
+                        R.id.navHostFragment
+                    ).navigate(R.id.homeFragment)
+                else
+                    findNavController(
+                        requireActivity(),
+                        R.id.navHostFragment
+                    ).navigate(R.id.loginFragment)
+
+            }
 
 
             delay(SPLASH_DISPLAY_TIME)
@@ -130,7 +144,8 @@ class SplashFragment : Fragment() {
 
         //set animation for logo
         lifecycleScope.launchWhenCreated {
-            val bounce: Animation = AnimationUtils.loadAnimation(requireActivity(), R.anim.animation_fade_in)
+            val bounce: Animation =
+                AnimationUtils.loadAnimation(requireActivity(), R.anim.animation_fade_in)
 
             binding!!.logoBounds.visibility = View.VISIBLE
             bounce.also { binding!!.logoBounds.animation = it }
@@ -147,7 +162,6 @@ class SplashFragment : Fragment() {
     }
 
 
-
     private fun checkForInternet(context: Context): Boolean {
         val connectivityManager =
             context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
@@ -159,6 +173,7 @@ class SplashFragment : Fragment() {
             else -> false
         }
     }
+
     private fun requestExternalStoragePermission() {
         val permissions = arrayListOf<String>()
 

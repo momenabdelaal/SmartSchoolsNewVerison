@@ -44,8 +44,13 @@ object Constants {
     const val FORGET_PASSWORD_PAGE = 9
 
     //LANGUAGE
-    const val LANGUAGE_ENGLISH = "en-sa"
-    const val LANGUAGE_ARABIC = "ar-sa"
+
+    const val LANGUAGE_ENGLISH = "en"
+    const val LANGUAGE_ARABIC = "ar"
+    const val LANGUAGE_FRENCH = "fr"
+    const val LANGUAGE_TURKEY = "tr"
+    const val LANGUAGE_GERMANY = "de"
+
     const val UserType= "user_type"
 
     const val IS_BACK_KEY_PRESSED = "IS_BACK_KEY_PRESSED"

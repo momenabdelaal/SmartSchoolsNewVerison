@@ -81,7 +81,7 @@ fun Fragment.snackBarSuccess(message:String){
         requireView(),
         message,
         Snackbar.LENGTH_LONG
-    ).setBackgroundTint(requireContext().resources.getColor(R.color.purple_500)).show()
+    ).setBackgroundTint(requireContext().resources.getColor(R.color.colorGreen)).show()
 
 }
 fun Fragment.snackBarFailure(message:String){
@@ -89,7 +89,7 @@ fun Fragment.snackBarFailure(message:String){
         requireView(),
         message,
         Snackbar.LENGTH_LONG
-    ).setBackgroundTint(requireContext().resources.getColor(R.color.purple_500)).show()
+    ).setBackgroundTint(requireContext().resources.getColor(R.color.colorPrimary)).show()
 
 }
 

@@ -1,7 +1,6 @@
 package com.smartschools.android.data.dataSource.user.local
 
-import com.exas.qpmoemp.data.persistentStorage.sharedPref.SharedPreferences
-import com.smartschools.android.data.dataSource.user.local.UserLocalDataSource
+import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferences
 import javax.inject.Inject
 
 class UserLocalDataSourceImpl @Inject constructor(

@@ -1,6 +1,8 @@
-package com.exas.qpmoemp.data.persistentStorage.sharedPref
+package com.smartschools.android.data.persistentStorage.sharedPref
 
+import com.smartschools.android.data.model.auth.login.ResultModel
 import org.intellij.lang.annotations.Language
+import java.util.stream.IntStream.Builder
 
 interface SharedPreferences {
     fun getApiKeyToken(): String
@@ -17,6 +19,10 @@ interface SharedPreferences {
     fun getIsManager() : String
     fun setNotificationCount(notificationCount: String)
     fun setLanguage(language: String)
+    fun isFirstLaunch(isFirst: String)
+    fun getFirstLaunch() : String
+
+
 
     fun clearAll()
 }

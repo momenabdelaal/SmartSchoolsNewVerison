@@ -1,7 +1,7 @@
 package com.smartschools.android.core.base
 
 import androidx.lifecycle.ViewModel
-import com.exas.qpmoemp.data.persistentStorage.sharedPref.SharedPreferencesImpl
+import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

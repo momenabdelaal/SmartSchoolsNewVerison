@@ -1,12 +1,13 @@
 package com.smartschools.android.core.appUtils.localization
 
-import android.preference.PreferenceManager
 import android.app.Activity
 import android.content.Context
 import android.content.res.Configuration
+import android.os.Build
+import android.preference.PreferenceManager
 import android.util.DisplayMetrics
 import com.smartschools.android.core.appUtils.Constants
-import java.util.*
+import java.util.Locale
 
 class LocaleHelper {
     private val TAG = LocaleHelper::class.java.name
@@ -49,7 +50,7 @@ class LocaleHelper {
         private fun updateResources(context: Context, language: String?): Context {
             val locale: Locale = if (language.equals("ar", ignoreCase = true)) Locale(
                 language.toString(),
-                "SA"
+                ""
             ) else Locale(language.toString())
             Locale.setDefault(locale)
             val configuration = context.resources.configuration
@@ -69,7 +70,7 @@ class LocaleHelper {
         private fun updateResourcesLegacy(context: Context, language: String?): Context {
             val locale: Locale = if (language.equals("ar", ignoreCase = true)) Locale(
                 language,
-                "SA"
+                ""
             ) else Locale(language)
             Locale.setDefault(locale)
             val resources = context.resources
@@ -79,6 +80,17 @@ class LocaleHelper {
             configuration.locale = locale
             resources.updateConfiguration(configuration, resources.displayMetrics)
             return context
+        }
+
+        fun initLanguage(context: Context, languageToLoad: String) {
+            if (languageToLoad !== "0") {
+                val locale = Locale(languageToLoad)
+                val resources = context.resources
+                val config = resources.configuration
+                config.locale = locale
+                config.setLayoutDirection(locale)
+                resources.updateConfiguration(config, resources.displayMetrics)
+            }
         }
     }
 }

@@ -1,8 +1,7 @@
 package com.smartschools.android.core.appUtils
 
 import androidx.fragment.app.Fragment
-import com.smartschools.android.core.base.BaseActivity
-import com.exas.qpmoemp.data.persistentStorage.sharedPref.SharedPreferencesImpl
+import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 
 object LoadingScreen {
 

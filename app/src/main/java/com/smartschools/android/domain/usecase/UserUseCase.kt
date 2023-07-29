@@ -1,5 +1,6 @@
 package com.smartschools.android.domain.usecase
 
+import com.google.gson.JsonObject
 import com.smartschools.android.domain.repository.UserRepository
 import okhttp3.MultipartBody
 import javax.inject.Inject
@@ -10,8 +11,8 @@ class UserUseCase @Inject constructor(private val userRepo: UserRepository) {
 //    fun saveApiKeyToken(apiKey: String) = userRepo.saveApiKeyToken(apiKey)
 //    fun saveRememberMe(rememberMe: String) = userRepo.saveRememberMe(rememberMe)
 
-//    suspend fun userLogin(userName: String, pass: String) =
-//        userRepo.userLogin(userName, pass)
+    suspend fun userLogin(json: JsonObject) =
+        userRepo.userLogin(json)
 //
 //
 //    suspend fun userCompleteSignIn(userId: String, otpCode: String, token: String ) =

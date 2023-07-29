@@ -1,8 +1,8 @@
-package com.exas.qpmoemp.data.network
+package com.smartschools.android.data.network
 
 import com.smartschools.android.domain.network.ErrorType
 import com.smartschools.android.domain.network.ErrorTypeHandler
-import com.exas.qpmoemp.domain.network.Result
+import com.smartschools.android.domain.network.Result
 import retrofit2.Response
 import javax.inject.Inject
 

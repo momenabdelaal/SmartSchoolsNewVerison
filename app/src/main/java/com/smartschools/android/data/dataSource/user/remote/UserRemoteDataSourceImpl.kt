@@ -1,8 +1,10 @@
 package com.smartschools.android.data.dataSource.user.remote
 
-import com.exas.qpmoemp.data.network.NetworkServices
-import com.exas.qpmoemp.data.network.RequestApiCall
-import com.smartschools.android.data.dataSource.user.remote.UserRemoteDataSource
+import com.smartschools.android.data.network.NetworkServices
+import com.smartschools.android.data.network.RequestApiCall
+import com.google.gson.JsonObject
+import com.smartschools.android.data.model.auth.login.LoginResponse
+import com.smartschools.android.domain.network.Result
 import javax.inject.Inject
 
 class UserRemoteDataSourceImpl @Inject constructor(
@@ -11,24 +13,21 @@ class UserRemoteDataSourceImpl @Inject constructor(
 ) : UserRemoteDataSource {
 
 
+        override suspend fun userLogin(
+            json: JsonObject
+    ): Result<LoginResponse> {
+        val res = requestApiCall.requestApiCall {
+            networkServices.login(
+              json = json
+            )
+        }
 
-//    override suspend fun userLogin(
-//        userName: String,
-//        pass: String
-//    ): Result<LoginResponse> {
-//        val res = requestApiCall.requestApiCall {
-//            networkServices.userLogin(
-//                Username = userName,
-//                pass = pass
-//            )
-//        }
-//
-//        return if (res is Result.Success && res.data != null) {
-//            Result.Success(res.data)
-//        } else {
-//            Result.Error(res.errorType)
-//        }
-//    }
+        return if (res is Result.Success && res.data != null) {
+            Result.Success(res.data)
+        } else {
+            Result.Error(res.errorType)
+        }
+    }
 //
 //    override suspend fun userCompleteSignIn(
 //        userId: String,
@@ -172,8 +171,6 @@ class UserRemoteDataSourceImpl @Inject constructor(
 //            Result.Error(res.errorType)
 //
 //    }
-
-
 
 
 }

@@ -9,6 +9,8 @@
             <item name="colorAccent">@color/colorAccent</item>
             <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
             <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+
+            <item name="fontFamily">@font/cairoregular</item>
             <item name="windowActionModeOverlay">true</item>
             <item name="windowActionBar">false</item>
             <item name="windowNoTitle">true</item>
@@ -33,7 +35,9 @@
 
         </style>
 
-
+    <style name="RobotoEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:fontFamily">@font/cairoregular</item>
+    </style>
 
         <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
             <item name="android:fontFamily">@font/cairoregular</item>

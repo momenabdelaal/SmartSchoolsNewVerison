@@ -1,9 +1,13 @@
 package com.smartschools.android.data.dataSource.user.remote
 
+import com.google.gson.JsonObject
+import com.smartschools.android.data.model.auth.login.LoginResponse
+import com.smartschools.android.domain.network.Result
+
 interface UserRemoteDataSource {
 
 //
-//    suspend fun userLogin(userName: String, pass: String): Result<LoginResponse>
+    suspend fun userLogin(json: JsonObject): Result<LoginResponse>
 //
 //    suspend fun userCompleteSignIn(userId: String, otpCode: String, token: String): Result<CompleteLoginResponse>
 //

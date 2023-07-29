@@ -49,7 +49,7 @@ import kotlin.collections.ArrayList
 import kotlin.system.exitProcess
 
 
-//@AndroidEntryPoint
+@AndroidEntryPoint
 open class BaseActivity : AppCompatActivity() {
 
     var fragment: Fragment? = null
@@ -83,7 +83,7 @@ open class BaseActivity : AppCompatActivity() {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         databinding!!.lifecycleOwner = this
-//        mNavController = Navigation.findNavController(this, R.id.navHostFragment)
+        mNavController = Navigation.findNavController(this, R.id.navHostFragment)
 //        databinding!!.ivUser.setOnClickListener {
 //            Navigation.findNavController(this@BaseActivity, R.id.navHostFragment)
 //                .navigate(R.id.settingsFragment)
@@ -538,9 +538,9 @@ open class BaseActivity : AppCompatActivity() {
 
 
             if (destination.label.toString().contains("SplashFragment") ||
-                destination.label.toString().contains("LoginFragment") ||
-                destination.label.toString().contains("ConfirmLoginFragment") ||
-                destination.label.toString().contains("ForgetPasswordFragment") ||
+                destination.label.toString().contains("loginFragment") ||
+                destination.label.toString().contains("fragment_welcome") ||
+                destination.label.toString().contains("fragment_language") ||
                 destination.label.toString().contains("ConfirmForgetPasswordFragment") ||
                 destination.label.toString().contains("changePasswordAfterLogin") ||
                 destination.label.toString().contains("ChangePassword")

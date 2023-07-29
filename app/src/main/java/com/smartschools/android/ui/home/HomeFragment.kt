@@ -14,14 +14,10 @@ import dagger.hilt.android.AndroidEntryPoint
 import java.util.*
 
 
-@AndroidEntryPoint
+//@AndroidEntryPoint
 class HomeFragment : Fragment() {
 
     val binding: FragmentHomeBinding by lazy { FragmentHomeBinding.inflate(layoutInflater) }
-
-
-
-
 
 
     override fun onCreateView(
@@ -32,11 +28,6 @@ class HomeFragment : Fragment() {
         initScreen()
         return binding.root
     }
-
-
-
-
-
 
 
     private fun initScreen() {

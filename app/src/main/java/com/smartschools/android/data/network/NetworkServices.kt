@@ -1,4 +1,4 @@
-package com.exas.qpmoemp.data.network
+package com.smartschools.android.data.network
 
 import com.smartschools.android.data.network.services.UserServices
 

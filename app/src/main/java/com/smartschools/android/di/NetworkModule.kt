@@ -2,8 +2,8 @@ package com.smartschools.android.di
 
 import android.app.Application
 import android.content.Context
-import com.exas.qpmoemp.data.network.NetworkServices
-import com.exas.qpmoemp.data.persistentStorage.sharedPref.SharedPreferencesImpl
+import com.smartschools.android.data.network.NetworkServices
+import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 import com.smartschools.android.domain.network.ErrorTypeHandler
 import com.smartschools.android.domain.network.ErrorTypeHandlerImpl
 import dagger.Module
@@ -22,13 +22,8 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
 
-//    private const val baseUrl = "https://exastfs.alqemam.com:8443/api/"
-//    private const val baseUrl = "https://iis01.exas2030.com/qPMO_V8.2/api/"
-//    private const val baseUrl = "https://iis01.exas2030.com/qPMO_EmpV8.2/api/"
-//    private const val baseUrl = "https://iis01.exas2030.com/qPMO_EmpV8.2.1/api/"
-//    private const val baseUrl = "https://iis01.exas2030.com/qPMO_EmpV8.7/api/"
-    private const val baseUrl = "https://iis01.exas2030.com/qPMO_EmpV1.1.05/api/"
-    private const val serviceUrl = "https://exastfs.alqemam.com:8443/api/"
+
+    private const val serviceUrl = "http://13.51.219.121/api/"
 
     @Singleton
     @Provides

@@ -1,6 +1,4 @@
-package com.exas.qpmoemp.domain.network
-
-import com.smartschools.android.domain.network.ErrorType
+package com.smartschools.android.domain.network
 
 sealed class Result<T>(val data: T?, val errorType: ErrorType?) {
     class Success<T>(data: T) : Result<T>(data, null)

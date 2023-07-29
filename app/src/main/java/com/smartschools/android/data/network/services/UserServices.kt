@@ -1,15 +1,20 @@
 package com.smartschools.android.data.network.services
 
+import com.google.gson.JsonObject
+import com.smartschools.android.data.model.auth.login.LoginResponse
+import okhttp3.ResponseBody
+import retrofit2.Call
+import retrofit2.Response
+import retrofit2.http.Body
+import retrofit2.http.Header
+import retrofit2.http.POST
+
 interface UserServices {
 
 
-//    @POST("Dashboard/v{version}/Auth/SignIn")
-//    suspend fun userLogin(
-//        @Path("version") v: Int = VERSION_APIS,
-//        @Query("Username") Username: String,
-//        @Query("pass") pass: String,
-//        @Query("culture") culture: String = SharedPreferencesImpl(MyApplication.appContext).getLanguage(),
-//    ): Response<LoginResponse>
+
+    @POST("auth/login")
+    suspend fun login(@Body json: JsonObject): Response<LoginResponse>
 //
 //
 //    @POST("Dashboard/v{version}/Auth/Complete_SignIn")
@@ -88,7 +93,6 @@ interface UserServices {
 //        @Query("culture") culture: String = SharedPreferencesImpl(MyApplication.appContext).getLanguage(),
 //        @Query("userId") userId: Int
 //    ): Response<ChangePasswordAfterLoginResponse>
-
 
 
 }

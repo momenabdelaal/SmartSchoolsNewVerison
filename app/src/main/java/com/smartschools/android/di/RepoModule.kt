@@ -1,7 +1,7 @@
 package com.smartschools.android.di
 
-import com.exas.qpmoemp.data.persistentStorage.sharedPref.SharedPreferences
-import com.exas.qpmoemp.data.persistentStorage.sharedPref.SharedPreferencesImpl
+import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferences
+import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 import com.smartschools.android.domain.repository.UserRepository
 import com.smartschools.android.data.repository.UserRepositoryImpl
 import dagger.Binds

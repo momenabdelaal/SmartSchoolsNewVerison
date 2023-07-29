@@ -7,11 +7,27 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.smartschools.android.ui.splash.SplashFragment"
+        android:name="com.smartschools.android.ui.basic.splash.SplashFragment"
         android:label="SplashFragment"
-        tools:layout="@layout/fragment_splash" >
+        tools:layout="@layout/fragment_splash">
 
     </fragment>
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.smartschools.android.ui.basic.welcome_screens.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.smartschools.android.ui.basic.language.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.smartschools.android.ui.basic.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
 
     <fragment
         android:id="@+id/homeFragment"
