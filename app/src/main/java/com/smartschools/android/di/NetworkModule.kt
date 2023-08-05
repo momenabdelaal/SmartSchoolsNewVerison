@@ -24,6 +24,7 @@ object NetworkModule {
 
 
     private const val serviceUrl = "http://13.51.219.121/api/"
+     const val photoUrl = "http://13.51.219.121/storage/"
 
     @Singleton
     @Provides
@@ -39,6 +40,9 @@ object NetworkModule {
             .addConverterFactory(GsonConverterFactory.create())
             .client(OkHttpClient.Builder().addInterceptor { chain ->
                 chain.proceed(chain.request().newBuilder().also {
+                    it.addHeader(
+                        "lang",  sharedPreferences.getLanguage()
+                    )
                     if (sharedPreferences.getApiKeyToken().isNotEmpty())
                         it.addHeader(
                             "Authorization", "Bearer " + sharedPreferences.getApiKeyToken()

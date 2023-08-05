@@ -99,7 +99,7 @@ class SharedPreferencesImpl @Inject constructor(@ApplicationContext context: Con
     }
 
     override fun getFirstLaunch(): String {
-        return prefs.getString(isFirstLaunch) ?:" false"
+        return prefs.getString(isFirstLaunch) ?:"true"
     }
 
 

@@ -1,9 +1,5 @@
 package com.smartschools.android.data.persistentStorage.sharedPref
 
-import com.smartschools.android.data.model.auth.login.ResultModel
-import org.intellij.lang.annotations.Language
-import java.util.stream.IntStream.Builder
-
 interface SharedPreferences {
     fun getApiKeyToken(): String
     fun getUserPassword(): String

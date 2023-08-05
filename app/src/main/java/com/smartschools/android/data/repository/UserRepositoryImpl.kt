@@ -3,12 +3,12 @@ package com.smartschools.android.data.repository
 import com.google.gson.JsonObject
 import com.smartschools.android.data.dataSource.user.local.UserLocalDataSource
 import com.smartschools.android.data.dataSource.user.remote.UserRemoteDataSource
-import com.smartschools.android.data.model.auth.login.LoginResponse
+import com.smartschools.android.data.model.auth.login.auth.LoginResponse
+import com.smartschools.android.data.model.dashboard.DashboardResponse
 
 
 import com.smartschools.android.domain.network.Result
 import com.smartschools.android.domain.repository.UserRepository
-import okhttp3.MultipartBody
 import javax.inject.Inject
 
 class UserRepositoryImpl @Inject constructor(
@@ -22,7 +22,8 @@ class UserRepositoryImpl @Inject constructor(
     ): Result<LoginResponse> =
         userRemoteSource.userLogin(json)
 
-
+    override suspend fun getDashboard(): Result<DashboardResponse>
+        = userRemoteSource.getDashboard()
 
 
 //    override suspend fun completeSignIn(number: String, otpCode: String, token: String) =

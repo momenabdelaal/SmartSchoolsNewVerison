@@ -1,9 +1,8 @@
-package com.smartschools.android.ui.basic.login
+package com.smartschools.android.ui.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.gson.JsonObject
-import com.smartschools.android.data.model.auth.login.auth.LoginResponse
+import com.smartschools.android.data.model.dashboard.DashboardResponse
 import com.smartschools.android.domain.network.ErrorType
 import com.smartschools.android.domain.usecase.UserUseCase
 import com.smartschools.android.domain.network.Result
@@ -14,24 +13,21 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class LoginViewModel @Inject constructor(private val useUseCase: UserUseCase) : ViewModel() {
+class HomeViewModel @Inject constructor(private val useUseCase: UserUseCase) : ViewModel() {
 
     private val _uiState = MutableStateFlow<UiState>(UiState.Idle)
     val uiState: StateFlow<UiState>
         get() = _uiState
 
-    var rememberMe = false
 
 
-    fun userLogin(userName: String, pass: String, type: String) {
-        val jsonRequest = JsonObject()
-        jsonRequest.addProperty("username",userName)
-        jsonRequest.addProperty("password",pass)
-        jsonRequest.addProperty("type",type)
+
+    fun getDashboard() {
+
 
         _uiState.value = UiState.Loading
         viewModelScope.launch {
-            val result = useUseCase.userLogin(jsonRequest)
+            val result = useUseCase.getDashboard()
             _uiState.value = when (result) {
                 is Result.Loading -> UiState.Loading
                 is Result.Error -> {
@@ -61,7 +57,7 @@ class LoginViewModel @Inject constructor(private val useUseCase: UserUseCase) : 
         object Loading : UiState()
         object Idle : UiState()
         class Error(val errorMsg: String) : UiState()
-        class Success(val data: LoginResponse) : UiState()
+        class Success(val data: DashboardResponse) : UiState()
     }
 
 }

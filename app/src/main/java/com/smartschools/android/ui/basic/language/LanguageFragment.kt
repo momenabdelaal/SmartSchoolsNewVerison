@@ -38,7 +38,6 @@ class LanguageFragment : Fragment() {
 
         binding.lnArabic.setOnClickListener {
             SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ARABIC)
-            SharedPreferencesImpl(requireContext()).isFirstLaunch("false")
             LocaleHelper.initLanguage(requireActivity(), "ar")
             Navigation.findNavController(
                 requireActivity(),
@@ -49,7 +48,6 @@ class LanguageFragment : Fragment() {
         }
         binding.lnEnglish.setOnClickListener {
             SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ENGLISH)
-            SharedPreferencesImpl(requireContext()).isFirstLaunch("false")
             LocaleHelper.initLanguage(requireActivity(), "en")
             Navigation.findNavController(
                 requireActivity(),
@@ -60,7 +58,6 @@ class LanguageFragment : Fragment() {
         }
         binding.lnFrench.setOnClickListener {
             SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_FRENCH)
-            SharedPreferencesImpl(requireContext()).isFirstLaunch("false")
             LocaleHelper.initLanguage(requireActivity(), "fr")
             Navigation.findNavController(
                 requireActivity(),
@@ -70,7 +67,6 @@ class LanguageFragment : Fragment() {
         binding.lnTurkey.setOnClickListener {
             LocaleHelper.initLanguage(requireActivity(), "tr")
             SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_TURKEY)
-            SharedPreferencesImpl(requireContext()).isFirstLaunch("false")
             Navigation.findNavController(
                 requireActivity(),
                 R.id.navHostFragment

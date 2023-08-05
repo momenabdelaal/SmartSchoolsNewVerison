@@ -13,6 +13,10 @@ class UserUseCase @Inject constructor(private val userRepo: UserRepository) {
 
     suspend fun userLogin(json: JsonObject) =
         userRepo.userLogin(json)
+
+
+    suspend fun getDashboard() = userRepo.getDashboard()
+
 //
 //
 //    suspend fun userCompleteSignIn(userId: String, otpCode: String, token: String ) =
@@ -29,7 +33,6 @@ class UserUseCase @Inject constructor(private val userRepo: UserRepository) {
 //        userRepo.userChangePassword(oldPass, newPass)
 //
 //
-//    suspend fun userGetInfo() = userRepo.userGetInfo()
 //
 //    suspend fun updateImageProfile(part: MultipartBody.Part) = userRepo.updateImageProfile(part)
 //

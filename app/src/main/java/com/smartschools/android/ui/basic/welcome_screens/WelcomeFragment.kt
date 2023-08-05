@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener
 import com.smartschools.android.R
+import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 import com.smartschools.android.databinding.FragmentWelcomeBinding
 import com.smartschools.android.ui.basic.welcome_screens.pager.SliderModel
 import com.smartschools.android.ui.basic.welcome_screens.pager.ViewPagerAdapter
@@ -105,12 +106,14 @@ class WelcomeFragment : Fragment() {
         })
 
         binding.btnSkip.setOnClickListener {
-            if (binding.btnSkip.text.toString() == getString(R.string.start))
+            if (binding.btnSkip.text.toString() == getString(R.string.start)) {
+                SharedPreferencesImpl(requireContext()).isFirstLaunch("false")
+
                 Navigation.findNavController(
                     requireActivity(),
                     R.id.navHostFragment
                 ).navigate(R.id.loginFragment)
-            else
+            }else
                 binding.viewPager.setCurrentItem(binding.viewPager.currentItem + 1, true)
 
         }

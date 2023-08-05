@@ -3,7 +3,8 @@ package com.smartschools.android.data.dataSource.user.remote
 import com.smartschools.android.data.network.NetworkServices
 import com.smartschools.android.data.network.RequestApiCall
 import com.google.gson.JsonObject
-import com.smartschools.android.data.model.auth.login.LoginResponse
+import com.smartschools.android.data.model.auth.login.auth.LoginResponse
+import com.smartschools.android.data.model.dashboard.DashboardResponse
 import com.smartschools.android.domain.network.Result
 import javax.inject.Inject
 
@@ -13,13 +14,25 @@ class UserRemoteDataSourceImpl @Inject constructor(
 ) : UserRemoteDataSource {
 
 
-        override suspend fun userLogin(
-            json: JsonObject
+    override suspend fun userLogin(
+        json: JsonObject
     ): Result<LoginResponse> {
         val res = requestApiCall.requestApiCall {
             networkServices.login(
-              json = json
+                json = json
             )
+        }
+
+        return if (res is Result.Success && res.data != null) {
+            Result.Success(res.data)
+        } else {
+            Result.Error(res.errorType)
+        }
+    }
+
+    override suspend fun getDashboard(): Result<DashboardResponse> {
+        val res = requestApiCall.requestApiCall {
+            networkServices.getDashboard()
         }
 
         return if (res is Result.Success && res.data != null) {

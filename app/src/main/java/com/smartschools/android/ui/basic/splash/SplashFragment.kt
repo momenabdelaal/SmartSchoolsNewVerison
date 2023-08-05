@@ -10,6 +10,7 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -68,33 +69,27 @@ class SplashFragment : Fragment() {
 //requestExternalStoragePermission()
         //    LocalizationUtils.setDefaultFontConfiguration(requireContext())
 
-
+        Log.d(
+            "onViewCreated",
+            "onViewCreated:" + SharedPreferencesImpl(requireContext()).getLanguage()
+        )
 //        SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ENGLISH)
 //
-        if (SharedPreferencesImpl(requireContext()).getLanguage().isEmpty() ||
+        if (
             SharedPreferencesImpl(requireContext()).getLanguage() == Constants.LANGUAGE_ARABIC
         ) {
-            LocaleHelper.setLocale(requireContext(), "ar")
+
+            LocaleHelper.initLanguage(requireContext(), "ar")
             binding!!.root.layoutDirection = View.LAYOUT_DIRECTION_RTL
         } else {
-            LocaleHelper.setLocale(requireContext(), "en")
+            LocaleHelper.initLanguage(requireContext(), "en")
             binding!!.root.layoutDirection = View.LAYOUT_DIRECTION_LTR
         }
-        initScreen()
+        setupBoundsImage()
 //         LocaleHelper.setLocale(requireActivity(), "ar")
     }
 
-    private fun initScreen() {
 
-
-//        Log.d("updateUIsucces: ",   SharedPreferencesImpl(requireContext()).getUserId().toString())
-//        if (SharedPreferencesImpl(requireContext()).getUserId() != "")
-//            viewModel.getPasswordChangedStatus(SharedPreferencesImpl(requireContext()).getUserId().toInt())
-//        else
-//        {
-        setupBoundsImage(true)
-//        }
-    }
 
     private fun observeUIState() {
 //        lifecycleScope.launch {
@@ -105,7 +100,7 @@ class SplashFragment : Fragment() {
     }
 
 
-    private fun startSplashTimer(status: Boolean) {
+    private fun startSplashTimer() {
         CoroutineScope(Dispatchers.Main).launch {
 
             if (SharedPreferencesImpl(requireContext()).getFirstLaunch() == "true")
@@ -135,7 +130,7 @@ class SplashFragment : Fragment() {
     }
 
 
-    private fun setupBoundsImage(status: Boolean) {
+    private fun setupBoundsImage() {
         requireActivity().window.setFlags(
 
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -150,7 +145,7 @@ class SplashFragment : Fragment() {
             binding!!.logoBounds.visibility = View.VISIBLE
             bounce.also { binding!!.logoBounds.animation = it }
             delay(SPLASH_DISPLAY_TIME)
-            startSplashTimer(status)
+            startSplashTimer()
 
         }
     }

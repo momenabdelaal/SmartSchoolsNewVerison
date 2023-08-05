@@ -14,7 +14,7 @@ object LocalizationUtils {
                     .equals("ar", ignoreCase = true)
             ) Locale(
                 LocaleHelper.getLanguage(context).toString(),
-                "SA"
+                ""
             ) else Locale(LocaleHelper.getLanguage(context).toString())
 
             Log.d("local", "setDefaultFontConfiguration: "+locale.toString())

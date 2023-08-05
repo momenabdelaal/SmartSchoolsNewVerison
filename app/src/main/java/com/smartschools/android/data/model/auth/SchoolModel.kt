@@ -1,4 +1,4 @@
-package com.smartschools.android.data.model.auth.login
+package com.smartschools.android.data.model.auth.login.auth
 
 data class SchoolModel(
     val id: Int,
