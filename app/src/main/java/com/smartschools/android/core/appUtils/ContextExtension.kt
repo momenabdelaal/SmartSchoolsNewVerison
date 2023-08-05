@@ -1,24 +1,27 @@
 package com.smartschools.android.core.appUtils
 
-import android.app.Activity
 import android.content.ComponentName
 import android.content.Context
 import android.content.CursorLoader
 import android.content.pm.PackageManager
+import android.graphics.Bitmap
+import android.graphics.Color
 import android.net.ConnectivityManager
 import android.net.Uri
 import android.os.Looper
 import android.provider.MediaStore
- import android.widget.Toast
+import android.widget.ImageView
+import android.widget.Toast
 import androidx.annotation.ColorRes
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.smartschools.android.core.base.BaseActivity
-
 import com.google.android.material.snackbar.Snackbar
+import com.google.zxing.BarcodeFormat
+import com.google.zxing.WriterException
+import com.google.zxing.common.BitMatrix
+import com.google.zxing.qrcode.QRCodeWriter
 import com.smartschools.android.R
-import kotlinx.coroutines.DelicateCoroutinesApi
 
 
 fun Context.isNetworkConnected(): Boolean {
@@ -118,6 +121,20 @@ fun Context.getPath(contentUri: Uri): String {
 
 fun Context.getColorCompat(@ColorRes resId: Int): Int {
     return ContextCompat.getColor(this, resId)
+}
+
+fun drawQR(ivBarcode: ImageView, userId: String?) {
+    val writer = QRCodeWriter()
+    val bitMatrix = writer.encode(userId, BarcodeFormat.QR_CODE, 70, 70)
+    val width = bitMatrix.width
+    val height = bitMatrix.height
+    val bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565)
+    for (x in 0 until width) {
+        for (y in 0 until height) {
+            bitmap.setPixel(x, y, if (bitMatrix.get(x, y)) Color.BLACK else Color.WHITE)
+        }
+    }
+    ivBarcode.setImageBitmap(bitmap)
 }
 
 

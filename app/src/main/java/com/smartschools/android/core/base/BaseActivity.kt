@@ -3,8 +3,8 @@ package com.smartschools.android.core.base
 
 import android.annotation.SuppressLint
 import android.app.Dialog
+import android.content.Intent
 import android.os.Bundle
-import android.util.DisplayMetrics
 import android.util.Log
 import android.view.View
 import androidx.activity.viewModels
@@ -13,39 +13,25 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.GravityCompat
 import androidx.databinding.DataBindingUtil
-
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.flowWithLifecycle
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import androidx.recyclerview.widget.DefaultItemAnimator
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.bumptech.glide.Glide
+import com.etebarian.meowbottomnavigation.MeowBottomNavigation
 import com.smartschools.android.R
-
-import com.smartschools.android.core.appUtils.Constants
 import com.smartschools.android.core.appUtils.Constants.LANGUAGE_ARABIC
-import com.smartschools.android.core.appUtils.Constants.LANGUAGE_ENGLISH
-import com.smartschools.android.core.appUtils.OnItemClick
+import com.smartschools.android.core.appUtils.drawQR
 import com.smartschools.android.core.appUtils.localization.LocaleHelper
 import com.smartschools.android.core.appUtils.localization.LocalizationUtils
-
-
 import com.smartschools.android.core.appUtils.util.InternetConnectivity
 import com.smartschools.android.core.appUtils.util.addBasicItemDecoration
 import com.smartschools.android.data.model.side_menu.SideMenuItem
 import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 import com.smartschools.android.databinding.ActivityBaseBinding
-import com.smartschools.android.ui.home.adapter.HomeAdapter
 import com.smartschools.android.ui.home.adapter.SideMenuAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.*
 import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.math.log
-import kotlin.system.exitProcess
 
 
 @AndroidEntryPoint
@@ -127,12 +113,12 @@ open class BaseActivity : AppCompatActivity() {
 //                }
 //            }
 //        }
-        itemsNav()
-        prepareSideMenu()
-        Log.d("dsdfs", "onCreate: "+SharedPreferencesImpl(this@BaseActivity).getLanguage())
+//        itemsNav()
+//        prepareSideMenu()
+        Log.d("dsdfs", "onCreate: " + SharedPreferencesImpl(this@BaseActivity).getLanguage())
 
-        if (SharedPreferencesImpl(this@BaseActivity).getLanguage().isEmpty() ||
-            SharedPreferencesImpl(this@BaseActivity).getLanguage() == LANGUAGE_ARABIC
+        if (SharedPreferencesImpl(this@BaseActivity).getLanguage()
+                .isEmpty() || SharedPreferencesImpl(this@BaseActivity).getLanguage() == LANGUAGE_ARABIC
         ) {
             LocaleHelper.initLanguage(this@BaseActivity, "ar")
             databinding!!.root.layoutDirection = View.LAYOUT_DIRECTION_RTL
@@ -140,7 +126,74 @@ open class BaseActivity : AppCompatActivity() {
             LocaleHelper.initLanguage(this@BaseActivity, "en")
             databinding!!.root.layoutDirection = View.LAYOUT_DIRECTION_LTR
         }
+
+        initMeowNav()
 //
+    }
+
+    private fun initMeowNav() {
+        databinding!!.meowBottomNavigation.apply {
+            add(
+                MeowBottomNavigation.Model(
+                    1, R.drawable.ic_notification_dashboard
+                )
+            )
+            add(
+                MeowBottomNavigation.Model(
+                    2, R.drawable.ic_comment_dashboard
+                )
+            )
+            add(MeowBottomNavigation.Model(3, R.drawable.ic_home))
+            add(
+                MeowBottomNavigation.Model(
+                    4, R.drawable.ic_network_soical
+                )
+            )
+            add(
+                MeowBottomNavigation.Model(
+                    5, R.drawable.ic_user_dashboard
+                )
+            )
+        }
+
+
+        databinding!!.meowBottomNavigation.setOnReselectListener {
+
+            when (it.id) {
+                1 -> {
+//                        startFragment(NotificationsFragment())
+                }
+
+                2 -> {
+
+//                        startActivity(new Intent(MainActivity.this, MessageActivity.class));
+//                        startFragment(ParentMessageFragment())
+                }
+
+                3 -> {
+//                        if (tables.size >= 1) switchAccounts() else defaultGroups()
+                }
+
+                4 -> {
+//                        startActivity(
+//                            Intent(this@MainActivity, WebViewActivity::class.java)
+//                                .putExtra("link", "https://smartschools.network/social/")
+//                        )
+                }
+
+                5 -> {
+//                        startFragment(EditProfileFragment())
+                }
+            }
+
+        }
+
+
+        databinding!!.meowBottomNavigation.setCount(
+            1,
+            "10")
+
+
     }
 
     private fun observeUIState() {
@@ -275,7 +328,7 @@ open class BaseActivity : AppCompatActivity() {
 
     @SuppressLint("ResourceType")
     private fun prepareSideMenu() {
-databinding!!.ivBarcode.setImageResource(R.drawable.holder)
+        databinding!!.ivBarcode.setImageResource(R.drawable.holder)
         databinding!!.ivMainToolbarMenu.setOnClickListener {
 
             if (databinding!!.drawerlayout.isDrawerOpen(GravityCompat.START)) {
@@ -320,9 +373,9 @@ databinding!!.ivBarcode.setImageResource(R.drawable.holder)
         adapter.submitFullList(navItemList)
         databinding!!.recyclerView.adapter = adapter
         databinding!!.recyclerView.addBasicItemDecoration(R.dimen.item_decoration_extra_large_margin)
+        drawQR(databinding!!.ivBarcode, "1101000")
 
     }
-
 
 
 //
@@ -485,47 +538,47 @@ databinding!!.ivBarcode.setImageResource(R.drawable.holder)
         NavController.OnDestinationChangedListener { controller, destination, _ ->
 
 
-            if (destination.label.toString().contains("SplashFragment") ||
-                destination.label.toString().contains("fragment_login") ||
-                destination.label.toString().contains("fragment_welcome") ||
-                destination.label.toString().contains("fragment_language") ||
-                destination.label.toString().contains("ConfirmForgetPasswordFragment") ||
-                destination.label.toString().contains("changePasswordAfterLogin") ||
-                destination.label.toString().contains("ChangePassword")
+            if (destination.label.toString()
+                    .contains("SplashFragment") || destination.label.toString()
+                    .contains("fragment_login") || destination.label.toString()
+                    .contains("fragment_welcome") || destination.label.toString()
+                    .contains("fragment_language") || destination.label.toString()
+                    .contains("ConfirmForgetPasswordFragment") || destination.label.toString()
+                    .contains("changePasswordAfterLogin") || destination.label.toString()
+                    .contains("ChangePassword")
             ) {
                 databinding!!.ivBack.visibility = View.GONE
 //                databinding!!.ivUser.visibility = View.GONE
                 databinding!!.sideMenu.visibility = View.GONE
                 databinding!!.clMainToolbarContainer.visibility = View.GONE
+                databinding!!.meowBottomNavigation.visibility = View.GONE
 
 
-            } else if (destination.label.toString()
-                    .contains("fragment_home") ||
-                destination.label.toString()
-                    .contains("MapsFragment") ||
-                destination.label.toString()
-                    .contains("HomeNewFragment")
-            ) {
+            } else if (destination.label.toString().contains("fragment_home")) {
 
                 databinding!!.drawerlayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
                 databinding!!.ivBack.visibility = View.GONE
                 databinding!!.ivMainToolbarMenu.visibility = View.VISIBLE
 //                databinding!!.ivUser.visibility = View.VISIBLE
-//                databinding!!.tvMainEmployeeName.text = getString(R.string.home)
+                databinding!!.titleBar.text = getString(R.string.dashboard)
                 databinding!!.sideMenu.visibility = View.VISIBLE
                 databinding!!.clMainToolbarContainer.visibility = View.VISIBLE
+                databinding!!.meowBottomNavigation.visibility = View.VISIBLE
 //
 //                if (SharedPreferencesImpl(this@BaseActivity).getApiKeyToken().isNotEmpty()) {
 //                    viewModel.getMessageCount()
 //                    viewModelSettings.userGetInfo()
 //                }
 //
-//                itemsNav(null)
-//                prepareSideMenu()
+
+                databinding!!.meowBottomNavigation.show(3, true)
+                itemsNav()
+                prepareSideMenu()
 
 
-            } else if (destination.label.toString().contains("NoConnectionFragment") ||
-                destination.label.toString().contains("ServerErrorFragment")
+            } else if (destination.label.toString()
+                    .contains("NoConnectionFragment") || destination.label.toString()
+                    .contains("ServerErrorFragment")
             ) {
                 databinding!!.clMainToolbarContainer.visibility = View.GONE
 
@@ -544,18 +597,18 @@ databinding!!.ivBarcode.setImageResource(R.drawable.holder)
 //
 //                }
 //
-//                itemsNav(null)
-//                prepareSideMenu()
+                itemsNav()
+                prepareSideMenu()
             } else {
                 databinding!!.ivBack.visibility = View.VISIBLE
 //                databinding!!.ivUser.visibility = View.GONE
                 databinding!!.ivMainToolbarMenu.visibility = View.GONE
-//                databinding!!.tvMainEmployeeName.text = getString(R.string.home)
+                databinding!!.titleBar.text = getString(R.string.dashboard)
                 databinding!!.sideMenu.visibility = View.VISIBLE
                 databinding!!.clMainToolbarContainer.visibility = View.VISIBLE
                 databinding!!.drawerlayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
-//                itemsNav(null)
-//                prepareSideMenu()
+                itemsNav()
+                prepareSideMenu()
 //                if (SharedPreferencesImpl(this@BaseActivity).getApiKeyToken().isNotEmpty()) {
 //                    viewModelSettings.loadingFragment()
 //                    viewModelSettings.userGetInfo()

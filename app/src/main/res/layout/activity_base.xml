@@ -34,14 +34,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="?actionBarSize"
 
+                    android:layout_marginTop="5dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <ImageView
                         android:id="@+id/iv_main_toolbar_menu"
-                        android:layout_width="@dimen/_30sdp"
-                        android:layout_height="@dimen/_24sdp"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
                         android:layout_marginStart="@dimen/_14sdp"
                         android:layout_marginTop="@dimen/_2sdp"
                         android:src="@drawable/ic_open_menu"
@@ -125,11 +126,11 @@
                             android:layout_gravity="start|center"
                             android:layout_marginLeft="15dp"
                             android:layout_marginRight="15dp"
-                            android:gravity="center"
+                            android:gravity="start"
                             android:maxLines="1"
                             android:text="@string/dashboard"
                             android:textColor="@color/colorPrimaryDark"
-                            android:textSize="15sp"
+                            android:textSize="@dimen/_10ssp"
                             android:textStyle="bold" />
 
 
@@ -184,6 +185,33 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
             -->
+
+
+            <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+                android:id="@+id/meowBottomNavigation"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:padding="7dp"
+                app:barrierMargin="5dp"
+                
+                app:flow_verticalAlign="center"
+                app:flow_firstHorizontalStyle="spread_inside"
+                app:flow_horizontalAlign="center"
+                app:flow_wrapMode="chain2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:mbn_backgroundBottomColor="@color/colorWhite"
+                app:mbn_circleColor="#ffffff"
+                app:mbn_countBackgroundColor="@color/colorPrimary"
+                app:mbn_countTextColor="@color/white"
+                app:mbn_defaultIconColor="@color/colorPrimary"
+                app:mbn_rippleColor="#2f424242"
+
+                app:mbn_selectedIconColor="@color/colorPrimary"
+                app:mbn_shadowColor="@color/colorWhite" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <com.google.android.material.navigation.NavigationView
@@ -197,9 +225,10 @@
             app:itemIconPadding="10dp"
             app:itemIconTint="@color/black">
 
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
                 android:orientation="vertical">
 
@@ -207,15 +236,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_20sdp"
+                    android:background="@color/colorWhite"
                     android:orientation="horizontal"
                     android:padding="@dimen/_10sdp"
-                    android:background="@color/colorWhite"
                     android:weightSum="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/ivProfile"
-                        android:layout_width="@dimen/_70sdp"
-                        android:layout_height="@dimen/_70sdp"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
                         android:src="@drawable/holder"
                         app:civ_border_color="@color/colorPrimary"
                         app:civ_border_width="1dp" />
@@ -224,7 +253,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:orientation="vertical"
                         android:padding="@dimen/_10sdp">
 
@@ -237,7 +266,7 @@
                             android:lines="1"
                             android:text="خالد محمود البييلى خالد محمود البييلى"
                             android:textColor="@color/colorPrimary"
-                            android:textSize="@dimen/_12ssp"
+                            android:textSize="@dimen/_10ssp"
                             android:textStyle="bold" />
 
 
@@ -250,7 +279,7 @@
                             android:text="اسم المدرسه"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textColor="@color/colorPrimary"
-                            android:textSize="@dimen/_10ssp" />
+                            android:textSize="@dimen/_9ssp" />
 
                         <TextView
                             android:id="@+id/tvGroup"
@@ -259,7 +288,7 @@
                             android:layout_marginTop="@dimen/_2sdp"
                             android:text="معلم"
                             android:textColor="@color/colorTextHint"
-                            android:textSize="@dimen/_10ssp"
+                            android:textSize="@dimen/_9ssp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -267,9 +296,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_2sdp"
-                            android:textColor="@color/colorTextHint"
-                            android:textSize="@dimen/_10ssp"
                             android:text="تستج"
+                            android:textColor="@color/colorTextHint"
+                            android:textSize="@dimen/_9ssp"
                             android:textStyle="bold" />
 
 
@@ -281,7 +310,7 @@
                             android:layout_marginTop="@dimen/_2sdp"
                             android:text="@string/mycard"
                             android:textColor="@color/colorPrimary"
-                            android:textSize="@dimen/_10ssp"
+                            android:textSize="@dimen/_9ssp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -292,15 +321,15 @@
                             android:layout_marginTop="@dimen/_2sdp"
                             android:text="@string/points_10"
                             android:textColor="@color/colorPrimary"
-                            android:textSize="@dimen/_10ssp"
-                            android:textStyle="bold"
-                            />
+                            android:textSize="@dimen/_9ssp"
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:layout_gravity="bottom"
                         android:orientation="vertical">
 
                         <ImageView
@@ -309,16 +338,17 @@
                             android:layout_height="@dimen/_70sdp"
                             android:layout_gravity="center"
                             android:layout_marginTop="@dimen/_5sdp"
-                            android:layout_marginBottom="@dimen/_5sdp"
-                            android:src="@drawable/holder" />
+                            android:layout_marginBottom="@dimen/_5sdp" />
+
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:id="@+id/schoolImage"
                             android:layout_width="@dimen/_40sdp"
                             android:layout_height="@dimen/_40sdp"
+                            android:layout_gravity="center"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_5sdp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/holder" />
+                            android:src="@drawable/holder"
+                            android:visibility="gone" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -327,21 +357,35 @@
                     android:layout_height="2dp"
                     android:background="@color/grey_light" />
 
+
+
+
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recycler_view"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:scrollbars="vertical"
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
                     app:spanCount="1"
-                    tools:itemCount="10"
-                    tools:listitem="@layout/item_side_menu"/>
+                    tools:itemCount="8"
+                    tools:listitem="@layout/item_side_menu" />
 
+                <TextView
+                    android:id="@+id/tvVersion"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_25sdp"
+
+                    android:gravity="center|bottom"
+                    android:text="@string/title_version"
+                    android:textColor="@color/transparent"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
+
+
 
         </com.google.android.material.navigation.NavigationView>
     </androidx.drawerlayout.widget.DrawerLayout>
