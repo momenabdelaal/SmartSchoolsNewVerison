@@ -33,7 +33,19 @@
         android:id="@+id/homeFragment"
         android:name="com.smartschools.android.ui.home.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_assignmentStudentFragment"
+            app:destination="@id/assignmentStudentFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/assignmentStudentFragment"
+        android:name="com.smartschools.android.ui.users.student.assignments.StudentAssignmentsFragment"
+        android:label="fragment_assignment"
+        tools:layout="@layout/fragment_assignment_student" />
+
 
     <!--        <argument-->
     <!--            android:name="checkFav"-->

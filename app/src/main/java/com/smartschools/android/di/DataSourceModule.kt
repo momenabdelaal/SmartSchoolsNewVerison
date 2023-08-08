@@ -1,5 +1,7 @@
 package com.smartschools.android.di
 
+import com.smartschools.android.data.dataSource.student.StudentRemoteDataSource
+import com.smartschools.android.data.dataSource.student.StudentRemoteDataSourceImpl
 import com.smartschools.android.data.dataSource.user.local.UserLocalDataSource
 import com.smartschools.android.data.dataSource.user.local.UserLocalDataSourceImpl
 import com.smartschools.android.data.dataSource.user.remote.UserRemoteDataSource
@@ -23,8 +25,8 @@ abstract class DataSourceModule {
 
 
 //
-//    @Binds
-//    abstract fun provideProjectRemoteSource(remoteDataSource: ProjectRemoteSourceImpl) : ProjectRemoteSource
+    @Binds
+    abstract fun provideStudentRemoteSource(remoteDataSource: StudentRemoteDataSourceImpl) : StudentRemoteDataSource
 //
 //    @Binds
 //    abstract fun provideMailRemoteSource(remoteDataSource: MailRemoteSourceImpl) : MailRemoteSource

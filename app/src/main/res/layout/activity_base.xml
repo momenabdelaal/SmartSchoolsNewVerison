@@ -187,7 +187,7 @@
             -->
 
 
-            <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+            <com.smartschools.android.core.appUtils.nav.MeowBottomNavigation
                 android:id="@+id/meowBottomNavigation"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
@@ -196,10 +196,10 @@
                 android:background="@color/white"
                 android:padding="7dp"
                 app:barrierMargin="5dp"
-                
-                app:flow_verticalAlign="center"
+                android:layoutDirection="rtl"
                 app:flow_firstHorizontalStyle="spread_inside"
                 app:flow_horizontalAlign="center"
+                app:flow_verticalAlign="center"
                 app:flow_wrapMode="chain2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:mbn_backgroundBottomColor="@color/colorWhite"
@@ -328,8 +328,8 @@
                     <LinearLayout
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_gravity="bottom"
+                        android:layout_weight="1"
                         android:orientation="vertical">
 
                         <ImageView
@@ -358,33 +358,38 @@
                     android:background="@color/grey_light" />
 
 
-
-
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/recycler_view"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbars="vertical"
-                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                    app:spanCount="1"
-                    tools:itemCount="8"
-                    tools:listitem="@layout/item_side_menu" />
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
 
-                <TextView
-                    android:id="@+id/tvVersion"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_30sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:layout_marginBottom="@dimen/_25sdp"
 
-                    android:gravity="center|bottom"
-                    android:text="@string/title_version"
-                    android:textColor="@color/transparent"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:scrollbars="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:spanCount="1"
 
+                        android:layout_weight="1"
+                        tools:listitem="@layout/item_side_menu" />
+
+                    <TextView
+                        android:id="@+id/tvVersion"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_25sdp"
+                        android:gravity="center|bottom"
+                        android:text="@string/title_version"
+                        android:textColor="@color/transparent"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
             </LinearLayout>
-
 
 
         </com.google.android.material.navigation.NavigationView>

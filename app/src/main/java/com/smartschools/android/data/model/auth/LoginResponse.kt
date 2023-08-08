@@ -1,7 +1,7 @@
-package com.smartschools.android.data.model.auth.login.auth
+package com.smartschools.android.data.model.auth
 
 data class LoginResponse(
     val message: String,
-    val result: ResultModel,
+    val data: ResultModel,
     val status: Boolean
 )

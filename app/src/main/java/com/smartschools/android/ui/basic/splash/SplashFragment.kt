@@ -65,6 +65,7 @@ class SplashFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         activity = getActivity()
+//        SharedPreferencesImpl(requireContext()).clearAll()
 
 //requestExternalStoragePermission()
         //    LocalizationUtils.setDefaultFontConfiguration(requireContext())

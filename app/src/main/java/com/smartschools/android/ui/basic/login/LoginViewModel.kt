@@ -1,10 +1,10 @@
 package com.smartschools.android.ui.basic.login
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.google.gson.JsonObject
-import com.smartschools.android.data.model.auth.login.auth.LoginResponse
-import com.smartschools.android.domain.network.ErrorType
+import com.smartschools.android.data.model.auth.LoginResponse
 import com.smartschools.android.domain.usecase.UserUseCase
 import com.smartschools.android.domain.network.Result
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -34,15 +34,11 @@ class LoginViewModel @Inject constructor(private val useUseCase: UserUseCase) : 
             val result = useUseCase.userLogin(jsonRequest)
             _uiState.value = when (result) {
                 is Result.Loading -> UiState.Loading
-                is Result.Error -> {
-                    when (result.errorType) {
-                        ErrorType.DataError -> UiState.Error("Data error")
-                        ErrorType.NetworkError ->UiState.Error("Network error")
-                        ErrorType.ServerError -> UiState.Error("Server error")
-                        ErrorType.UnknownError -> UiState.Error("Unknown error")
-                        null -> UiState.Error("error happened")
-                    }
-                }
+                is Result.Error -> ({
+
+                    Log.d("test", "login: "+result.errorType)
+
+                }) as UiState
                 is Result.Success -> {
                     UiState.Success(result.data!!)
 

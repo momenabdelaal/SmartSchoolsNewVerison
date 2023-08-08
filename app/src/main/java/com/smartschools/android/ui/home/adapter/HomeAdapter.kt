@@ -60,9 +60,9 @@ class HomeAdapter(
 
 
 //
-//            binding.clickCardView.setOnClickListener {
-//                itemClick(project)
-//            }
+            binding.linearItem.setOnClickListener {
+                itemClick(item)
+            }
 //            binding.ivFavorites.setOnClickListener {
 //                favouriteProjectClick(project)
 //            }

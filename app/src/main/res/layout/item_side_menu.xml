@@ -41,9 +41,10 @@
                 android:layout_gravity="center"
                 android:gravity="start"
                 android:layout_weight="1"
+                android:textStyle="bold"
                 android:textColor="@color/black"
                 android:text="Momen abdelaaal"
-                android:textSize="@dimen/_13ssp"
+                android:textSize="@dimen/_12ssp"
 
                 />
 

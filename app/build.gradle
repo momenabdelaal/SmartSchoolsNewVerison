@@ -142,7 +142,7 @@ dependencies {
     //okio
     implementation 'com.squareup.okio:okio:3.3.0'
 
-    implementation 'com.etebarian:meow-bottom-navigation:1.2.0'
+//    implementation 'com.etebarian:meow-bottom-navigation:1.2.0'
     implementation 'com.google.zxing:core:3.4.0'
 
 }

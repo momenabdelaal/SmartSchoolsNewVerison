@@ -1,9 +1,10 @@
 package com.smartschools.android.data.dataSource.user.remote
 
+import android.util.Log
 import com.smartschools.android.data.network.NetworkServices
 import com.smartschools.android.data.network.RequestApiCall
 import com.google.gson.JsonObject
-import com.smartschools.android.data.model.auth.login.auth.LoginResponse
+import com.smartschools.android.data.model.auth.LoginResponse
 import com.smartschools.android.data.model.dashboard.DashboardResponse
 import com.smartschools.android.domain.network.Result
 import javax.inject.Inject
@@ -38,6 +39,7 @@ class UserRemoteDataSourceImpl @Inject constructor(
         return if (res is Result.Success && res.data != null) {
             Result.Success(res.data)
         } else {
+            Log.d("err", "getDashboard: ")
             Result.Error(res.errorType)
         }
     }

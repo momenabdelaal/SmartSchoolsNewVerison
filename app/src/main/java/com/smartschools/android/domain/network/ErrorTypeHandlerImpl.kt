@@ -1,5 +1,6 @@
 package com.smartschools.android.domain.network
 
+import android.util.Log
 import com.smartschools.android.domain.network.ErrorType
 import com.smartschools.android.domain.network.ErrorTypeHandler
 import java.net.SocketTimeoutException
@@ -15,7 +16,9 @@ class ErrorTypeHandlerImpl @Inject constructor() : ErrorTypeHandler {
             is SocketTimeoutException ->{
                 ErrorType.UnknownError
             }
+
             else -> {
+                Log.d("error", "getError: "+exception.message)
                 ErrorType.UnknownError
             }
         }

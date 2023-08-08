@@ -35,7 +35,11 @@ class HomeFragment : Fragment() {
     val binding: FragmentHomeBinding by lazy { FragmentHomeBinding.inflate(layoutInflater) }
     private val adapter: HomeAdapter by lazy {
         HomeAdapter {
+            if (it.name == "assignments") {
+                Navigation.findNavController(requireActivity().findViewById(R.id.navHostFragment))
+                    .navigate(R.id.action_homeFragment_to_assignmentStudentFragment)
 
+            }
         }
     }
 //        ProjectsAdapter({
@@ -82,7 +86,7 @@ class HomeFragment : Fragment() {
 
             is HomeViewModel.UiState.Error -> {
                 hideProgress()
-                Log.d("err", "err")
+                Log.d("err", "err" + uiState.errorMsg)
                 viewModel.navigateToConfirmLoginFragment()
             }
 
@@ -91,7 +95,7 @@ class HomeFragment : Fragment() {
                 hideProgress()
                 snackBarSuccess(uiState.data.message)
 
-                initAdapter(uiState.data.result.dashboard_items as MutableList<DashboardItem>)
+                initAdapter(uiState.data.data.dashboard_items as MutableList<DashboardItem>)
 //
 //                val s = SharedPreferencesImpl(requireContext())
 //                s.setApiKeyToken(uiState.data.result.token)

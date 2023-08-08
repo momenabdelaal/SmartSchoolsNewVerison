@@ -3,7 +3,6 @@ package com.smartschools.android.core.base
 
 import android.annotation.SuppressLint
 import android.app.Dialog
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -17,12 +16,12 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.etebarian.meowbottomnavigation.MeowBottomNavigation
 import com.smartschools.android.R
 import com.smartschools.android.core.appUtils.Constants.LANGUAGE_ARABIC
 import com.smartschools.android.core.appUtils.drawQR
 import com.smartschools.android.core.appUtils.localization.LocaleHelper
 import com.smartschools.android.core.appUtils.localization.LocalizationUtils
+import com.smartschools.android.core.appUtils.nav.MeowBottomNavigation
 import com.smartschools.android.core.appUtils.util.InternetConnectivity
 import com.smartschools.android.core.appUtils.util.addBasicItemDecoration
 import com.smartschools.android.data.model.side_menu.SideMenuItem

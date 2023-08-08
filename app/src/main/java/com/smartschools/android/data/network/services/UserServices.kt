@@ -1,14 +1,11 @@
 package com.smartschools.android.data.network.services
 
 import com.google.gson.JsonObject
-import com.smartschools.android.core.network.MyApplication
-import com.smartschools.android.data.model.auth.login.auth.LoginResponse
+import com.smartschools.android.data.model.auth.LoginResponse
 import com.smartschools.android.data.model.dashboard.DashboardResponse
-import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET
-import retrofit2.http.Header
 import retrofit2.http.Headers
 import retrofit2.http.POST
 
@@ -21,6 +18,7 @@ interface UserServices {
 //    @Headers("Content-Type: application/json")
 
 //    http://13.51.219.121/api/studentent/
+    @Headers("Accept: application/json")
     @GET("student/dashboard/")
     suspend fun getDashboard(
     ): Response<DashboardResponse>

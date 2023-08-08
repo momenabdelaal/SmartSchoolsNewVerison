@@ -1,4 +1,6 @@
-package com.smartschools.android.data.model.auth.login.auth
+package com.smartschools.android.data.model.auth
+
+import com.smartschools.android.data.model.auth.login.auth.SchoolModel
 
 data class ResultModel(
     var id: Int,

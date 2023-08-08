@@ -121,7 +121,7 @@ class LoginFragment : Fragment() {
                 snackBarSuccess(uiState.data.message)
 
                 val s = SharedPreferencesImpl(requireContext())
-                s.setApiKeyToken(uiState.data.result.token)
+                s.setApiKeyToken(uiState.data.data.token)
 
                 Navigation.findNavController(
                     requireActivity(),

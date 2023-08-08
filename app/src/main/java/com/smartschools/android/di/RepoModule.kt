@@ -1,9 +1,12 @@
 package com.smartschools.android.di
 
+import com.smartschools.android.data.dataSource.student.StudentRemoteDataSource
 import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferences
 import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
+import com.smartschools.android.data.repository.StudentRepositoryImpl
 import com.smartschools.android.domain.repository.UserRepository
 import com.smartschools.android.data.repository.UserRepositoryImpl
+import com.smartschools.android.domain.repository.StudentRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -22,8 +25,8 @@ abstract class RepoModule {
     @Binds
     abstract fun provideUserRepository(userRepositoryImpl: UserRepositoryImpl): UserRepository
 
-//    @Binds
-//    abstract fun provideProjectRepository(projectRepositoryImpl: ProjectRepositoryImpl): ProjectRepository
+    @Binds
+    abstract fun provideStudentRepository(studentRepositoryImpl: StudentRepositoryImpl): StudentRepository
 //
 //    @Binds
 //    abstract fun provideMailRepository(mailRepositoryImpl: MailRepositoryImpl): MailRepository

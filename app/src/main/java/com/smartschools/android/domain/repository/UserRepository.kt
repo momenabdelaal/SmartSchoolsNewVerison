@@ -2,7 +2,7 @@ package com.smartschools.android.domain.repository
 
 import com.google.gson.JsonObject
 import com.smartschools.android.domain.network.Result
-import com.smartschools.android.data.model.auth.login.auth.LoginResponse
+import com.smartschools.android.data.model.auth.LoginResponse
 import com.smartschools.android.data.model.dashboard.DashboardResponse
 
 interface UserRepository {

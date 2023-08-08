@@ -1,6 +1,6 @@
 package com.smartschools.android.data.network
 
-import com.smartschools.android.domain.network.ErrorType
+import android.util.Log
 import com.smartschools.android.domain.network.ErrorTypeHandler
 import com.smartschools.android.domain.network.Result
 import retrofit2.Response
@@ -14,7 +14,7 @@ class RequestApiCall @Inject constructor(
             val response = requestApi.invoke()
             parseApiResponse(response)
         } catch (exception: Exception) {
-            Result.Error(errorTypeHandler.getError(exception))
+            Result.Error(exception.message.toString())
         }
     }
 
@@ -25,9 +25,10 @@ class RequestApiCall @Inject constructor(
                     return Result.Success(apiRes)
                 }
             }
-            return Result.Error(ErrorType.ServerError)
+            Log.d("test", "parseApiResponse: "+response.code())
+            return Result.Error(response.code().toString())
         } catch (e: Exception) {
-            return Result.Error(errorTypeHandler.getError(e))
+            return Result.Error(e.message.toString())
         }
     }
 }
