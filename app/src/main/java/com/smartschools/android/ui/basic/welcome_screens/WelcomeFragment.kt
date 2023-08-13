@@ -112,7 +112,7 @@ class WelcomeFragment : Fragment() {
                 Navigation.findNavController(
                     requireActivity(),
                     R.id.navHostFragment
-                ).navigate(R.id.loginFragment)
+                ).navigate(R.id.homeMenuFragment)
             }else
                 binding.viewPager.setCurrentItem(binding.viewPager.currentItem + 1, true)
 
@@ -122,7 +122,7 @@ class WelcomeFragment : Fragment() {
             Navigation.findNavController(
                 requireActivity(),
                 R.id.navHostFragment
-            ).navigate(R.id.loginFragment)
+            ).navigate(R.id.homeMenuFragment)
         }
 
     }

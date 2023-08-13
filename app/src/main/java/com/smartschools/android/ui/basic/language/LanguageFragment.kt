@@ -39,38 +39,72 @@ class LanguageFragment : Fragment() {
         binding.lnArabic.setOnClickListener {
             SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ARABIC)
             LocaleHelper.initLanguage(requireActivity(), "ar")
+            if (SharedPreferencesImpl(requireContext()).getFirstLaunch() == "true")
             Navigation.findNavController(
                 requireActivity(),
                 R.id.navHostFragment
             ).navigate(R.id.welcomeFragment)
+            else
+                Navigation.findNavController(
+                    requireActivity(),
+                    R.id.navHostFragment
+                ).navigate(R.id.homeMenuFragment)
+            binding.root.layoutDirection = View.LAYOUT_DIRECTION_RTL
+
 
 
         }
         binding.lnEnglish.setOnClickListener {
+
             SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ENGLISH)
             LocaleHelper.initLanguage(requireActivity(), "en")
-            Navigation.findNavController(
-                requireActivity(),
-                R.id.navHostFragment
-            ).navigate(R.id.welcomeFragment)
+            if (SharedPreferencesImpl(requireContext()).getFirstLaunch() == "true")
+                Navigation.findNavController(
+                    requireActivity(),
+                    R.id.navHostFragment
+                ).navigate(R.id.welcomeFragment)
+            else
+                Navigation.findNavController(
+                    requireActivity(),
+                    R.id.navHostFragment
+                ).navigate(R.id.homeMenuFragment)
+            binding.root.layoutDirection = View.LAYOUT_DIRECTION_LTR
 
 
         }
         binding.lnFrench.setOnClickListener {
+
             SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_FRENCH)
             LocaleHelper.initLanguage(requireActivity(), "fr")
-            Navigation.findNavController(
-                requireActivity(),
-                R.id.navHostFragment
-            ).navigate(R.id.welcomeFragment)
+            if (SharedPreferencesImpl(requireContext()).getFirstLaunch() == "true")
+                Navigation.findNavController(
+                    requireActivity(),
+                    R.id.navHostFragment
+                ).navigate(R.id.welcomeFragment)
+            else
+                Navigation.findNavController(
+                    requireActivity(),
+                    R.id.navHostFragment
+                ).navigate(R.id.homeMenuFragment)
+            binding.root.layoutDirection = View.LAYOUT_DIRECTION_LTR
+
         }
         binding.lnTurkey.setOnClickListener {
+
             LocaleHelper.initLanguage(requireActivity(), "tr")
             SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_TURKEY)
-            Navigation.findNavController(
-                requireActivity(),
-                R.id.navHostFragment
-            ).navigate(R.id.welcomeFragment)
+            if (SharedPreferencesImpl(requireContext()).getFirstLaunch() == "true")
+                Navigation.findNavController(
+                    requireActivity(),
+                    R.id.navHostFragment
+                ).navigate(R.id.welcomeFragment)
+            else
+                Navigation.findNavController(
+                    requireActivity(),
+                    R.id.navHostFragment
+                ).navigate(R.id.homeMenuFragment)
+            binding.root.layoutDirection = View.LAYOUT_DIRECTION_LTR
+
         }
         binding.lnGermany.setOnClickListener {
             snackBarFailure("under working")

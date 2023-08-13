@@ -22,8 +22,11 @@ class UserRepositoryImpl @Inject constructor(
     ): Result<LoginResponse> =
         userRemoteSource.userLogin(json)
 
-    override suspend fun getDashboard(): Result<DashboardResponse>
-        = userRemoteSource.getDashboard()
+    override suspend fun getDashboardStudent(): Result<DashboardResponse>
+        = userRemoteSource.getDashboardStudent()
+
+    override suspend fun getDashboardTeacher(): Result<DashboardResponse>
+        = userRemoteSource.getDashboardTeacher()
 
 
 //    override suspend fun completeSignIn(number: String, otpCode: String, token: String) =

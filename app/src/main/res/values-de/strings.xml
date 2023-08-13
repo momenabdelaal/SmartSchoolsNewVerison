@@ -198,7 +198,7 @@
     <string name="testmetterm">Zwischenprüfung</string>
     <string name="gradetest">Note:</string>
     <string name="closed">geschlossen</string>
-    <string name="type">Typ:</string>
+    <string name="type">Typ</string>
     <string name="timetext">Dauer:</string>
     <string name="review">Rezension: </string>
     <string name="students">Studenten:</string>
@@ -1345,4 +1345,7 @@
     <string name="in_need_of_some_support">needs some support</string>
     <string name="didnt_master_the_skills"> Didn\'t master the skills</string>
     <string name="total_order">Total order : %1$d L.E</string>
+    <string name="student_label">Student</string>
+    <string name="teacher_label">Teacher</string>
+    <string name="admin_label">Admin</string>
 </resources>

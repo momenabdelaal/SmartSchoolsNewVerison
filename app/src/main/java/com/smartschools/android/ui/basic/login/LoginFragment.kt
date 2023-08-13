@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.ArrayAdapter
 import androidx.activity.OnBackPressedCallback
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.flowWithLifecycle
@@ -17,11 +18,11 @@ import com.smartschools.android.R
 import com.smartschools.android.core.appUtils.LoadingScreen.hideProgress
 import com.smartschools.android.core.appUtils.LoadingScreen.showProgress
 import com.smartschools.android.core.appUtils.snackBarSuccess
+import com.smartschools.android.data.model.auth.LoginType
 import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 import com.smartschools.android.databinding.FragmentLoginBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
-import java.util.*
 
 
 @AndroidEntryPoint
@@ -30,7 +31,7 @@ class LoginFragment : Fragment() {
     val binding: FragmentLoginBinding by lazy { FragmentLoginBinding.inflate(layoutInflater) }
 
 
-    private val typeList = mutableListOf<String>()
+    private val typeList = mutableListOf<LoginType>()
     private var typeArrayAdapter: ArrayAdapter<String>? = null
 
     private val viewModel: LoginViewModel by viewModels()
@@ -41,6 +42,9 @@ class LoginFragment : Fragment() {
 
         observeUIState()
         initScreen()
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+
+        requireActivity().window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
         return binding.root
     }
 
@@ -52,9 +56,10 @@ class LoginFragment : Fragment() {
 
 
     private fun initScreen() {
-        requireActivity().window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
-        callBack()
+//        callBack()
         initType()
+        binding.etUsername.setText("10001000")
+        binding.etPassword.setText("password")
 
         binding.fab.setOnClickListener {
             if (binding.etUsername.text.toString().isEmpty()) {
@@ -71,9 +76,21 @@ class LoginFragment : Fragment() {
                 viewModel.userLogin(
                     binding.etUsername.text.toString(),
                     binding.etPassword.text.toString(),
-                    "student"
+                    "teacher"
                 )
             }
+        }
+
+
+        binding.tvLang.setOnClickListener {
+            Navigation.findNavController(
+                requireActivity(),
+                R.id.navHostFragment
+            ).navigate(R.id.languageFragment)
+
+        }
+        binding.linearFinger.setOnClickListener {
+
         }
 
     }
@@ -92,12 +109,13 @@ class LoginFragment : Fragment() {
     //endregion
     private fun initType() {
 
-        typeList.add("student")
-        typeList.add("teacher")
-        typeList.add("parent")
-        typeList.add("admin")
-        typeArrayAdapter = ArrayAdapter(requireContext(), R.layout.layout_spinner_item, typeList)
-        binding.spType.adapter = typeArrayAdapter
+        typeList.add(LoginType(getString(R.string.student_label),"student"))
+        typeList.add(LoginType(getString(R.string.teacher_label),"teacher"))
+        typeList.add(LoginType(getString(R.string.admin_label),"admin"))
+
+        val adapter = ArrayAdapter(requireContext(), R.layout.item_dropdown, typeList)
+        binding.dropdownMenu.setAdapter(adapter)
+
 
 
     }
@@ -121,7 +139,8 @@ class LoginFragment : Fragment() {
                 snackBarSuccess(uiState.data.message)
 
                 val s = SharedPreferencesImpl(requireContext())
-                s.setApiKeyToken(uiState.data.data.token)
+                s.saveAllData(uiState.data.data)
+                s.setSchoolName(uiState.data.data.school?.name.toString())
 
                 Navigation.findNavController(
                     requireActivity(),
@@ -129,7 +148,7 @@ class LoginFragment : Fragment() {
                 ).navigate(R.id.homeFragment)
 
 
-                Log.d("result", "updateUI: " + uiState.data.message)
+                Log.d("result", "updateUI: " + uiState.data.data.school?.name)
                 viewModel.navigateToConfirmLoginFragment()
 
 
@@ -140,6 +159,8 @@ class LoginFragment : Fragment() {
             }
         }
     }
+
+
 
 
 }

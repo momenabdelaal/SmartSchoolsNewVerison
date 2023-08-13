@@ -3,7 +3,7 @@ package com.smartschools.android.data.persistentStorage.sharedPref
 
 import android.content.Context
 import com.smartschools.android.core.appUtils.SecurePreferences
-import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferences
+import com.smartschools.android.data.model.auth.ResultModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 
@@ -16,6 +16,16 @@ class SharedPreferencesImpl @Inject constructor(@ApplicationContext context: Con
     private val userIdPerf = "USER_ID_SHARED_PREFERENCES"
     private val isManagerPref = "IS_MANAGER_E_IN_SHARED_PREFERENCES"
     private val isFirstLaunch = "IS_FIRST_LAUNCH"
+    private val id = "ID"
+    private val mobile = "MOBILE"
+    private val name = "NAME"
+    private val photo = "PHOTO"
+    private val type = "type"
+    private val schoolName = "SCHOOL_NAME"
+    private val must_change_password = "must_change_password"
+    private val must_complete_profile = "must_complete_profile"
+
+
 
     private val userPasswordInSharedPreferences = "USER_PASSWORD_IN_SHARED_PREFERENCES"
     private val rememberMeInSharedPreferences = "REMEMBER_ME_IN_SHARED_PREFERENCES"
@@ -26,6 +36,7 @@ class SharedPreferencesImpl @Inject constructor(@ApplicationContext context: Con
     //private val prefs = context.getSharedPreferences(sharedPreferencesFileName, Context.MODE_PRIVATE)
 
     private val prefs = SecurePreferences(context,sharedPreferencesFileName,"PMO",true)
+
 
 
 
@@ -102,9 +113,44 @@ class SharedPreferencesImpl @Inject constructor(@ApplicationContext context: Con
         return prefs.getString(isFirstLaunch) ?:"true"
     }
 
+    override fun setSchoolName(nameSchool :String) {
+        prefs.put(schoolName, nameSchool)
+    }
+
+    override fun getSchoolName(): String {
+        return prefs.getString(schoolName) ?:""
+    }
+
+    fun saveAllData(model: ResultModel){
+
+        prefs.put(id, model.id.toString())
+        prefs.put(userApikeyToken, model.token)
+        prefs.put(userApikeyToken, model.token)
+        prefs.put(must_change_password, model.must_change_password.toString())
+        prefs.put(must_complete_profile, model.must_change_password.toString())
+        prefs.put(this.name, model.name)
+        prefs.put(photo, model.photo.toString())
+        prefs.put(type, model.type)
+
+    }
+
+    fun getAllData(): ResultModel {
+        return ResultModel(
+            prefs.getString(id)?.toInt() ?: 0,
+            prefs.getString(mobile) ?: "",
+            prefs.getString(must_change_password)?.toInt() ?: 0,
+            prefs.getString(must_complete_profile)?.toInt() ?: 0,
+            prefs.getString(name) ?: "",
+            prefs.getString(photo) ?: "",
+            null,
+            prefs.getString(userApikeyToken) ?: "",
+            prefs.getString(type) ?: ""
+        )
+    }
 
     override fun clearAll() {
         prefs.clear()
+        prefs.put(isFirstLaunch, "false")
     }
 
 }

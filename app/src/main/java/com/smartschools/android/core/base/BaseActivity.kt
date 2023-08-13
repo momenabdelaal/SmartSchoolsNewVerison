@@ -4,8 +4,10 @@ package com.smartschools.android.core.base
 import android.annotation.SuppressLint
 import android.app.Dialog
 import android.os.Bundle
+import android.util.DisplayMetrics
 import android.util.Log
 import android.view.View
+import android.widget.ImageView
 import androidx.activity.viewModels
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -17,8 +19,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.smartschools.android.R
+import com.smartschools.android.core.appUtils.Constants
 import com.smartschools.android.core.appUtils.Constants.LANGUAGE_ARABIC
 import com.smartschools.android.core.appUtils.drawQR
+import com.smartschools.android.core.appUtils.getGroupName
 import com.smartschools.android.core.appUtils.localization.LocaleHelper
 import com.smartschools.android.core.appUtils.localization.LocalizationUtils
 import com.smartschools.android.core.appUtils.nav.MeowBottomNavigation
@@ -49,82 +53,32 @@ open class BaseActivity : AppCompatActivity() {
 
     private val adapter: SideMenuAdapter by lazy {
         SideMenuAdapter {
-
+            sideMenuClicked(it)
         }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        val configuration = resources.configuration
-////        configuration.locale = locale
-//        configuration.fontScale = 1.toFloat() //0.85 small size, 1 normal size, 1,15 big etc
-//        val metrics = DisplayMetrics()
-//        windowManager.defaultDisplay.getMetrics(metrics)
-//        metrics.scaledDensity = configuration.fontScale * metrics.density
-//
-//
-//        if (!Constants.densities.contains(metrics.density))
-//            configuration.densityDpi = (LocalizationUtils.getDensity(this) * 170f).toInt()
-//        resources.updateConfiguration(configuration, metrics)
-////        window.setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
-//
+
         databinding = DataBindingUtil.setContentView(this@BaseActivity, R.layout.activity_base)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         databinding!!.lifecycleOwner = this
         mNavController = Navigation.findNavController(this, R.id.navHostFragment)
-//        databinding!!.ivUser.setOnClickListener {
-//            Navigation.findNavController(this@BaseActivity, R.id.navHostFragment)
-//                .navigate(R.id.settingsFragment)
-//            databinding!!.drawerlayout.closeDrawer(GravityCompat.START)
-//        }
-//        observeUIState()
+
 //
 //
-//        if (SharedPreferencesImpl(this).getLanguage() == LANGUAGE_ARABIC) {
-//            databinding!!.flagIcon.scaleType = ImageView.ScaleType.FIT_END
-//            databinding!!.back.scaleType = ImageView.ScaleType.FIT_START
-//        } else {
-//            databinding!!.flagIcon.scaleType = ImageView.ScaleType.FIT_START
-//            databinding!!.back.scaleType = ImageView.ScaleType.FIT_END
-//        }
-//        databinding!!.drawerlayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
-//
-//        databinding!!.ivBack.setOnClickListener { onBackPressed() }
-//
-//        connectionLiveData = InternetConnectivity(applicationContext)
-//        connectionLiveData.observe(this) { isAvailable ->
-//            when (isAvailable) {
-//                true -> {
-//                    val id = mNavController!!.currentDestination!!.id
-//
-//                    if (id == R.id.noConnectionFragment) {
-//                        //mNavController?.navigate(R.id.homeNewFragment)
-//                        mNavController?.popBackStack()
-//                        if (mNavController?.currentDestination?.id == R.id.homeNewFragment)
-//                            mNavController?.navigate(R.id.homeNewFragment)
-//                    }
-//                }
-//
-//                false -> {
-//                    val bunder = bundleOf("test" to "1")
-//                    mNavController?.navigate(R.id.noConnectionFragment, bunder)
-//                }
-//            }
-//        }
-//        itemsNav()
-//        prepareSideMenu()
+        if (SharedPreferencesImpl(this).getLanguage() == LANGUAGE_ARABIC) {
+            databinding!!.ivBack.scaleType = ImageView.ScaleType.FIT_START
+        } else {
+            databinding!!.ivBack.scaleType = ImageView.ScaleType.FIT_END
+        }
+        databinding!!.drawerlayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
+
+        databinding!!.ivBack.setOnClickListener { onBackPressed() }
+
         Log.d("dsdfs", "onCreate: " + SharedPreferencesImpl(this@BaseActivity).getLanguage())
 
-        if (SharedPreferencesImpl(this@BaseActivity).getLanguage()
-                .isEmpty() || SharedPreferencesImpl(this@BaseActivity).getLanguage() == LANGUAGE_ARABIC
-        ) {
-            LocaleHelper.initLanguage(this@BaseActivity, "ar")
-            databinding!!.root.layoutDirection = View.LAYOUT_DIRECTION_RTL
-        } else {
-            LocaleHelper.initLanguage(this@BaseActivity, "en")
-            databinding!!.root.layoutDirection = View.LAYOUT_DIRECTION_LTR
-        }
 
         initMeowNav()
 //
@@ -189,8 +143,8 @@ open class BaseActivity : AppCompatActivity() {
 
 
         databinding!!.meowBottomNavigation.setCount(
-            1,
-            "10")
+            1, "10"
+        )
 
 
     }
@@ -327,7 +281,14 @@ open class BaseActivity : AppCompatActivity() {
 
     @SuppressLint("ResourceType")
     private fun prepareSideMenu() {
-        databinding!!.ivBarcode.setImageResource(R.drawable.holder)
+        val result = SharedPreferencesImpl(this@BaseActivity).getAllData()
+        Log.d("test", "prepareSideMenu: "+SharedPreferencesImpl(this@BaseActivity).getSchoolName())
+
+        databinding!!.tvName.text = result.name
+        databinding!!.tvSchoolName.text = SharedPreferencesImpl(this@BaseActivity).getSchoolName()
+        databinding!!.tvGroup.text =
+            getGroupName(result.type, SharedPreferencesImpl(this@BaseActivity).getLanguage())
+        drawQR(databinding!!.ivBarcode, result.id.toString())
         databinding!!.ivMainToolbarMenu.setOnClickListener {
 
             if (databinding!!.drawerlayout.isDrawerOpen(GravityCompat.START)) {
@@ -340,6 +301,7 @@ open class BaseActivity : AppCompatActivity() {
         databinding!!.ivBack.setOnClickListener {
             onBackPressed()
         }
+
 
         val toggle = ActionBarDrawerToggle(
             this, databinding!!.drawerlayout, 1, 0
@@ -533,6 +495,7 @@ open class BaseActivity : AppCompatActivity() {
 //    }
 
 
+    @SuppressLint("SetTextI18n")
     private val listener =
         NavController.OnDestinationChangedListener { controller, destination, _ ->
 
@@ -542,10 +505,12 @@ open class BaseActivity : AppCompatActivity() {
                     .contains("fragment_login") || destination.label.toString()
                     .contains("fragment_welcome") || destination.label.toString()
                     .contains("fragment_language") || destination.label.toString()
-                    .contains("ConfirmForgetPasswordFragment") || destination.label.toString()
+                    .contains("fragment_homeMenu") || destination.label.toString()
                     .contains("changePasswordAfterLogin") || destination.label.toString()
                     .contains("ChangePassword")
             ) {
+                databinding!!.drawerlayout.closeDrawer(GravityCompat.START)
+
                 databinding!!.ivBack.visibility = View.GONE
 //                databinding!!.ivUser.visibility = View.GONE
                 databinding!!.sideMenu.visibility = View.GONE
@@ -554,12 +519,18 @@ open class BaseActivity : AppCompatActivity() {
 
 
             } else if (destination.label.toString().contains("fragment_home")) {
+                val resultModel = SharedPreferencesImpl(this@BaseActivity).getAllData()
 
                 databinding!!.drawerlayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
                 databinding!!.ivBack.visibility = View.GONE
                 databinding!!.ivMainToolbarMenu.visibility = View.VISIBLE
-//                databinding!!.ivUser.visibility = View.VISIBLE
-                databinding!!.titleBar.text = getString(R.string.dashboard)
+
+                databinding!!.titleBar.text = getString(R.string.hello) + " " + resultModel.name
+                if (resultModel.type == "student") databinding!!.ivStudentImage.visibility =
+                    View.VISIBLE
+                else databinding!!.ivStudentImage.visibility = View.GONE
+
+
                 databinding!!.sideMenu.visibility = View.VISIBLE
                 databinding!!.clMainToolbarContainer.visibility = View.VISIBLE
                 databinding!!.meowBottomNavigation.visibility = View.VISIBLE
@@ -600,9 +571,10 @@ open class BaseActivity : AppCompatActivity() {
                 prepareSideMenu()
             } else {
                 databinding!!.ivBack.visibility = View.VISIBLE
-//                databinding!!.ivUser.visibility = View.GONE
+                databinding!!.logoTitle.visibility = View.GONE
+                databinding!!.tvMainEmployeeName.visibility = View.VISIBLE
+
                 databinding!!.ivMainToolbarMenu.visibility = View.GONE
-                databinding!!.titleBar.text = getString(R.string.dashboard)
                 databinding!!.sideMenu.visibility = View.VISIBLE
                 databinding!!.clMainToolbarContainer.visibility = View.VISIBLE
                 databinding!!.drawerlayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
@@ -614,7 +586,7 @@ open class BaseActivity : AppCompatActivity() {
 //
 //                }
 
-//                setTitleScreen(destination.label.toString())
+                setTitleScreen(destination.label.toString())
                 Log.d("nav", "on NAv: " + destination.toString())
 
             }
@@ -637,6 +609,20 @@ open class BaseActivity : AppCompatActivity() {
 
     }
 
+    private fun sideMenuClicked(sideMenuItem: SideMenuItem) {
+        if (sideMenuItem.itemName == getString(R.string.logout)) {
+            Log.d("log", ":here ")
+            val lang = SharedPreferencesImpl(this).getLanguage()
+            SharedPreferencesImpl(this@BaseActivity).clearAll()
+            SharedPreferencesImpl(this@BaseActivity).setLanguage(lang)
+
+            Navigation.findNavController(this@BaseActivity, R.id.navHostFragment)
+                .navigate(R.id.loginFragment)
+
+
+        }
+    }
+
 //
 //    fun checkResponseCode(
 //        code: Int
@@ -652,49 +638,13 @@ open class BaseActivity : AppCompatActivity() {
 //        return value
 //    }
 
-//    private fun setTitleScreen(labels: String) {
-//        if (labels.contains("settingsFragment")) {
-//            databinding!!.tvMainEmployeeName.text =
-//                getString(R.string.profile_setting)
-//
-//
-//        } else if (labels.contains("fragment_mail")) {
-//            databinding!!.tvMainEmployeeName.text =
-//                getString(R.string.mail_inbox)
+    private fun setTitleScreen(labels: String) {
+        if (labels.contains("fragment_assignment")) {
+            databinding!!.tvMainEmployeeName.text = getString(R.string.assignment)
 //            databinding!!.ivMainToolbarMenu.visibility = View.VISIBLE
-//        } else if (labels.contains("mailDetailsFragment")) {
-//            databinding!!.tvMainEmployeeName.text =
-//                getString(R.string.mail_details)
-//            databinding!!.ivMainToolbarMenu.visibility = View.GONE
-//        } else if (labels.contains("fragment_archive")) {
-//            databinding!!.tvMainEmployeeName.text =
-//                getString(R.string.project_archive)
-//            databinding!!.ivMainToolbarMenu.visibility = View.VISIBLE
-//
-//        } else if (labels.contains("fragmentProjectDetails")) {
-//            databinding!!.tvMainEmployeeName.text =
-//                getString(R.string.project_details)
-//            databinding!!.ivMainToolbarMenu.visibility = View.GONE
-//
-//        } else if (labels.contains("fragmentProjectFiles")) {
-//            databinding!!.tvMainEmployeeName.text =
-//                getString(R.string.files_project)
-//            databinding!!.ivMainToolbarMenu.visibility = View.GONE
-//        } else if (labels.contains("fragmentContractorMail")) {
-//            databinding!!.tvMainEmployeeName.text =
-//                getString(R.string.chat_with_const)
-//            databinding!!.ivMainToolbarMenu.visibility = View.GONE
-//
-//        } else if (labels.contains("fragmentTrackingProject")) {
-//            databinding!!.ivMainToolbarMenu.visibility = View.GONE
-//            databinding!!.tvMainEmployeeName.text =
-//                getString(R.string.tracking_project)
-//        }else if (labels.contains("OperationProjectFragment")) {
-//            databinding!!.ivMainToolbarMenu.visibility = View.GONE
-//            databinding!!.tvMainEmployeeName.text =
-//                getString(R.string.operation_projects)
-//        }
-//    }
+        }
+
+    }
 //
 //    override fun onDestroy() {
 //        super.onDestroy()

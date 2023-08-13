@@ -3,7 +3,9 @@ package com.smartschools.android.ui.home
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.smartschools.android.core.network.MyApplication
 import com.smartschools.android.data.model.dashboard.DashboardResponse
+import com.smartschools.android.data.persistentStorage.sharedPref.SharedPreferencesImpl
 import com.smartschools.android.domain.network.ErrorType
 import com.smartschools.android.domain.usecase.UserUseCase
 import com.smartschools.android.domain.network.Result
@@ -21,21 +23,23 @@ class HomeViewModel @Inject constructor(private val useUseCase: UserUseCase) : V
         get() = _uiState
 
 
-
-
     fun getDashboard() {
 
 
         _uiState.value = UiState.Loading
         viewModelScope.launch {
-            val result = useUseCase.getDashboard()
+
+            val result =
+                if (SharedPreferencesImpl(MyApplication.appContext).getAllData().type == "student") useUseCase.getDashboardStudent()
+                else useUseCase.getDashboardTeacher()
             _uiState.value = when (result) {
                 is Result.Loading -> UiState.Loading
                 is Result.Error -> {
-                    Log.d("dataErr", "getDashboard: "+ result.errorType)
+                    Log.d("dataErr", "getDashboard: " + result.errorType)
                     UiState.Error(result.errorType)
 
                 }
+
                 is Result.Success -> {
                     UiState.Success(result.data!!)
 

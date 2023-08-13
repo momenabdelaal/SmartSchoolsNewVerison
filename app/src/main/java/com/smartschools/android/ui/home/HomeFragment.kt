@@ -93,7 +93,7 @@ class HomeFragment : Fragment() {
             is HomeViewModel.UiState.Success -> {
 
                 hideProgress()
-                snackBarSuccess(uiState.data.message)
+//                snackBarSuccess(uiState.data.message)
 
                 initAdapter(uiState.data.data.dashboard_items as MutableList<DashboardItem>)
 //

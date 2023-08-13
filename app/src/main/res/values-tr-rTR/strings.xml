@@ -216,7 +216,7 @@
     <string name="testmetterm">test terimi</string>
     <string name="gradetest">Sınıf :</string>
     <string name="closed">kapatıldı</string>
-    <string name="type">Tür :</string>
+    <string name="type">Tür </string>
     <string name="timetext">Zaman :</string>
     <string name="review">İnceleme : </string>
     <string name="students">Öğrenciler :</string>
@@ -1373,4 +1373,7 @@ Güncellemeyi yüklemek istiyor musunuz?
     <string name="in_need_of_some_support">needs some support</string>
     <string name="didnt_master_the_skills"> Didn\'t master the skills</string>
     <string name="total_order">Total order : %1$d L.E</string>
+    <string name="student_label">Student</string>
+    <string name="teacher_label">Teacher</string>
+    <string name="admin_label">Admin</string>
 </resources>

@@ -29,7 +29,7 @@ class TeacherAssignmentsViewModel @Inject constructor(private val useUseCase: Us
 
         _uiState.value = UiState.Loading
         viewModelScope.launch {
-            val result = useUseCase.getDashboard()
+            val result = useUseCase.getDashboardStudent()
             _uiState.value = when (result) {
                 is Result.Loading -> UiState.Loading
                 is Result.Error -> {

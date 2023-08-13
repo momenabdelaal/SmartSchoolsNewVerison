@@ -9,7 +9,8 @@ interface UserRemoteDataSource {
 
 //
     suspend fun userLogin(json: JsonObject): Result<LoginResponse>
-    suspend fun getDashboard(): Result<DashboardResponse>
+    suspend fun getDashboardStudent(): Result<DashboardResponse>
+    suspend fun getDashboardTeacher(): Result<DashboardResponse>
 
 
 //    suspend fun userCompleteSignIn(userId: String, otpCode: String, token: String): Result<CompleteLoginResponse>

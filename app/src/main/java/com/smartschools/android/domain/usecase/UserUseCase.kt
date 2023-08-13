@@ -15,7 +15,8 @@ class UserUseCase @Inject constructor(private val userRepo: UserRepository) {
         userRepo.userLogin(json)
 
 
-    suspend fun getDashboard() = userRepo.getDashboard()
+    suspend fun getDashboardStudent() = userRepo.getDashboardStudent()
+    suspend fun getDashboardTeacher() = userRepo.getDashboardTeacher()
 
 //
 //

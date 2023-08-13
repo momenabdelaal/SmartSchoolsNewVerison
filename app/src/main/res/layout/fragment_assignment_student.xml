@@ -7,13 +7,13 @@
 
     </data>
 
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    android:id="@+id/container"
-    android:layout_width="match_parent"
-    android:background="@color/colorOfGray"
-    android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorOfGray">
 
-    <LinearLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -27,71 +27,36 @@
                 android:background="@color/white"
                 android:orientation="vertical">
 
-<!--                <Spinner-->
-<!--                    android:id="@+id/spTerm"-->
-<!--                    android:layout_width="250dp"-->
-<!--                    android:layout_height="35dp"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:layout_margin="5dp"-->
-<!--                    android:layout_marginTop="10dp"-->
-<!--                    android:spinnerMode="dropdown" />-->
 
-<!--                <Spinner-->
-<!--                    android:id="@+id/spStages"-->
-<!--                    android:layout_width="250dp"-->
-<!--                    android:layout_height="35dp"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:layout_margin="5dp"-->
-<!--                    android:layout_marginTop="10dp"-->
-<!--                    android:spinnerMode="dropdown" />-->
-
-                <Spinner
-                    android:id="@+id/spSubject"
-                    android:layout_width="@dimen/_250sdp"
-                    android:layout_height="@dimen/_48sdp"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="@dimen/_45sdp"
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/menu"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_25sdp"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:spinnerMode="dropdown" />
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_marginBottom="@dimen/_45sdp"
+                    android:hint="@string/subjects"
+                    android:padding="@dimen/_10sdp"
+                    app:boxStrokeColor="@color/colorPrimaryDark"
+                    app:hintTextAppearance="@style/text_in_layout_hint_Style">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/dropdown_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:inputType="none"
+                        android:popupElevation="3dp"
+                        android:textSize="18sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
 
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="-25dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-
-                <ImageView
-                    android:id="@+id/ivSearch"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button_primary"
-                    android:padding="10dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:src="@drawable/ic_search"
-                    android:contentDescription="@string/image" />
-                <ImageView
-                    android:id="@+id/ivAdd"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:layout_marginLeft="5dp"
-                    android:visibility="gone"
-                    android:layout_marginRight="5dp"
-                    android:background="@drawable/rounded_button_primary"
-                    android:padding="10dp"
-                    android:src="@drawable/ic_add_white_24dp"
-                    android:contentDescription="@string/image" />
 
             </LinearLayout>
+
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_view"
@@ -99,15 +64,13 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                app:spanCount="1"
                 android:layout_marginRight="16dp"
-                android:scrollbars="vertical" />
+                android:scrollbars="vertical"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="1" />
 
         </LinearLayout>
 
 
-
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

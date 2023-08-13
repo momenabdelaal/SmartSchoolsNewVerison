@@ -18,8 +18,6 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
 import com.google.zxing.BarcodeFormat
-import com.google.zxing.WriterException
-import com.google.zxing.common.BitMatrix
 import com.google.zxing.qrcode.QRCodeWriter
 import com.smartschools.android.R
 
@@ -136,6 +134,46 @@ fun drawQR(ivBarcode: ImageView, userId: String?) {
     }
     ivBarcode.setImageBitmap(bitmap)
 }
+
+fun getGroupName(group: String?, lang: String): String? {
+    return if (lang == "en") group else when (group) {
+        "student" -> {
+            if (lang == "ar") "طالب" else "student"
+        }
+
+        "Teacher", "Teacher ", "teacher" -> {
+            if (lang == "ar") "معلم" else "teacher"
+        }
+
+        "Staff", "staff", "employee" -> {
+            if (lang == "ar") "موظف" else "employee"
+        }
+
+        "admin" -> {
+            if (lang == "ar") "مدير الموقع" else "admin"
+        }
+
+        "parent", "father", "mother" -> {
+            if (lang == "ar") "ولى أمر" else "parent"
+        }
+
+        "driver" -> {
+            if (lang == "ar") "سائق" else "driver"
+        }
+
+        "supervisor" -> {
+            if (lang == "ar") "مشرف" else "supervisor"
+        }
+
+        "canteener" -> {
+            if (lang == "ar") "الكنتين" else "canteener"
+        }
+
+        else -> "Student"
+    }
+}
+
+
 
 
 

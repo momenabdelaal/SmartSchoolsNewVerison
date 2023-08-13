@@ -54,6 +54,7 @@ class SideMenuAdapter(
         RecyclerView.ViewHolder(binding.root) {
         fun bind(item: SideMenuItem) {
             binding.tvItemName.text = item.itemName
+            binding.ivItem.setImageResource(item.coverId)
 
 
 
@@ -64,9 +65,9 @@ class SideMenuAdapter(
 
 
 //
-//            binding.clickCardView.setOnClickListener {
-//                itemClick(project)
-//            }
+            binding.linerNavgation.setOnClickListener {
+                itemClick(item)
+            }
 //            binding.ivFavorites.setOnClickListener {
 //                favouriteProjectClick(project)
 //            }

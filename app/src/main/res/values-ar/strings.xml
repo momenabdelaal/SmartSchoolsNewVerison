@@ -201,14 +201,14 @@
     <string name="select_section">اختار الحصة</string>
     <string name="income">الايرادات</string>
     <string name="outcome">المصروفات</string>
-    <string name="testname">اسم الاختبار :</string>
+    <string name="testname">اسم الاختبار </string>
     <string name="testmetterm">اختبار الميد ترم</string>
-    <string name="gradetest">الدرجة :</string>
+    <string name="gradetest">الدرجة </string>
     <string name="closed">مغلق</string>
-    <string name="type">النوع :</string>
-    <string name="timetext">المدة :</string>
-    <string name="review">المراجعة  :    </string>
-    <string name="students">الطلاب :</string>
+    <string name="type">النوع </string>
+    <string name="timetext">المدة </string>
+    <string name="review">المراجعة      </string>
+    <string name="students">الطلاب </string>
     <string name="comment_supervisor">تعليق المشرف </string>
     <string name="message_details">تفاصيل الرسالة</string>
     <string name="student_answer">اجابة الطالب</string>
@@ -1371,5 +1371,9 @@
     <string name="didnt_master_the_skills">لم يتقن المهارات</string>
 
     <string name="total_order">اجمالى : %1$d  جنيه</string>
+    <string name="student_label">طالب</string>
+    <string name="teacher_label">معلم</string>
+    <string name="admin_label">ادمن</string>
+
 
 </resources>

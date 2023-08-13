@@ -17,6 +17,8 @@ interface SharedPreferences {
     fun setLanguage(language: String)
     fun isFirstLaunch(isFirst: String)
     fun getFirstLaunch() : String
+    fun setSchoolName(schoolName :String)
+    fun getSchoolName() : String
 
 
 

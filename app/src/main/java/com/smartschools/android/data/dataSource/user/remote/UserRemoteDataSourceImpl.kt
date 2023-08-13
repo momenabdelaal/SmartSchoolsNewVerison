@@ -31,9 +31,22 @@ class UserRemoteDataSourceImpl @Inject constructor(
         }
     }
 
-    override suspend fun getDashboard(): Result<DashboardResponse> {
+    override suspend fun getDashboardStudent(): Result<DashboardResponse> {
         val res = requestApiCall.requestApiCall {
-            networkServices.getDashboard()
+            networkServices.getDashboardStudent()
+        }
+
+        return if (res is Result.Success && res.data != null) {
+            Result.Success(res.data)
+        } else {
+            Log.d("err", "getDashboard: ")
+            Result.Error(res.errorType)
+        }
+    }
+
+    override suspend fun getDashboardTeacher(): Result<DashboardResponse> {
+        val res = requestApiCall.requestApiCall {
+            networkServices.getDashboardTeacher()
         }
 
         return if (res is Result.Success && res.data != null) {

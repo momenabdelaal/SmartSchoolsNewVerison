@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-        <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
             <!--    <style name="AppTheme" parent="Theme.AppCompat.Light">-->
             <!-- Customize your theme here. -->
             <item name="colorPrimary">@color/colorPrimary</item>
@@ -199,4 +199,9 @@
         </style>
 
 
+
+    <style name="text_in_layout_hint_Style">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>

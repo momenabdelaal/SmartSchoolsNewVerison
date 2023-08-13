@@ -23,6 +23,12 @@
         android:name="com.smartschools.android.ui.basic.language.LanguageFragment"
         android:label="fragment_language"
         tools:layout="@layout/fragment_language" />
+
+    <fragment
+        android:id="@+id/homeMenuFragment"
+        android:name="com.smartschools.android.ui.basic.homeMenu.HomeMenuFragment"
+        android:label="fragment_homeMenu"
+        tools:layout="@layout/fragment_home_menu" />
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.smartschools.android.ui.basic.login.LoginFragment"

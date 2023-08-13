@@ -70,22 +70,40 @@ class SplashFragment : Fragment() {
 //requestExternalStoragePermission()
         //    LocalizationUtils.setDefaultFontConfiguration(requireContext())
 
-        Log.d(
-            "onViewCreated",
-            "onViewCreated:" + SharedPreferencesImpl(requireContext()).getLanguage()
-        )
-//        SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ENGLISH)
+//        Log.d(
+//            "onViewCreated",
+//            "onViewCreated:" + SharedPreferencesImpl(requireContext()).getLanguage()
+//        )
+////        SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ENGLISH)
+////
+//        if (
+//            SharedPreferencesImpl(requireContext()).getLanguage() == Constants.LANGUAGE_ARABIC
+//        ) {
 //
-        if (
-            SharedPreferencesImpl(requireContext()).getLanguage() == Constants.LANGUAGE_ARABIC
-        ) {
+//            LocaleHelper.setLocale(requireContext(), "ar")
+//            binding!!.root.layoutDirection = View.LAYOUT_DIRECTION_RTL
+//        } else {
+//            LocaleHelper.setLocale(requireContext(), "ar")
+//            binding!!.root.layoutDirection = View.LAYOUT_DIRECTION_LTR
+//        }
 
-            LocaleHelper.initLanguage(requireContext(), "ar")
+
+
+//        LocalizationUtils.setDefaultFontConfiguration(requireContext())
+        LocaleHelper.setLocale(requireActivity(), "ar")
+
+        if (SharedPreferencesImpl(requireContext()).getLanguage().isEmpty() ||
+            SharedPreferencesImpl(requireContext()).getLanguage() == Constants.LANGUAGE_ARABIC){
+            SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ARABIC)
+            LocaleHelper.setLocale(requireContext(), "ar")
             binding!!.root.layoutDirection = View.LAYOUT_DIRECTION_RTL
-        } else {
-            LocaleHelper.initLanguage(requireContext(), "en")
+        }else{
+            LocaleHelper.setLocale(requireContext(), "en")
+            SharedPreferencesImpl(requireContext()).setLanguage(Constants.LANGUAGE_ENGLISH)
             binding!!.root.layoutDirection = View.LAYOUT_DIRECTION_LTR
         }
+
+
         setupBoundsImage()
 //         LocaleHelper.setLocale(requireActivity(), "ar")
     }
@@ -119,7 +137,7 @@ class SplashFragment : Fragment() {
                     findNavController(
                         requireActivity(),
                         R.id.navHostFragment
-                    ).navigate(R.id.loginFragment)
+                    ).navigate(R.id.homeMenuFragment)
 
             }
 

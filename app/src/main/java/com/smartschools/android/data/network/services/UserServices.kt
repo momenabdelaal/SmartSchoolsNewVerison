@@ -12,7 +12,7 @@ import retrofit2.http.POST
 interface UserServices {
 
 
-
+    @Headers("Accept: application/json")
     @POST("auth/login")
     suspend fun login(@Body json: JsonObject): Response<LoginResponse>
 //    @Headers("Content-Type: application/json")
@@ -20,7 +20,12 @@ interface UserServices {
 //    http://13.51.219.121/api/studentent/
     @Headers("Accept: application/json")
     @GET("student/dashboard/")
-    suspend fun getDashboard(
+    suspend fun getDashboardStudent(
+    ): Response<DashboardResponse>
+
+    @Headers("Accept: application/json")
+    @GET("teacher/dashboard/")
+    suspend fun getDashboardTeacher(
     ): Response<DashboardResponse>
 //
 //

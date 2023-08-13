@@ -54,6 +54,7 @@ class StudentAssignmentsAdapter(
         RecyclerView.ViewHolder(binding.root) {
         fun bind(item: AssignmentStudentData) {
             binding.tvTitle.text = item.title
+            binding.tvSubject.text = item.content
 
 //            Glide.with(MyApplication.appContext).load(photoUrl+item.icon).error(R.drawable.ic_globel)
 //                .dontAnimate()

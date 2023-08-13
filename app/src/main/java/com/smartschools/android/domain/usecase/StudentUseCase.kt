@@ -9,7 +9,8 @@ class StudentUseCase @Inject constructor(private val repo: StudentRepository) {
 
 
 
-    suspend fun getAssignments() = repo.getAssignments()
+    suspend fun getAssignments(id: Int) = repo.getAssignments(id)
+    suspend fun getAllSubjects() = repo.getAllSubjects()
 
 
 }
